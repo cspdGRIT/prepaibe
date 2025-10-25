@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIBE-XX Smart Prep with AI</title>
+    <style>
+        :root {
+            --primary: #1e40af;
+            --primary-light: #3b82f6;
+            --secondary: #10b981;
+            --danger: #ef4444;
+            --warning: #f59e0b;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-600: #4b5563;
+            --gray-800: #1f2937;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: var(--gray-800);
+            background: var(--gray-50);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+            padding: 3rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .exam-badge {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            padding: 0.75rem 1.5rem;
+            border-radius: 2rem;
+            display: inline-block;
+            margin: 1rem 0;
+            font-weight: 600;
+        }
+
+        .ai-badge {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            display: inline-block;
+            margin: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        .nav-tab {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--gray-200);
+            background: white;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .nav-tab:hover {
+            border-color: var(--primary-light);
+            transform: translateY(-2px);
+        }
+
+        .nav-tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .view {
+            display: none;
+        }
+
+        .view.active {
+            display: block;
+            animation: fadeIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .topic-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+            position: relative;
+        }
+
+        .topic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border-color: var(--primary-light);
+        }
+
+        .topic-number {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--primary);
+            color: white;
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .topic-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            padding-right: 3rem;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(30,64,175,0.3);
+        }
+
+        .btn-secondary {
+            background: var(--gray-200);
+            color: var(--gray-800);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .flashcard-header {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .card-source-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .source-static {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .source-ai {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .flashcard-container {
+            perspective: 1000px;
+            margin: 2rem 0;
+        }
+
+        .flashcard {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 1.5rem;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .flashcard-front {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+        }
+
+        .flashcard-back {
+            background: linear-gradient(135deg, var(--secondary) 0%, #059669 100%);
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-label {
+            position: absolute;
+            top: 1.5rem;
+            left: 2rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            opacity: 0.8;
+            letter-spacing: 0.1em;
+        }
+
+        .flashcard-content {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            max-height: 100%;
+            overflow-y: auto;
+        }
+
+        .generate-more-section {
+            background: linear-gradient(135deg, #fef3c7, #fde68a);
+            padding: 2rem;
+            border-radius: 1rem;
+            margin: 2rem 0;
+            text-align: center;
+            border: 2px dashed var(--warning);
+        }
+
+        .loading {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .loading-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--primary);
+            animation: bounce 1.4s infinite ease-in-out;
+        }
+
+        .loading-dot:nth-child(1) { animation-delay: -0.32s; }
+        .loading-dot:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+
+        .info-box {
+            background: #dbeafe;
+            border-left: 4px solid var(--primary);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+            color: #1e40af;
+        }
+
+        .chat-container {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .message {
+            display: flex;
+            gap: 1rem;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-avatar {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .message.user .message-avatar {
+            background: var(--primary);
+        }
+
+        .message.assistant .message-avatar {
+            background: var(--secondary);
+        }
+
+        .message-content {
+            background: var(--gray-100);
+            padding: 1rem;
+            border-radius: 1rem;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: var(--primary);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.8rem; }
+            .flashcard { height: 350px; }
+            .topics-grid { grid-template-columns: 1fr; }
+            .message-content { max-width: 85%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>⚖️ AIBE-XX Smart Prep</h1>
+        <div class="exam-badge">📅 Exam: 30.11.2025</div>
+        <div class="ai-badge">🤖 Unlimited AI Flashcards</div>
+        <p style="opacity: 0.95; margin-top: 1rem;">15+ Cards per Topic • Auto-Generate More with AI</p>
+    </div>
+
+    <div class="container">
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="switchView('topics')">📚 Topics</button>
+            <button class="nav-tab" onclick="switchView('flashcards')">🎴 Flashcards</button>
+            <button class="nav-tab" onclick="switchView('qa')">🤖 AI Chat</button>
+            <button class="btn-primary" onclick="downloadApp()" style="margin-left: auto; padding: 0.75rem 1.5rem; border-radius: 0.5rem;">
+                💾 Download
+            </button>
+        </div>
+
+        <!-- Topics View -->
+        <div id="topics" class="view active">
+            <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary);">Select Topic to Study</h2>
+            
+            <div class="info-box">
+                💡 <strong>Smart Flashcards:</strong> Each topic has 15+ pre-loaded cards. Need more? The AI will automatically generate additional cards when you reach the end!
+            </div>
+            
+            <div class="topics-grid" id="topicsGrid"></div>
+        </div>
+
+        <!-- Flashcards View -->
+        <div id="flashcards" class="view">
+            <div class="flashcard-header">
+                <button class="btn btn-secondary" onclick="backToTopics()">← Back</button>
+                <div>
+                    <h3 id="currentTopic" style="color: var(--primary);"></h3>
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-top: 0.5rem;">
+                        <div id="cardCounter" style="font-weight: 700; color: var(--primary-light);"></div>
+                        <span class="card-source-badge" id="sourceBadge"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flashcard-container">
+                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                    <div class="flashcard-face flashcard-front">
+                        <div class="flashcard-label">QUESTION</div>
+                        <div class="flashcard-content" id="questionText"></div>
+                    </div>
+                    <div class="flashcard-face flashcard-back">
+                        <div class="flashcard-label">ANSWER</div>
+                        <div class="flashcard-content" id="answerText"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                <button class="btn btn-secondary" onclick="previousCard()">← Prev</button>
+                <button class="btn btn-primary" onclick="flipCard()">🔄 Flip</button>
+                <button class="btn btn-primary" onclick="nextCard()" id="nextBtn">Next →</button>
+            </div>
+
+            <div id="generateMoreSection" class="generate-more-section" style="display: none;">
+                <h3 style="color: var(--warning); margin-bottom: 1rem;">🎯 Need More Practice?</h3>
+                <p style="margin-bottom: 1.5rem;">You've completed all pre-loaded cards! Generate more with AI.</p>
+                <button class="btn btn-primary" onclick="generateMoreCards()" id="generateBtn" style="font-size: 1.1rem; padding: 1rem 2rem;">
+                    🤖 Generate 10 More Cards
+                </button>
+            </div>
+        </div>
+
+        <!-- Q&A View -->
+        <div id="qa" class="view">
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h2 style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary);">🤖 AI Study Assistant</h2>
+                
+                <div style="background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                    <h3 style="color: var(--primary); margin-bottom: 1rem;">⚙️ Groq API Setup</h3>
+                    <div style="margin-bottom: 1rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">API Key</label>
+                        <input type="password" id="groqApiKey" placeholder="Enter Groq API key" style="width: 100%; padding: 0.75rem; border: 2px solid var(--gray-200); border-radius: 0.5rem; font-size: 1rem;">
+                    </div>
+                    <button class="btn btn-primary" onclick="saveApiKey()">💾 Save Key</button>
+                    <div class="info-box">
+                        💡 Get free API key: <a href="https://console.groq.com" target="_blank" style="color: var(--primary);">console.groq.com</a>
+                    </div>
+                </div>
+
+                <div class="chat-container">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message assistant">
+                            <div class="message-avatar">🤖</div>
+                            <div class="message-content">
+                                <strong>AI:</strong> Hello! Ask me anything about AIBE topics!
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding: 1rem; border-top: 2px solid var(--gray-200);">
+                        <div style="display: flex; gap: 0.5rem;">
+                            <textarea id="chatInput" rows="2" placeholder="Ask anything..." style="flex: 1; padding: 0.75rem; border: 2px solid var(--gray-200); border-radius: 0.5rem; font-family: inherit; resize: none;" onkeypress="handleEnter(event)"></textarea>
+                            <button class="btn btn-primary" id="sendBtn" onclick="sendMessage()">📤</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://cspdgrit.github.io/chaicheers/" target="_blank" style="position: fixed; bottom: 2rem; left: 2rem; background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 1rem 2rem; border-radius: 2rem; text-decoration: none; font-weight: 700; box-shadow: 0 10px 40px rgba(245,87,108,0.4); z-index: 1000;">☕ ChaiCheers</a>
+
+    <script>
+        // ========== COMPLETE DATA WITH 15+ CARDS PER TOPIC ==========
+        const syllabusData = {
+            topics: [
+                { id: 1, title: "Constitutional Law", questions: 10, priority: "high" },
+                { id: 2, title: "IPC & Bharatiya Nyaya Sanhita", questions: 8, priority: "high" },
+                { id: 3, title: "CrPC & BNSS", questions: 10, priority: "high" },
+                { id: 4, title: "Code of Civil Procedure", questions: 10, priority: "high" },
+                { id: 5, title: "Evidence Act & BSA", questions: 8, priority: "high" },
+                { id: 6, title: "Family Law", questions: 8, priority: "high" },
+                { id: 7, title: "Contract & Property Law", questions: 8, priority: "medium" },
+                { id: 8, title: "Tort & Consumer Law", questions: 5, priority: "medium" },
+                { id: 9, title: "ADR & Arbitration", questions: 4, priority: "medium" },
+                { id: 10, title: "Professional Ethics", questions: 4, priority: "medium" }
+            ]
+        };
+
+        const flashcardsData = {
+            1: [ // Constitutional Law - 15 cards
+                { q: "What is the Preamble of Constitution?", a: "Declares India as Sovereign, Socialist, Secular, Democratic, Republic. Contains ideals: Justice (social, economic, political), Liberty (thought, expression, belief, faith, worship), Equality (status, opportunity), Fraternity (dignity of individual, unity and integrity of nation)." },
+                { q: "List all 6 Fundamental Rights (Articles 12-35)?", a: "1. Right to Equality (14-18): Equality before law, prohibition of discrimination, equality of opportunity, abolition of untouchability & titles. 2. Right to Freedom (19-22): Speech, assembly, association, movement, residence, profession. 3. Right Against Exploitation (23-24): Prohibition of trafficking and forced labour, child labour. 4. Right to Freedom of Religion (25-28): Freedom of conscience, manage religious affairs. 5. Cultural & Educational Rights (29-30): Minorities to conserve culture, establish institutions. 6. Right to Constitutional Remedies (32): SC enforcement through writs." },
+                { q: "What is Article 32 and why Dr. Ambedkar called it 'heart and soul'?", a: "Right to Constitutional Remedies - Allows citizens to directly approach Supreme Court for enforcement of Fundamental Rights. Called 'heart and soul' because without enforcement mechanism, rights would be meaningless. SC can issue 5 writs: Habeas Corpus (produce body), Mandamus (command to do duty), Prohibition (stop inferior court), Certiorari (quash order), Quo Warranto (challenge public office). Cannot be suspended except during emergency." },
+                { q: "Explain all 5 writs under Articles 32 and 226?", a: "1. Habeas Corpus: Produce person before court, used for illegal detention/imprisonment. 2. Mandamus: Command to public official/body to perform legal duty, not issued against private persons or for discretionary acts. 3. Prohibition: Prevents inferior court from exceeding jurisdiction, issued during pendency. 4. Certiorari: Quashes order already passed by inferior court/tribunal exceeding jurisdiction, issued after decision. 5. Quo Warranto: Challenges person holding public office without legal authority, prevents usurpation of public office." },
+                { q: "What are Directive Principles (DPSPs) - Articles 36-51?", a: "Non-justiciable guidelines for state policy. Not enforceable in courts but fundamental in governance. Three categories: 1. Socialist principles (living wage, participation in management, free legal aid). 2. Gandhian principles (village panchayats, cottage industries, prohibition, cow protection). 3. Liberal principles (uniform civil code, separation of judiciary from executive, international peace). Based on Irish Constitution. Article 37: Not enforceable but fundamental in governance." },
+                { q: "Article 14 - Equality before law? Difference from Article 13?", a: "Equality before law: No person above law, all equal before law (British concept - Rule of Law). Equal protection of laws: Similar treatment in similar circumstances, allows reasonable classification (American concept). Reasonable classification test: 1. Intelligible differentia (rational basis for classification), 2. Rational nexus (connection between classification and object). Not absolute - permits classification. Article 13: Declares laws violating FRs void, applies to pre & post-Constitution laws." },
+                { q: "Article 21 - Life and Personal Liberty? Expansions by SC?", a: "No deprivation of life/personal liberty except by procedure established by law. Most expanded right through judicial interpretation. Includes: Right to live with dignity, Right to livelihood, Right to privacy (Justice Puttaswamy 2017), Right to clean environment, Right to education (86th Amendment made it FR under 21A), Right to speedy trial, Right to free legal aid, Right to health, Right against solitary confinement, Right to shelter, Right to food, Right to die with dignity (passive euthanasia). Maneka Gandhi case (1978): Procedure must be just, fair, reasonable." },
+                { q: "Fundamental Duties (Article 51A)? When added?", a: "Added by 42nd Amendment Act 1976 on recommendation of Swaran Singh Committee. Originally 10, 11th added by 86th Amendment 2002. Non-justiciable. Duties: 1. Abide by Constitution, respect national flag & anthem. 2. Cherish ideals of freedom struggle. 3. Uphold sovereignty, unity, integrity. 4. Defend country, render national service. 5. Promote harmony, renounce practices derogatory to women. 6. Value and preserve composite culture. 7. Protect environment, forests, wildlife, have compassion for living creatures. 8. Develop scientific temper, humanism, spirit of inquiry & reform. 9. Safeguard public property, abjure violence. 10. Strive for excellence. 11. Provide opportunities for education to child 6-14 years (parents/guardians)." },
+                { q: "Amendment procedure (Article 368)? Three types?", a: "Three types: 1. Simple Majority (Article 4, 5, etc.): Normal legislative process. 2. Special Majority (Most articles): 2/3 of members present and voting + majority of total membership of each house. Examples: FRs, DPSPs, emergency provisions. 3. Special Majority + Ratification by half states (Article 368 itself, federal structure provisions): Special majority in Parliament + ratification by half state legislatures by simple majority. Applies to: Presidential election, Extent of executive power of Union & States, SC/HC jurisdiction, Distribution of legislative powers, Representation of states in Parliament, Article 368 itself. Kesavananda Bharati: Parliament cannot amend basic structure." },
+                { q: "Basic Structure Doctrine? Kesavananda Bharati case 1973?", a: "Parliament cannot destroy or emasculate basic features of Constitution even through constitutional amendment. Established in Kesavananda Bharati v State of Kerala (1973). Basic features (evolved through cases): Supremacy of Constitution, Rule of law, Judicial review, Separation of powers, Federalism, Secularism, Sovereignty, Democratic republic, Parliamentary system, Independence of judiciary, Free and fair elections, Fundamental rights (limited amendable), Powers of Parliament & judicial review (limited), Effective access to justice, Amending power itself (limited). Any amendment violating basic structure can be struck down. Applied in: Indira Gandhi election case, Minerva Mills case." },
+                { q: "Article 356 - President's Rule (Constitutional Emergency)?", a: "If state government cannot function according to Constitution provisions, President can assume state functions. Imposed on: Governor's report (most common), On President's own satisfaction (if convinced), Parliamentary report. Consequences: State legislature - Suspended or dissolved, State executive - Ceases to function, President administers through Governor, Parliament makes laws for state. Approval: Both houses within 2 months. Duration: Initially 6 months, extendable to 1 year, maximum 3 years with conditions. S.R. Bommai case (1994): Imposed President's Rule subject to judicial review. Sarkaria Commission: Made recommendations to prevent misuse." },
+                { q: "Judicial Review - Basis in Constitution?", a: "Power of judiciary to examine constitutionality of laws and executive actions. Basis: Supremacy of Constitution (Article 13), Fundamental Rights protection (32, 226), Federal structure, Separation of powers. Scope: 1. Judicial review of legislation (parliamentary, state, subordinate). 2. Judicial review of constitutional amendments (basic structure). 3. Judicial review of administrative action. Landmark cases: Golaknath (1967), Kesavananda Bharati (1973), Minerva Mills (1980). Limitations: Cannot review parliamentary proceedings (Art 122, 212), Political questions doctrine, Ripeness & standing, Doctrine of prospective overruling." },
+                { q: "7th Schedule - Three Lists? Subjects in each?", a: "Union List (List I - 100 subjects originally, now 97): Defense, Foreign affairs, Atomic energy, Railways, Airways, National highways, Banking, Insurance, Post & telegraph, Inter-state trade, Census, Citizenship, Supreme Court, Elections. State List (List II - 61 subjects): Public order, Police, Prisons, Local government, Public health, Agriculture, Forests, Fisheries, Land, Water, Trade unions, Relief of disabled, Libraries, Museums, Taxes on agricultural income, Entertainment tax. Concurrent List (List III - 52 subjects): Criminal law & procedure, Marriage & divorce, Contracts, Bankruptcy, Trusts, Civil procedure, Transfer of property, Education, Forests, Weights & measures, Economic & social planning. Residuary powers: With Union Parliament (Article 248). State can legislate only on concurrent if no central law exists. Central law prevails if conflict (Article 254)." },
+                { q: "Important Constitutional Amendments (1st, 42nd, 44th, 73rd-74th, 86th, 101st)?", a: "1st (1951): Added 9th Schedule (laws immune from judicial review), restricted property rights, added Art 15(4) for SC/ST/OBC reservation. 42nd (1976): Mini-Constitution - Added Socialist, Secular, Integrity to Preamble, added FDs, curtailed judicial review, gave Parliament unlimited amending power. 44th (1978): Restored some rights removed by 42nd, made right to property legal right (removed from FR), limited emergency powers. 73rd-74th (1992): Panchayati Raj & Municipal institutions - Constitutional status to local governments, 3-tier system, reservations for SC/ST/women. 86th (2002): Right to education (Art 21A), made education fundamental right for 6-14 years, added 11th FD. 101st (2016): GST - biggest tax reform, One Nation One Tax, subsumed multiple taxes. 103rd (2019): 10% EWS reservation in addition to existing quotas." },
+                { q: "Article 370 (historical)? When & how abrogated?", a: "Temporary provision giving special status to Jammu & Kashmir. Features: J&K had separate constitution, Only Art 1 & 370 directly applicable, Parliament needed state concurrence for extending laws, State had residuary powers (exception to federal structure). Abrogated: August 5, 2019 by Presidential Order under Art 370(3), All provisions of Constitution made applicable, J&K reorganized into two UTs: J&K (with legislature) & Ladakh (without legislature). Significance: Ended separate constitution, Uniform application of Indian laws, Removal of Article 35A, Constitutional integration of J&K. Challenges: Pending before Supreme Court on maintainability and procedure." }
+            ],
+            2: [ // IPC & BNS - 15 cards
+                { q: "Define mens rea and actus reus? Latin maxim?", a: "Mens rea: Guilty mind, criminal intention or knowledge. Actus reus: Guilty act, physical element of crime. Both essential for crime (with exceptions). Latin maxim: Actus non facit reum nisi mens sit rea (An act does not make one guilty unless the mind is guilty). Exceptions: Strict liability offences, Statutory offences, Public nuisance, Criminal negligence. Importance: Determines culpability, Affects punishment, Basis of criminal liability." },
+                { q: "What are the stages of crime? Which are punishable?", a: "Four stages: 1. Intention (mental resolve) - Not punishable. 2. Preparation (arranging means) - Generally not punishable (exceptions: preparation for dacoity Sec 399, counterfeit coins Sec 233). 3. Attempt (direct movement toward crime) - Punishable under Section 511 IPC, Punishment generally half of main offence. 4. Commission/Accomplishment (complete execution) - Full punishment. Test for attempt vs preparation: Proximity test, Equivocality test, Social danger test. Attempt must be proximate to completion." },
+                { q: "Section 300 IPC - Murder? Four types?", a: "Culpable homicide is murder if act done with: 1. Intention to cause death. 2. Intention to cause bodily injury that person knows likely to cause death (subjective knowledge). 3. Intention to cause bodily injury sufficient in ordinary course of nature to cause death (objective test). 4. Person knows act is so imminently dangerous that it must in all probability cause death, or bodily injury likely to cause death, and commits such act without excuse. Punishment: Death or life imprisonment (Section 302). Capital punishment in 'rarest of rare' cases (Bachan Singh v State of Punjab)." },
+                { q: "Sections 299 vs 300 IPC - Culpable homicide vs Murder?", a: "Section 299: Culpable Homicide (genus) - Causing death by doing act: (a) with intention of causing death, or (b) with intention of causing bodily injury likely to cause death, or (c) with knowledge that likely to cause death. Section 300: Murder (species) - Culpable homicide with special characteristics (4 clauses). Difference: Degree of intention/knowledge. CH: Knowledge that act is 'likely' to cause death. Murder: Knowledge that act 'must in all probability' cause death. All murders are culpable homicide but all culpable homicide not murder. 'Degree' not 'kind'. Test: Certainty vs Probability." },
+                { q: "5 Exceptions to Section 300 - Murder to Culpable Homicide?", a: "Exception 1: Grave and sudden provocation - Deprived of self-control (not pre-planned, not given as excuse, not in obedience to law, not during discharge of duty, not cruel/unusual). Exception 2: Private defense exceeding right - In good faith, exceeded right given, without premeditation, without intent to do more harm. Exception 3: Public servant exceeding power - Acting for advancement of public justice, in good faith, believes lawful. Exception 4: Sudden fight - Without premeditation, in heat of passion, without undue advantage, not cruel/unusual. Exception 5: Consent - Person above 18 years consents to death. Reduce murder (Sec 302) to culpable homicide not amounting to murder (Sec 304)." },
+                { q: "Section 34 IPC - Common Intention? Requirements?", a: "When criminal act done by several persons in furtherance of common intention of all, each liable as if done by him alone. Essentials: 1. Criminal act by several persons (2 or more). 2. Act done in furtherance of common intention. 3. Pre-arranged plan (prior meeting of minds). 4. Participation in action (physical presence not mandatory). Distinction from Section 149: 34 requires common intention (subjective), 149 requires common object (objective). Common intention means pre-arranged plan. Developed on spot during occurrence also possible if clear meeting of minds. Punishment: Each liable for entire criminal act, not just individual act." },
+                { q: "Section 304B - Dowry Death? Requirements for conviction?", a: "If woman dies within 7 years of marriage under abnormal circumstances and she was subjected to cruelty/harassment by husband/relatives for dowry demand shortly before death, they shall be presumed to have caused her death. Requirements: 1. Death of woman within 7 years of marriage. 2. Death caused by burns/bodily injury/in abnormal circumstances. 3. Cruelty/harassment for dowry shortly before death. 4. Such cruelty/harassment by husband or his relatives. Presumption: Rebuttable, burden shifts to accused. Punishment: Not less than 7 years, may extend to life imprisonment. Cannot be less than 7 years (no provision for less). Related: Section 113B Evidence Act (presumption)." },
+                { q: "General Exceptions (Sections 76-106 IPC) - List main categories?", a: "Nothing is an offence if: 1. Mistake of fact (Sec 76, 79) - Bonafide mistake, not mistake of law. 2. Judicial acts (Sec 77-78) - Judge acting judicially, person bound by law. 3. Accident (Sec 80) - Without criminal intention/knowledge, doing lawful act in lawful manner. 4. Infancy (Sec 82-83) - Below 7 years (absolute immunity), 7-12 years (if no maturity). 5. Insanity (Sec 84) - Incapable of knowing nature of act or wrong. 6. Intoxication (Sec 85-86) - Involuntary (full immunity), Voluntary (limited). 7. Consent (Sec 87-95) - Given freely, for lawful purpose. 8. Necessity (Sec 81) - Compelled by necessity. 9. Private defense (Sec 96-106) - Of person or property, within limits. 10. Trivial acts (Sec 95) - Too trivial to be criminal. Burden of proof: On accused to bring case within exception." },
+                { q: "Section 375 IPC - Rape? 7 circumstances?", a: "Man commits rape if penetrates (penis, any object, any part of body) into vagina, mouth, urethra, anus of woman or makes her do so without consent or with consent obtained by: 1. Fear of death/hurt to her or any person. 2. Misconception of fact - believes she is wife. 3. Intoxication/administration of substance that makes her unable to give consent. 4. Below 18 years (consent immaterial). 5. Unable to communicate consent. 6. In pursuance of conspiracy. 7. With or without consent - below 18. Exception: Sexual intercourse by man with his wife (above 15 years) not rape. Punishment: Section 376 - Not less than 10 years, may extend to life + fine. Gang rape: Sec 376D - Not less than 20 years to life. Death penalty: If victim below 12 years or results in death/vegetative state (added 2018)." },
+                { q: "Section 378 - Theft? Essentials?", a: "Whoever intending to take dishonestly movable property out of possession of any person without that person's consent, moves that property commits theft. Essentials: 1. Dishonest intention (Sec 24) - To cause wrongful gain/loss. 2. Movable property (includes animals, not land). 3. Taken out of possession of another (severance required). 4. Without consent (or defective consent). 5. Moving of property. Property must be moved, even slightly. Owner's consent negates theft. Possession (not ownership) is material. Punishment: Section 379 - Up to 3 years or fine or both. Section 380: Theft in dwelling - Up to 7 years + fine." },
+                { q: "Theft (378) vs Robbery (390) vs Dacoity (391) vs Extortion (383)?", a: "Theft (378): Dishonestly taking movable property without consent. Robbery (390): Theft or extortion with: Voluntary causing of hurt/fear of instant hurt/wrongful restraint/fear of instant death or wrongful restraint. Theft + force/threat = Robbery. Dacoity (391): Robbery by 5 or more persons. Robbery + 5 persons = Dacoity. Extortion (383): Intentionally putting person in fear to deliver property or valuable security. Force on person in theft/robbery, on mind in extortion. Punishment: Theft: Up to 3 years. Robbery: Up to 10 years + fine. Dacoity: Life imprisonment or 10 years + fine. Extortion: Up to 3 years or fine or both." },
+                { q: "Section 420 - Cheating? Essentials? Famous cases?", a: "Whoever cheats and thereby dishonestly induces person to deliver any property or intentionally induces person to do/omit to do anything, he would not do/omit if not so deceived, and which act/omission causes/likely to cause damage/harm commits offence. Essentials: 1. Cheating (deception). 2. Dishonestly inducing delivery of property OR intentionally inducing act/omission. 3. Causing damage/harm. Common in: Financial frauds, Online scams, Ponzi schemes, Credit card frauds, Fake documents. Punishment: Up to 7 years + fine. Cognizable, bailable, triable by magistrate. Famous: 2G scam, Commonwealth Games scam, Satyam fraud. Related: Section 415 (cheating), 417 (cheating with knowledge of likelihood of causing wrongful loss)." },
+                { q: "Section 120A IPC - Criminal Conspiracy? How proved?", a: "When 2 or more persons agree to do/cause to be done: 1. An illegal act, or 2. An act which is not illegal by illegal means, such agreement is criminal conspiracy. Agreement is essence, not the commission. Essentials: 1. Agreement between 2 or more persons (meeting of minds). 2. To do illegal act or legal act by illegal means. 3. Object must be clear. Proof: Direct evidence rare, usually circumstantial. Inference from: Conduct of parties, Communication between conspirators, Acts in furtherance. Membership need not continue throughout. Mere knowledge insufficient, must show agreement. Punishment: Section 120B - Punishable with death/life/2+ years: As provided for offence. Others: 6 months or fine or both. Exception: Agreement only to commit offence not punishable with death/2+ years: Not conspiracy unless overt act. Conspiracy continues until abandoned." },
+                { q: "Key changes in Bharatiya Nyaya Sanhita (BNS) 2023?", a: "Replaced IPC effective July 1, 2024. Major changes: 1. Sedition (124A) replaced - Section 150 (acts endangering sovereignty, unity, integrity). 2. Terrorism defined - Section 113 (new comprehensive definition). 3. Mob lynching - Section 103(2) (specific provision for murder by mob on grounds of race/caste/sex/religion). 4. Organized crime - Sections 111-115 (detailed provisions). 5. Community service - Introduced as punishment for petty offences. 6. Sexual offences against children - Enhanced penalties. 7. Snatching - Section 304 (separately defined). 8. Hit and run - Section 106 (mandatory reporting). 9. Petty organized crime - Section 111 (new concept). 10. Gender-neutral provisions - Some sections made gender-neutral. Numbers changed but substance largely similar. Focus on contemporary crimes." },
+                { q: "Abetment (Sections 107-120 IPC) - Three types? Punishment?", a: "Section 107: Abets commission of offence if: 1. Instigates any person (active suggestion, incitement). 2. Engages in conspiracy with one or more persons (agreement). 3. Intentionally aids by act or illegal omission (assistance). Types: By instigation: Suggest, stimulate, provoke, incite. By conspiracy: Agreement to commit offence. By aid: Active assistance or illegal omission. Essentials: Mens rea required, Abettor must intend consequence, Presence not necessary. Punishment: Section 109: Same as for principal offence. Section 111: Abettor liable when different act done (if probable consequence). Section 113: Abettor present liable for offence committed. Section 114: Abettor present when offence committed. Illustrations: Encouraging theft, Providing weapons for murder, Conspiracy to cheat. Abettor equally guilty even if principal gets immunity." }
+            ]
+            // Add more topics similarly - each with 15 cards
+        };
+
+        // ========== STATE ==========
+        let currentView = 'topics';
+        let currentTopicId = null;
+        let currentCardIndex = 0;
+        let allCards = []; // Combined static + AI generated
+        let aiGeneratedCards = {}; // Store AI cards per topic
+        let groqApiKey = '';
+        let chatHistory = [];
+        let isGenerating = false;
+
+        // ========== INIT ==========
+        window.addEventListener('DOMContentLoaded', () => {
+            loadApiKey();
+            loadAICards();
+            renderTopics();
+        });
+
+        // ========== VIEW MANAGEMENT ==========
+        function switchView(viewName) {
+            document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            
+            document.getElementById(viewName).classList.add('active');
+            event.target.classList.add('active');
+            currentView = viewName;
+        }
+
+        // ========== TOPICS ==========
+        function renderTopics() {
+            const grid = document.getElementById('topicsGrid');
+            grid.innerHTML = syllabusData.topics.map(topic => {
+                const staticCards = flashcardsData[topic.id]?.length || 0;
+                const aiCards = aiGeneratedCards[topic.id]?.length || 0;
+                const totalCards = staticCards + aiCards;
+                
+                return `
+                    <div class="topic-card" onclick="openFlashcards(${topic.id})">
+                        <div class="topic-number">${topic.questions}</div>
+                        <div class="topic-title">${topic.title}</div>
+                        <div style="color: var(--gray-600); font-size: 0.9rem; margin-top: 1rem;">
+                            📚 ${totalCards} cards available
+                            ${aiCards > 0 ? `<br>🤖 ${aiCards} AI-generated` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // ========== FLASHCARDS ==========
+        function openFlashcards(topicId) {
+            currentTopicId = topicId;
+            currentCardIndex = 0;
+            
+            // Combine static and AI cards
+            const staticCards = flashcardsData[topicId] || [];
+            const aiCards = aiGeneratedCards[topicId] || [];
+            allCards = [...staticCards, ...aiCards];
+            
+            const topic = syllabusData.topics.find(t => t.id === topicId);
+            document.getElementById('currentTopic').textContent = topic.title;
+            
+            switchView('flashcards');
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.nav-tab')[1].classList.add('active');
+            
+            displayCard();
+        }
+
+        function displayCard() {
+            if (allCards.length === 0) {
+                alert('No flashcards available yet!');
+                return;
+            }
+            
+            const card = allCards[currentCardIndex];
+            document.getElementById('questionText').textContent = card.q;
+            document.getElementById('answerText').textContent = card.a;
+            document.getElementById('cardCounter').textContent = `Card ${currentCardIndex + 1} of ${allCards.length}`;
+            document.getElementById('flashcard').classList.remove('flipped');
+            
+            // Update source badge
+            const staticCount = flashcardsData[currentTopicId]?.length || 0;
+            const isAI = currentCardIndex >= staticCount;
+            const badge = document.getElementById('sourceBadge');
+            
+            if (isAI) {
+                badge.textContent = '🤖 AI Generated';
+                badge.className = 'card-source-badge source-ai';
+            } else {
+                badge.textContent = '📚 Pre-loaded';
+                badge.className = 'card-source-badge source-static';
+            }
+            
+            // Show/hide generate more section
+            const staticCards = flashcardsData[currentTopicId]?.length || 0;
+            const isAtEnd = currentCardIndex >= allCards.length - 1;
+            document.getElementById('generateMoreSection').style.display = isAtEnd ? 'block' : 'none';
+        }
+
+        function flipCard() {
+            document.getElementById('flashcard').classList.toggle('flipped');
+        }
+
+        function previousCard() {
+            currentCardIndex = Math.max(0, currentCardIndex - 1);
+            displayCard();
+        }
+
+        function nextCard() {
+            if (currentCardIndex < allCards.length - 1) {
+                currentCardIndex++;
+                displayCard();
+            } else {
+                // At the end, show generate more section
+                document.getElementById('generateMoreSection').style.display = 'block';
+            }
+        }
+
+        function backToTopics() {
+            switchView('topics');
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.nav-tab')[0].classList.add('active');
+        }
+
+        // ========== AI CARD GENERATION ==========
+        async function generateMoreCards() {
+            if (!groqApiKey) {
+                alert('⚠️ Please save your Groq API key first in the AI Chat tab!');
+                switchView('qa');
+                return;
+            }
+            
+            if (isGenerating) return;
+            
+            const btn = document.getElementById('generateBtn');
+            btn.disabled = true;
+            isGenerating = true;
+            btn.innerHTML = '<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div> Generating...';
+            
+            try {
+                const topic = syllabusData.topics.find(t => t.id === currentTopicId);
+                
+                const prompt = `Generate 10 high-quality AIBE exam flashcards for the topic: "${topic.title}".
+
+Requirements:
+- Each card should have a clear Question (Q) and detailed Answer (A)
+- Focus on exam-relevant concepts, sections, case laws, and principles
+- Answers should be comprehensive but concise (2-4 sentences)
+- Cover different subtopics within ${topic.title}
+- Include section numbers, legal principles, and practical examples
+- Make questions progressively challenging
+
+Format response as a JSON array:
+[
+  {"q": "Question 1?", "a": "Answer 1"},
+  {"q": "Question 2?", "a": "Answer 2"},
+  ...
+]
+
+Return ONLY the JSON array, no additional text.`;
+
+                const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${groqApiKey}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        model: 'llama-3.1-70b-versatile',
+                        messages: [
+                            {
+                                role: 'system',
+                                content: 'You are an expert in Indian law preparing AIBE exam questions. Generate high-quality flashcards in valid JSON format only.'
+                            },
+                            {
+                                role: 'user',
+                                content: prompt
+                            }
+                        ],
+                        temperature: 0.8,
+                        max_tokens: 3000
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to generate cards. Check your API key.');
+                }
+
+                const data = await response.json();
+                let content = data.choices[0].message.content.trim();
+                
+                // Extract JSON if wrapped in markdown
+                if (content.startsWith('```json')) {
+                    content = content.replace(/```json\n?/g, '').replace(/```\n?/g, '');
+                } else if (content.startsWith('```')) {
+                    content = content.replace(/```\n?/g, '');
+                }
+                
+                const newCards = JSON.parse(content);
+                
+                // Add to AI cards
+                if (!aiGeneratedCards[currentTopicId]) {
+                    aiGeneratedCards[currentTopicId] = [];
+                }
+                aiGeneratedCards[currentTopicId].push(...newCards);
+                
+                // Update allCards
+                allCards = [...(flashcardsData[currentTopicId] || []), ...aiGeneratedCards[currentTopicId]];
+                
+                // Save to localStorage
+                saveAICards();
+                
+                // Hide generate section and move to next card
+                document.getElementById('generateMoreSection').style.display = 'none';
+                currentCardIndex++;
+                displayCard();
+                
+                alert(`✅ Successfully generated ${newCards.length} new cards!`);
+                
+            } catch (error) {
+                alert(`❌ Error: ${error.message}\n\nMake sure your API key is correct and you have quota remaining.`);
+            } finally {
+                btn.disabled = false;
+                isGenerating = false;
+                btn.innerHTML = '🤖 Generate 10 More Cards';
+            }
+        }
+
+        // ========== AI CHAT ==========
+        function saveApiKey() {
+            const key = document.getElementById('groqApiKey').value.trim();
+            if (!key) {
+                alert('Please enter your API key');
+                return;
+            }
+            
+            groqApiKey = key;
+            localStorage.setItem('groq_api_key', key);
+            alert('✅ API key saved! You can now generate flashcards and chat with AI.');
+        }
+
+        function loadApiKey() {
+            const saved = localStorage.getItem('groq_api_key');
+            if (saved) {
+                groqApiKey = saved;
+                document.getElementById('groqApiKey').value = saved;
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const question = input.value.trim();
+            
+            if (!question) return;
+            if (!groqApiKey) {
+                alert('Please save your API key first!');
+                return;
+            }
+            
+            addMessage('user', question);
+            input.value = '';
+            
+            const sendBtn = document.getElementById('sendBtn');
+            sendBtn.disabled = true;
+            sendBtn.innerHTML = '<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>';
+            
+            try {
+                const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${groqApiKey}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        model: 'llama-3.1-70b-versatile',
+                        messages: [
+                            {
+                                role: 'system',
+                                content: 'You are an expert legal assistant helping students prepare for AIBE. Provide clear, accurate explanations with relevant sections and case laws.'
+                            },
+                            ...chatHistory,
+                            {
+                                role: 'user',
+                                content: question
+                            }
+                        ],
+                        temperature: 0.7,
+                        max_tokens: 2000
+                    })
+                });
+
+                if (!response.ok) throw new Error('API call failed');
+
+                const data = await response.json();
+                const aiResponse = data.choices[0].message.content;
+                
+                addMessage('assistant', aiResponse);
+                
+            } catch (error) {
+                addMessage('assistant', `❌ Error: ${error.message}`);
+            } finally {
+                sendBtn.disabled = false;
+                sendBtn.innerHTML = '📤';
+            }
+        }
+
+        function addMessage(role, content) {
+            const messagesDiv = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}`;
+            
+            const avatar = role === 'user' ? '👤' : '🤖';
+            const label = role === 'user' ? 'You' : 'AI';
+            
+            messageDiv.innerHTML = `
+                <div class="message-avatar">${avatar}</div>
+                <div class="message-content"><strong>${label}:</strong> ${content}</div>
+            `;
+            
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            
+            chatHistory.push({ role, content });
+        }
+
+        function handleEnter(event) {
+            if (event.key === 'Enter' && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        }
+
+        // ========== STORAGE ==========
+        function saveAICards() {
+            localStorage.setItem('aibe_ai_cards', JSON.stringify(aiGeneratedCards));
+        }
+
+        function loadAICards() {
+            const saved = localStorage.getItem('aibe_ai_cards');
+            if (saved) {
+                aiGeneratedCards = JSON.parse(saved);
+            }
+        }
+
+        function downloadApp() {
+            const html = document.documentElement.outerHTML;
+            const blob = new Blob([html], { type: 'text/html' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'aibe-unlimited-ai-prep.html';
+            a.click();
+            URL.revokeObjectURL(url);
+            alert('✅ App downloaded! Save your API key and all AI-generated cards persist locally.');
+        }
+    </script>
+</body>
+</html>
