@@ -654,9 +654,37 @@
 
     <script>
         // ========== DATA STRUCTURE ==========
-        let syllabusData = { topics: [] };
-        
-        // Flashcards loaded from external JSON files
+        const syllabusData = {
+            topics: [
+                {
+                    id: 1,
+                    title: "Contract Law",
+                    subtitle: "Indian Contract Act, 1872"
+                },
+                {
+                    id: 2,
+                    title: "Constitutional Law",
+                    subtitle: "Indian Constitution"
+                },
+                {
+                    id: 3,
+                    title: "Criminal Law",
+                    subtitle: "IPC, CrPC, Evidence Act"
+                },
+                {
+                    id: 4,
+                    title: "Torts",
+                    subtitle: "Law of Torts"
+                },
+                {
+                    id: 5,
+                    title: "Property Law",
+                    subtitle: "Transfer of Property Act"
+                }
+            ]
+        };
+
+        // Sample flashcards (you can add more here)
         const flashcardsData = {
             1: [
                 { q: "What is a contract under Section 2(h) of the Indian Contract Act?", a: "An agreement enforceable by law. Section 2(h) defines contract as an agreement that creates legal obligations between parties." },
@@ -713,66 +741,11 @@
         };
 
         // ========== INITIALIZATION ==========
-        window.onload = async function() {
+        window.onload = function() {
             loadSettings();
             loadAICards();
-            await loadTopicsFromJSON();
             renderTopics();
         };
-
-        async function loadTopicsFromJSON() {
-            try {
-                // Try to load from data directory (for local usage)
-                const response = await fetch('data/topics_index.json');
-                if (response.ok) {
-                    const data = await response.json();
-                    syllabusData = data;
-                    
-                    // Load flashcards for each topic
-                    for (const topic of syllabusData.topics) {
-                        await loadTopicFlashcards(topic.id, topic.file);
-                    }
-                    
-                    console.log('✅ Loaded topics from JSON files');
-                    return;
-                }
-            } catch (e) {
-                console.log('⚠️ Could not load external JSON, using defaults:', e.message);
-            }
-            
-            // Fallback to default topics if JSON loading fails
-            syllabusData = {
-                topics: [
-                    { id: 1, title: "Contract Law", subtitle: "Indian Contract Act, 1872", file: "contract_law.json" },
-                    { id: 2, title: "Constitutional Law", subtitle: "Indian Constitution", file: "constitutional_law.json" },
-                    { id: 3, title: "Criminal Law", subtitle: "IPC, CrPC, Evidence Act", file: "criminal_law.json" },
-                    { id: 4, title: "Torts", subtitle: "Law of Torts", file: "torts.json" },
-                    { id: 5, title: "Property Law", subtitle: "Transfer of Property Act", file: "property_law.json" },
-                    { id: 8, title: "Professional Ethics", subtitle: "Advocates Act, BCI Rules", file: "professional_ethics.json" }
-                ]
-            };
-            
-            // Try to load individual files
-            for (const topic of syllabusData.topics) {
-                await loadTopicFlashcards(topic.id, topic.file);
-            }
-        }
-
-        async function loadTopicFlashcards(topicId, filename) {
-            try {
-                const response = await fetch(`data/${filename}`);
-                if (response.ok) {
-                    const data = await response.json();
-                    if (data.flashcards && data.flashcards.length > 0) {
-                        flashcardsData[topicId] = data.flashcards;
-                        console.log(`✅ Loaded ${data.flashcards.length} cards for topic ${topicId}`);
-                    }
-                }
-            } catch (e) {
-                console.log(`⚠️ Could not load ${filename}:`, e.message);
-                // Keep existing hardcoded cards as fallback
-            }
-        }
 
         function loadSettings() {
             const saved = localStorage.getItem('aibe_ai_config');

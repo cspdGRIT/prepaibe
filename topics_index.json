@@ -1,0 +1,76 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "Contract Law",
+      "subtitle": "Indian Contract Act, 1872",
+      "file": "contract_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 2,
+      "title": "Constitutional Law",
+      "subtitle": "Indian Constitution",
+      "file": "constitutional_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 3,
+      "title": "Criminal Law",
+      "subtitle": "IPC, CrPC, Evidence Act",
+      "file": "criminal_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 4,
+      "title": "Torts",
+      "subtitle": "Law of Torts",
+      "file": "torts.json",
+      "card_count": 0
+    },
+    {
+      "id": 5,
+      "title": "Property Law",
+      "subtitle": "Transfer of Property Act",
+      "file": "property_law.json",
+      "card_count": 0
+    },
+    {
+      "id": 6,
+      "title": "Family Law",
+      "subtitle": "Hindu Marriage Act, Muslim Law",
+      "file": "family_law.json",
+      "card_count": 0
+    },
+    {
+      "id": 7,
+      "title": "Company Law",
+      "subtitle": "Companies Act, 2013",
+      "file": "company_law.json",
+      "card_count": 0
+    },
+    {
+      "id": 8,
+      "title": "Professional Ethics",
+      "subtitle": "Advocates Act, 1961 & BCI Rules",
+      "file": "professional_ethics.json",
+      "card_count": 16
+    },
+    {
+      "id": 9,
+      "title": "Civil Procedure Code",
+      "subtitle": "CPC, 1908",
+      "file": "cpc.json",
+      "card_count": 0
+    },
+    {
+      "id": 10,
+      "title": "Evidence Act",
+      "subtitle": "Indian Evidence Act, 1872",
+      "file": "evidence_act.json",
+      "card_count": 0
+    }
+  ],
+  "version": "1.0",
+  "last_updated": "2025-10-26"
+}

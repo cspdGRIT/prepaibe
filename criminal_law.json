@@ -1,0 +1,79 @@
+{
+  "topic_id": 3,
+  "topic_title": "Criminal Law",
+  "topic_subtitle": "IPC, CrPC, Evidence Act",
+  "flashcards": [
+    {
+      "q": "What is mens rea in criminal law?",
+      "a": "Guilty mind - the mental element of a crime. Refers to intention or knowledge of wrongdoing that constitutes part of a crime. Actus non facit reum nisi mens sit rea (act does not make guilty unless mind is guilty). Most crimes require mens rea except strict liability offenses. Includes intention, knowledge, recklessness, negligence."
+    },
+    {
+      "q": "Define murder under Section 300 IPC.",
+      "a": "Culpable homicide is murder if: (1) Act done with intention of causing death, (2) Intention to cause bodily injury likely to cause death, (3) Intention to cause bodily injury sufficient in ordinary course to cause death, (4) Act so imminently dangerous that it must in all probability cause death, done without excuse. Punishment: death or life imprisonment."
+    },
+    {
+      "q": "What is the difference between murder and culpable homicide?",
+      "a": "All murders are culpable homicide but not vice versa. Culpable homicide (Section 299): causing death with intention or knowledge likely to cause death. Murder (Section 300): higher degree of culpability - intention or knowledge that death is likely/probable. Murder has four specific clauses. Exception: culpable homicide not amounting to murder (Sections 300 Exceptions 1-5)."
+    },
+    {
+      "q": "What are the exceptions to murder under Section 300?",
+      "a": "Five exceptions reduce murder to culpable homicide not amounting to murder: (1) Grave and sudden provocation, (2) Private defense exceeding power, (3) Public servant exceeding lawful power in good faith, (4) Sudden fight without premeditation, (5) Death with consent of person above 18 years. Punishment: 10 years to life imprisonment."
+    },
+    {
+      "q": "Explain the doctrine of 'common intention' under Section 34 IPC.",
+      "a": "When criminal act done by several persons in furtherance of common intention, each liable as if done by him alone. Requires: (1) Criminal act, (2) Participation of accused, (3) Pre-arranged plan/meeting of minds, (4) Act in furtherance of common intention. Need not prove who did exact act. Different from 'common object' under Section 149."
+    },
+    {
+      "q": "What is the difference between cognizable and non-cognizable offenses?",
+      "a": "Cognizable offense (Schedule I, CrPC): Police can arrest without warrant, investigate without magistrate's order (murder, theft, rape). Serious crimes. Non-cognizable offense: Police cannot arrest without warrant, need magistrate's order to investigate (assault, defamation). Less serious. Cognizable + non-bailable = most serious."
+    },
+    {
+      "q": "Explain the right to private defense under IPC.",
+      "a": "Sections 96-106: Right to defend body (Section 96-106) and property (Section 97-106) against unlawful aggression. Can extend to causing death if offense is: rape, acid attack, kidnapping, robbery, house-breaking at night, mischief by fire. Must be proportionate, no time to seek public authority help, aggression must be unlawful and imminent."
+    },
+    {
+      "q": "What is the doctrine of 'transferred malice'?",
+      "a": "If A intends to kill B but kills C instead, A is guilty of murdering C even though he had no intention to kill C. The mens rea (intention) transfers from intended victim to actual victim. Based on principle that law punishes the criminal act and mens rea, regardless of victim. Example: shooting at A but hitting B."
+    },
+    {
+      "q": "What constitutes theft under Section 378 IPC?",
+      "a": "Dishonest taking of movable property out of another's possession without consent, with intention to take dishonestly. Five ingredients: (1) Dishonest intention, (2) Movable property, (3) Taken out of possession, (4) Without consent, (5) With intention to take. Punishment: 3 years or fine or both. Different from extortion (consent obtained) and cheating (consent by deception)."
+    },
+    {
+      "q": "Explain the concept of abetment under Sections 107-120 IPC.",
+      "a": "Person abets when: (1) Instigates person to do thing, (2) Engages in conspiracy, (3) Intentionally aids by act or illegal omission. Abettor punished same as principal offender. Abetment of offense punishable even if offense not committed. Need not be present at scene. Includes incitement, conspiracy, and aiding."
+    },
+    {
+      "q": "What is FIR and its legal significance?",
+      "a": "First Information Report under Section 154 CrPC - first information about cognizable offense given to police. Must be in writing, read over to informant, signed. Sets criminal law in motion. Prompt FIR has evidentiary value. Delayed FIR requires explanation. Cannot be treated as substantive evidence but can corroborate testimony. Can be used to contradict maker under Section 145, Evidence Act."
+    },
+    {
+      "q": "What are the powers of Magistrate under Section 156(3) CrPC?",
+      "a": "Magistrate can order police to investigate cognizable offense. Exercisable at pre-cognizance stage even when police hasn't registered FIR. Judicial discretion, not ministerial function. Cannot be treated as FIR. Available even when FIR already registered. Powerful tool to compel police investigation. Subject to judicial review for abuse."
+    },
+    {
+      "q": "Explain anticipatory bail under Section 438 CrPC.",
+      "a": "Person apprehending arrest for non-bailable offense can apply for bail in advance to Sessions Court or High Court. Court can impose conditions. Available only for non-bailable offenses. Not available for certain offenses under SC/ST Act (2018 Amendment struck down partially). Continues till trial ends unless cancelled. Balances personal liberty with investigation needs."
+    },
+    {
+      "q": "What is the difference between Section 302 and 304 IPC?",
+      "a": "Section 302: Murder - intention or knowledge that act is likely to cause death, highest degree of culpability. Punishment: death or life imprisonment + fine. Section 304: Culpable homicide not amounting to murder - two parts: Part I (knowledge that act likely to cause death) - life/10 years + fine, Part II (knowledge likely to cause death but not certain) - 10 years or fine or both."
+    },
+    {
+      "q": "What is plea bargaining under Chapter XXI-A CrPC?",
+      "a": "Introduced in 2005, allows accused to plead guilty for reduced sentence (minimum sentence). Available for offenses with maximum 7 years punishment. Not available for: offenses against women/children, socio-economic offenses, affecting nation's socio-economic condition. Voluntary process. Court gives sentence mutually agreed (at least half minimum). Final, no appeal on conviction."
+    },
+    {
+      "q": "Explain dying declaration and its evidentiary value.",
+      "a": "Statement by person as to cause of death or circumstances of transaction resulting in death (Section 32, Evidence Act). Admissible even though hearsay. Rationale: person about to die won't lie. Must be conscious, capable, voluntary. No corroboration required if true, voluntary and properly recorded. Can be oral or written. Medical certificate of mental fitness desirable. Can be sole basis for conviction."
+    },
+    {
+      "q": "What is the Test Identification Parade (TIP)?",
+      "a": "Conducted during investigation for witness to identify accused. Not substantive evidence but used to corroborate identification in court (Section 9, Evidence Act). Must be conducted fairly - similar looking persons, free consent, in presence of Magistrate. Failure to conduct TIP doesn't make case weak if identification in court satisfactory. Primarily investigation tool."
+    },
+    {
+      "q": "What is juvenile justice under JJ Act, 2015?",
+      "a": "Child under 18 years in conflict with law dealt under Juvenile Justice Act. Child (16-18) involved in heinous offense can be tried as adult if JJB finds maturity. Emphasis on reformation, not punishment. Juvenile Justice Boards handle cases. Special homes for rehabilitation. Confidentiality of identity maintained. No death penalty. Records expunged after rehabilitation."
+    }
+  ]
+}

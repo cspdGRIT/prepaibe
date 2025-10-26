@@ -1,0 +1,79 @@
+{
+  "topic_id": 2,
+  "topic_title": "Constitutional Law",
+  "topic_subtitle": "Indian Constitution",
+  "flashcards": [
+    {
+      "q": "What is the Preamble to the Indian Constitution?",
+      "a": "It declares India as a Sovereign, Socialist, Secular, Democratic Republic. It secures Justice (social, economic, political), Liberty (of thought, expression, belief, faith, worship), Equality (of status and opportunity), and Fraternity (assuring dignity of individual and unity and integrity of nation). Socialist and Secular were added by 42nd Amendment, 1976."
+    },
+    {
+      "q": "What is Article 14 - Right to Equality?",
+      "a": "The State shall not deny any person equality before law or equal protection of laws within India. Equality before law (British concept) means no special privileges. Equal protection of laws (American concept) means equals should be treated equally. Allows reasonable classification but prohibits class legislation."
+    },
+    {
+      "q": "Explain the doctrine of separation of powers in Indian Constitution.",
+      "a": "Not rigidly followed but broadly divided: Legislature (Parliament/State Legislatures) makes laws, Executive (President/Governors) implements laws, Judiciary (Supreme Court/High Courts) interprets laws. Checks and balances exist - Parliament can amend Constitution, Judiciary has judicial review, Executive implements policies."
+    },
+    {
+      "q": "What is Judicial Review under the Constitution?",
+      "a": "Power of courts to examine constitutionality of legislative enactments and executive orders. Can declare them void if violating Constitution. Based on supremacy of Constitution. Extends to fundamental rights (Article 13), federal structure, and amendments (basic structure doctrine). Established in Kesavananda Bharati case (1973)."
+    },
+    {
+      "q": "What are Fundamental Rights under the Constitution?",
+      "a": "Part III (Articles 12-35) guarantees six categories: (1) Right to Equality (14-18), (2) Right to Freedom (19-22), (3) Right against Exploitation (23-24), (4) Right to Freedom of Religion (25-28), (5) Cultural and Educational Rights (29-30), (6) Right to Constitutional Remedies (32). Article 31 (Right to Property) deleted by 44th Amendment."
+    },
+    {
+      "q": "What is the Basic Structure Doctrine?",
+      "a": "Parliament cannot amend Constitution to alter its basic structure, established in Kesavananda Bharati v. State of Kerala (1973). Basic features include: Supremacy of Constitution, Republican and Democratic form, Secular character, Separation of powers, Federal character, Judicial review. Overruled earlier Golaknath judgment."
+    },
+    {
+      "q": "Explain Article 19 - Freedom of Speech and Expression.",
+      "a": "Citizens have right to freedom of speech and expression, but subject to reasonable restrictions under Article 19(2): sovereignty and integrity of India, security of State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation, incitement to offence. Restrictions must be reasonable and proportionate."
+    },
+    {
+      "q": "What is Article 21 - Right to Life and Personal Liberty?",
+      "a": "No person shall be deprived of life or personal liberty except according to procedure established by law. Most expansive right - includes right to live with dignity, privacy, clean environment, speedy trial, education, health. Procedure must be just, fair and reasonable (Maneka Gandhi case, 1978). Cannot be suspended even during emergency."
+    },
+    {
+      "q": "What are Directive Principles of State Policy (DPSP)?",
+      "a": "Part IV (Articles 36-51) provides guidelines for State to establish social and economic democracy. Not enforceable in court but fundamental in governance. Include: welfare state, equal justice, free legal aid, living wage, right to work, uniform civil code, village panchayats. Complementary to Fundamental Rights."
+    },
+    {
+      "q": "Explain the federal structure of Indian Constitution.",
+      "a": "Quasi-federal system with unitary features. Division of powers through three lists: Union List (100 subjects - defense, foreign affairs), State List (61 subjects - police, public health), Concurrent List (52 subjects - criminal law, marriage). Residuary powers with Union. Strong center - President's rule, single Constitution, single citizenship."
+    },
+    {
+      "q": "What is Article 32 - Right to Constitutional Remedies?",
+      "a": "Right to move Supreme Court for enforcement of fundamental rights. Dr. Ambedkar called it 'heart and soul' of Constitution. Supreme Court can issue writs: Habeas Corpus (produce person), Mandamus (command to perform duty), Prohibition (prevent inferior court from exceeding jurisdiction), Certiorari (quash order), Quo Warranto (challenge public office)."
+    },
+    {
+      "q": "What is Article 356 - President's Rule?",
+      "a": "If President satisfied that State government cannot function according to Constitution, can assume State functions or dissolve State Legislature. Proclamation must be approved by both Houses within 2 months. Can continue for 6 months, extendable to 3 years. Subject to judicial review (S.R. Bommai case, 1994). Frequently misused in past."
+    },
+    {
+      "q": "Explain the amendment procedure under Article 368.",
+      "a": "Three types: (1) Simple majority of Parliament - minor matters, (2) Special majority (2/3 of present + majority of total) - most provisions, (3) Special majority + ratification by half the States - matters affecting federal structure. Amendment power subject to Basic Structure doctrine. No time limit for States to ratify."
+    },
+    {
+      "q": "What are Fundamental Duties under Article 51A?",
+      "a": "Added by 42nd Amendment (1976), originally 10, now 11 duties. Include: respect Constitution, national symbols, national movement; protect sovereignty, unity, integrity; promote harmony; preserve heritage; protect environment; develop scientific temper; safeguard public property; strive for excellence; provide education opportunities (added by 86th Amendment). Not enforceable but guide citizens."
+    },
+    {
+      "q": "What is the doctrine of Eclipse under Article 13?",
+      "a": "Pre-constitutional laws inconsistent with fundamental rights are not dead but eclipsed - ineffective to extent of inconsistency. If fundamental right is amended or removed, eclipsed law revives. Applies only to pre-constitutional laws. Post-constitutional void laws are dead completely. Established in Bhikaji case (1955)."
+    },
+    {
+      "q": "Explain the Election Commission's role and powers.",
+      "a": "Article 324 establishes Election Commission for superintendence, direction and control of elections to Parliament, State Legislatures, President and Vice-President. Multi-member body (1 Chief + 2 Commissioners since 1993). Powers include: preparing electoral rolls, recognition of parties, conduct of elections, model code of conduct. Decisions subject to judicial review."
+    },
+    {
+      "q": "What is the difference between Fundamental Rights and DPSP?",
+      "a": "Fundamental Rights (Part III): Individual rights, enforceable in court, negative obligations on State, political democracy, justiciable. DPSP (Part IV): Community welfare, not enforceable, positive obligations, social-economic democracy, non-justiciable. In conflict, Fundamental Rights prevail but State should harmonize both (Minerva Mills case, 1980)."
+    },
+    {
+      "q": "What is Public Interest Litigation (PIL)?",
+      "a": "Litigation filed in interest of public or underprivileged sections who cannot approach courts. Relaxes locus standi requirement - any public-spirited person can file. Courts can take suo motu cognizance. Used for environmental protection, human rights, corruption. Developed by Justice P.N. Bhagwati and V.R. Krishna Iyer. Can be misused for publicity."
+    }
+  ]
+}
