@@ -1,0 +1,79 @@
+{
+  "topic_id": 1,
+  "topic_title": "Contract Law",
+  "topic_subtitle": "Indian Contract Act, 1872",
+  "flashcards": [
+    {
+      "q": "What is a contract under Section 2(h) of the Indian Contract Act?",
+      "a": "An agreement enforceable by law. Section 2(h) defines contract as 'an agreement enforceable by law', which means it creates legal obligations between parties that can be enforced in a court of law."
+    },
+    {
+      "q": "What are the essential elements of a valid contract?",
+      "a": "The six essential elements are: (1) Offer and Acceptance - clear proposal and unconditional acceptance, (2) Consideration - something in return, (3) Capacity to contract - parties must be of sound mind and not disqualified by law, (4) Free consent - without coercion, undue influence, fraud, misrepresentation or mistake, (5) Lawful object - purpose must be legal, (6) Agreement not expressly declared void."
+    },
+    {
+      "q": "Explain the doctrine of privity of contract.",
+      "a": "Only parties to a contract can sue or be sued on it. A stranger to the contract cannot enforce it even if made for his benefit. This principle was established in Dunlop v. Selfridge (1915). However, exceptions exist like trusts, family arrangements, and assignment of contracts."
+    },
+    {
+      "q": "What is consideration under Section 2(d)?",
+      "a": "Consideration is something in return - the price for the promise. It can be: (1) Past - something already done, (2) Present/Executed - done simultaneously with promise, (3) Future/Executory - to be done later. It must be real, lawful, not illusory, but need not be adequate."
+    },
+    {
+      "q": "When is an agreement void for lack of consideration?",
+      "a": "Under Section 25, an agreement without consideration is void except in three cases: (1) Love and affection between near relatives, expressed in writing and registered, (2) Promise to compensate for past voluntary services, (3) Promise to pay time-barred debt, in writing and signed by debtor."
+    },
+    {
+      "q": "What is the difference between void and voidable contracts?",
+      "a": "Void contract has no legal effect from the beginning and cannot be enforced (e.g., agreement with minor, unlawful object). Voidable contract is valid but one party has the option to rescind it due to defect in consent (coercion, undue influence, fraud, misrepresentation). Until rescinded, it remains valid."
+    },
+    {
+      "q": "Explain 'consensus ad idem' in contract law.",
+      "a": "Meeting of minds - parties must have same understanding about subject matter and terms. If there's mutual mistake about fundamental fact, there's no consensus ad idem and contract is void. Example: Raffles v. Wichelhaus (1864) - two ships named 'Peerless', parties meant different ships."
+    },
+    {
+      "q": "What constitutes fraud under Section 17?",
+      "a": "Fraud includes: (1) Suggestion that fact is true when not true and person doesn't believe it, (2) Active concealment of fact, (3) Promise without intention to perform, (4) Any act to deceive, (5) Any act declared fraudulent by law. Must be with intent to deceive or induce contract."
+    },
+    {
+      "q": "What is the doctrine of 'caveat emptor'?",
+      "a": "Let the buyer beware - buyer must examine goods before purchase. Seller not bound to disclose defects. Exceptions: (1) Fitness for particular purpose made known, (2) Goods bought by description, (3) Merchantable quality in case of dealer, (4) Sale by sample, (5) Fraud or misrepresentation by seller."
+    },
+    {
+      "q": "What is quantum meruit?",
+      "a": "'As much as earned' - claim for reasonable remuneration for work done or services rendered when: (1) Contract is divisible and party completes part, (2) Contract becomes void, (3) Contract is breached by other party, (4) Work done on implied contract. Party can claim proportionate payment."
+    },
+    {
+      "q": "Explain anticipatory breach of contract.",
+      "a": "When party repudiates contract before performance is due. The aggrieved party can: (1) Treat contract as discharged immediately and sue for damages, or (2) Wait till time of performance and hold other party to contract. Based on Hochster v. De La Tour (1853)."
+    },
+    {
+      "q": "What is the doctrine of frustration under Section 56?",
+      "a": "Contract becomes impossible to perform due to supervening event beyond parties' control, making it void. Includes: (1) Destruction of subject matter, (2) Non-occurrence of contemplated event, (3) Change in law, (4) Death/incapacity in personal contracts. Example: Taylor v. Caldwell (1863) - music hall burned down."
+    },
+    {
+      "q": "What are the modes of discharge of contract?",
+      "a": "Six modes: (1) Performance - actual or attempted tender, (2) Agreement - mutual consent, novation, rescission, (3) Impossibility - supervening impossibility under Section 56, (4) Breach - actual or anticipatory, (5) Lapse of time - as per Limitation Act, (6) Operation of law - merger, insolvency, unauthorized alteration."
+    },
+    {
+      "q": "What is the difference between coercion and undue influence?",
+      "a": "Coercion (Section 15): Threat to commit act forbidden by IPC or unlawful detention/threat to detain property, to induce consent. No relationship needed. Undue influence (Section 16): Person in position to dominate will of another uses position to obtain unfair advantage. Requires relationship of trust or authority."
+    },
+    {
+      "q": "Explain the rule of 'Bailment' under Indian Contract Act.",
+      "a": "Section 148 defines bailment as delivery of goods by one person (bailor) to another (bailee) for some purpose, upon contract that goods shall be returned or disposed of according to bailor's directions. Bailee must take reasonable care, not mix goods, return on demand, and is liable for negligence."
+    },
+    {
+      "q": "What is a contingent contract under Section 31?",
+      "a": "Contract to do or not do something if some uncertain future event happens or doesn't happen. Performance depends on event occurring. Examples: Insurance contracts, indemnity. If event becomes impossible, contract is void. If dependent on person's act, and person prevents it, contract becomes void."
+    },
+    {
+      "q": "What remedies are available for breach of contract?",
+      "a": "Five main remedies: (1) Damages - compensation for loss (ordinary, special, vindictive), (2) Specific performance - decree to perform as promised, (3) Injunction - order to not do something, (4) Quantum meruit - payment for work done, (5) Rescission - cancel contract and restore parties to original position."
+    },
+    {
+      "q": "What is the doctrine of 'part performance' under Section 53A of Transfer of Property Act?",
+      "a": "Though not in Contract Act, important for AIBE: Where transferee has taken possession and performed part of obligations under contract for immovable property, transferor cannot enforce non-compliance with registration requirement. Protects part-performers even if document is unregistered. Doctrine of equity."
+    }
+  ]
+}

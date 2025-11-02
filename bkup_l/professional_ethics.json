@@ -1,0 +1,71 @@
+{
+  "topic_id": 8,
+  "topic_title": "Professional Ethics",
+  "topic_subtitle": "Advocates Act, 1961 & BCI Rules",
+  "flashcards": [
+    {
+      "q": "What are the duties of an advocate to the court?",
+      "a": "Act with dignity and good faith, uphold Constitution and laws, assist in administration of justice, not influence decision by illegal means, not appear before biased judge, inform court of relevant decisions even against client, refuse to act in illegal manner, maintain proper conduct and etiquette, wear prescribed dress."
+    },
+    {
+      "q": "What are the duties of an advocate to the client?",
+      "a": "Accept brief in field of practice, not refuse brief except for conflicting interest or insufficient remuneration, maintain client confidentiality, not mislead client, communicate settlement offers, not suppress material, account for client money, not withdraw without notice, not claim greater share than agreed."
+    },
+    {
+      "q": "What constitutes professional misconduct under BCI Rules?",
+      "a": "Includes: soliciting work directly/indirectly, advertising, touting, acting with dishonesty, representing conflicting interests, accepting unauthorized fee, improper influence, disrespectful conduct in court, conduct unbecoming of advocate, misuse of professional position, violation of ethical standards, breach of client confidence."
+    },
+    {
+      "q": "What is the Bar Council of India and its powers?",
+      "a": "Statutory body under Advocates Act 1961. Powers: enrol advocates, maintain Roll, frame rules for professional ethics, conduct, continuing legal education, disciplinary proceedings, prescribe dress code, standards of professional conduct, recognition of universities, promotion of legal education, represent India internationally."
+    },
+    {
+      "q": "What is the doctrine of attorney-client privilege?",
+      "a": "Section 126, Evidence Act: Advocate cannot be compelled to disclose communications with client made in professional employment. Exceptions: (1) Furtherance of illegal purpose, (2) Communication after crime committed, (3) Client expressly waives. Protection continues after relationship ends. Fundamental to professional duty. Absolute privilege."
+    },
+    {
+      "q": "When can an advocate refuse a brief?",
+      "a": "May refuse when: (1) Not in regular practice in that court, (2) Conflict of interest with existing client, (3) Special knowledge makes him witness, (4) Prior engagement, (5) Retainer not received, (6) Professional ethics violated, (7) Legal impossibility of relief, (8) Case beyond competence. Cannot refuse based on caste, religion, gender, nationality."
+    },
+    {
+      "q": "What is the doctrine of 'cab-rank rule' for advocates?",
+      "a": "British concept not strictly followed in India. Advocates should not refuse briefs in fields where they practice except for valid reasons. Cannot pick and choose clients. Duty to defend even unpopular causes. But unlike UK, Indian advocates can refuse based on insufficient fee, conflict of interest, lack of competence."
+    },
+    {
+      "q": "What is the disciplinary jurisdiction over advocates?",
+      "a": "Three-tier: (1) State Bar Council - disciplinary committee investigates misconduct, (2) Bar Council of India - appellate authority, (3) Supreme Court - final appeal under Article 136. Punishments: reprimand, suspension from practice, removal from Roll. Inquiry must follow principles of natural justice. Charges must be specific. Advocate can defend."
+    },
+    {
+      "q": "Can an advocate be a witness in client's case?",
+      "a": "Generally should not appear as witness where advocate for party (Section 127, Evidence Act). Creates conflict - cannot cross-examine self, difficult to assess credibility. Should withdraw if knowledge makes him competent witness. Exception: formal/uncontested matters, evidence relates to professional fees, no other option available. Professional ethics discourage."
+    },
+    {
+      "q": "What are the restrictions on advertising by advocates?",
+      "a": "Rule 36, BCI Rules prohibits soliciting work or advertising directly/indirectly. Cannot: advertise in media, publish achievements, send circulars, use intermediaries for work, give commission for referrals. Can have: professional name board, website with basic info, legal directory listing. Dignified professional publicity allowed, not commercial advertising."
+    },
+    {
+      "q": "What is the duty of an advocate in criminal defense?",
+      "a": "Defend client zealously within law, regardless of personal opinion of guilt. Not to judge client. Present best possible defense. Cannot mislead court or fabricate evidence. Cannot participate in crime or obstruct justice. Duty to law supersedes duty to client. Cannot reveal client's confession. Must ensure fair trial."
+    },
+    {
+      "q": "What are the rules regarding advocate's fees?",
+      "a": "No scale of fees prescribed. Matter of contract between advocate and client. Must be reasonable. Cannot claim greater than agreed. Should give bill/memo. Cannot divide fees with tout or unqualified person. Can have lien on documents for fees. Cannot agree for contingency fees (percentage of award/recovery). Clear agreement advisable."
+    },
+    {
+      "q": "What is the difference between solicitor and advocate in India?",
+      "a": "Post-1961, distinction abolished. All enrolled persons are advocates with right of practice in all courts. Earlier: solicitor (office work, drafting, client interaction) and advocate/barrister (court appearance). Now unified profession under Advocates Act. All advocates can do all work. No separate admission or rights."
+    },
+    {
+      "q": "Can an advocate be a director/partner in a company?",
+      "a": "Yes, but subject to restrictions. Cannot be: full-time salaried director, employed by company for legal services while being director. Can be: independent director, hold equity, participate in board meetings. Should not involve conflict with professional duties. Must maintain independence. Cannot compromise professional ethics for business interests."
+    },
+    {
+      "q": "What is the doctrine of 'appearance for both sides'?",
+      "a": "Advocate cannot appear for opposing parties in same matter/related matters. Even if one party consents. Extends to pending and future related matters. Includes situations where: client's interests conflict, confidential information from one party may affect other, professional judgment may be compromised. Must withdraw if conflict emerges during case."
+    },
+    {
+      "q": "What are continuing legal education (CLE) requirements?",
+      "a": "Mandatory under BCI Rules. Advocates must complete prescribed hours of CLE credits periodically. Includes: seminars, workshops, conferences, online courses, publications. State Bar Councils organize programs. Certificate issued on completion. Ensures advocates keep updated with legal developments. Non-compliance may affect practice. Lifelong learning emphasis."
+    }
+  ]
+}
