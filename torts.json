@@ -1,0 +1,79 @@
+{
+  "topic_id": 4,
+  "topic_title": "Law of Torts",
+  "topic_subtitle": "Civil Wrongs & Remedies",
+  "flashcards": [
+    {
+      "q": "What is a tort?",
+      "a": "A civil wrong for which the remedy is a common law action for unliquidated damages, not exclusively breach of contract or trust. It's a violation of a right in rem (right available against the world). The word 'tort' is derived from Latin 'tortum' meaning twisted or crooked conduct."
+    },
+    {
+      "q": "What is the difference between tort and crime?",
+      "a": "Tort is a civil wrong against an individual, remedy is compensation (damages). Crime is a wrong against society, remedy is punishment. Same act can be both tort and crime (e.g., assault). Tort suit by individual, crime prosecution by State. Standard of proof: tort - preponderance of probability, crime - beyond reasonable doubt."
+    },
+    {
+      "q": "Explain the maxim 'damnum sine injuria'.",
+      "a": "Damage without legal injury - where there is actual damage but no legal right is violated, no action lies. Example: Gloucester Grammar School Case - opening of competing school causing loss to existing school, but no tort as it's legitimate competition. Loss alone is not actionable without violation of legal right."
+    },
+    {
+      "q": "Explain the maxim 'injuria sine damno'.",
+      "a": "Legal injury without damage - violation of legal right even without actual harm is actionable. Example: Ashby v. White - denial of right to vote, no damage but action lies. Also seen in trespass - every unauthorized entry is actionable even without damage. Nominal damages awarded."
+    },
+    {
+      "q": "What is negligence in tort law?",
+      "a": "Breach of legal duty to take care resulting in damage undesired by defendant. Three essentials: (1) Duty of care owed to plaintiff, (2) Breach of that duty, (3) Consequential damage. Standard is reasonable person test. Established in Donoghue v. Stevenson (neighbor principle)."
+    },
+    {
+      "q": "Explain the doctrine of vicarious liability.",
+      "a": "Liability of one person for tort committed by another, despite being blameless themselves. Master liable for servant's tort if committed in course of employment. Based on principle: qui facit per alium facit per se (who acts through another acts himself). Requires employer-employee relationship and act within scope of employment."
+    },
+    {
+      "q": "What is the principle of res ipsa loquitur?",
+      "a": "'The thing speaks for itself' - when accident is such that it would not normally occur without negligence, negligence is presumed. Three conditions: (1) Event must be of kind that doesn't happen without negligence, (2) Instrumentality must be under defendant's control, (3) No contributory negligence by plaintiff. Burden shifts to defendant."
+    },
+    {
+      "q": "What is defamation and its types?",
+      "a": "Publication of false statement lowering reputation of person in estimation of right-thinking members of society. Two types: (1) Libel - defamation in permanent form (written, printed, film), actionable per se, (2) Slander - transient form (spoken words, gestures), requires proof of special damage except in specific cases (imputation of crime, unchastity, disease, professional incompetence)."
+    },
+    {
+      "q": "What are the defenses available in defamation?",
+      "a": "Five main defenses: (1) Truth/Justification - statement is true, (2) Fair comment - honest opinion on matter of public interest, (3) Privilege - absolute (parliamentary, judicial proceedings) or qualified (duty-interest situations), (4) Consent, (5) Apology and amends. Fair and accurate reporting of public proceedings also protected."
+    },
+    {
+      "q": "What is the tort of nuisance?",
+      "a": "Unlawful interference with person's use or enjoyment of land, or some right over it. Two types: (1) Public nuisance - affects public at large, criminal offense, individual needs special damage to sue, (2) Private nuisance - interference with enjoyment of land, only person with interest in land can sue. Must be substantial and unreasonable."
+    },
+    {
+      "q": "What is trespass to land?",
+      "a": "Direct, intentional (or negligent), and unauthorized entry upon land in possession of another. Actionable per se (without proof of damage). Includes: entry on land, remaining after permission withdrawn, placing objects on land, causing things to enter. Defense: license, necessity, legal authority. Possession, not ownership, is basis of action."
+    },
+    {
+      "q": "What is the doctrine of absolute liability?",
+      "a": "Established in M.C. Mehta v. Union of India (Oleum gas leak case, 1987). Stricter than Rylands v. Fletcher. If enterprise engaged in hazardous/inherently dangerous activity, absolutely liable for any harm - no exceptions or defenses. Liability is strict and absolute. No defense of act of God, stranger, plaintiff's default. Public interest demands no escape."
+    },
+    {
+      "q": "Explain the rule in Rylands v. Fletcher.",
+      "a": "Person who brings onto his land anything likely to do mischief if it escapes is strictly liable for all natural consequences of its escape. Four essentials: (1) Bringing onto land, (2) Non-natural use of land, (3) Escape, (4) Damage. Exceptions: plaintiff's default, act of God, act of third party, statutory authority, plaintiff's consent. Modified to absolute liability in India for hazardous industries."
+    },
+    {
+      "q": "What is the tort of assault and battery?",
+      "a": "Assault: Act causing reasonable apprehension of immediate use of force against plaintiff. Battery: Intentional and direct application of force to another person without lawful justification. Assault is attempted battery, battery is completed assault. Both actionable per se. Defense: consent, self-defense, defense of property, lawful authority, necessity, act of God."
+    },
+    {
+      "q": "What is the tort of false imprisonment?",
+      "a": "Total restraint of liberty of person for however short time without lawful justification. Essentials: (1) Total restraint, (2) Against will, (3) Unlawful. Not necessary plaintiff aware of restraint. No particular form required - can be by words, physical barriers, or threats. Defense: lawful arrest, consent, prevention of crime. Damages include compensation for loss of time, injury to feelings."
+    },
+    {
+      "q": "Explain nervous shock in tort law.",
+      "a": "Psychiatric injury caused by defendant's negligence. Earlier required physical impact, now recognized without physical injury. Plaintiff must be within zone of danger or close relationship with victim. Must be genuine psychiatric condition, not mere grief/fear. Established in Dulieu v. White. In India, recognized but requires medical evidence of psychiatric harm."
+    },
+    {
+      "q": "What is the doctrine of inevitable accident?",
+      "a": "An occurrence which could not be foreseen or prevented by exercise of reasonable care and caution. Not due to negligence. Complete defense in tort. Example: A driving carefully, bee enters car, loses control and hits B - inevitable accident if A took all reasonable care. Burden on defendant to prove it was truly inevitable."
+    },
+    {
+      "q": "What remedies are available in tort?",
+      "a": "Four main remedies: (1) Damages - compensatory (actual loss), nominal (right violated, no damage), exemplary/punitive (deter wrongdoer), (2) Injunction - prohibitory (restrains from doing) or mandatory (compels action), (3) Specific restitution of property, (4) Self-help - defense of person/property in emergency. Court determines appropriate remedy based on circumstances."
+    }
+  ]
+}

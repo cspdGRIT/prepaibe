@@ -1,0 +1,79 @@
+{
+  "topic_id": 7,
+  "topic_title": "Company Law",
+  "topic_subtitle": "Companies Act, 2013",
+  "flashcards": [
+    {
+      "q": "What is a company under the Companies Act, 2013?",
+      "a": "A company formed and registered under this Act or existing company. Key features: (1) Separate legal entity - distinct from members, (2) Perpetual succession - members change, company continues, (3) Common seal - official signature, (4) Transferable shares, (5) Limited liability - members liable only to extent of shares, (6) Capacity to sue and be sued. Artificial legal person created by law."
+    },
+    {
+      "q": "What are the different types of companies?",
+      "a": "By liability: (1) Limited by shares, (2) Limited by guarantee, (3) Unlimited. By access: (1) Public - can invite public for shares, minimum 7 members, (2) Private - cannot invite public, 2-200 members, restrictions on share transfer. By control: (1) Holding company, (2) Subsidiary company. By ownership: (1) Government company, (2) Foreign company. Special: One Person Company (OPC), Small company, Producer company."
+    },
+    {
+      "q": "What is the doctrine of ultra vires?",
+      "a": "Acts beyond powers conferred by Memorandum of Association are void and cannot be ratified even by unanimous consent. Company cannot do anything not authorized by objects clause. Purpose: protect shareholders and creditors. Types: (1) Ultra vires the company - beyond objects, void, (2) Ultra vires directors - beyond directors' authority, ratifiable by shareholders, (3) Ultra vires Articles - within MOA but violates AOA, ratifiable. Established in Ashbury Railway case."
+    },
+    {
+      "q": "What is the doctrine of indoor management (Turquand's rule)?",
+      "a": "Outsiders dealing with company entitled to assume that internal procedures have been complied with. Need not inquire into internal irregularities. Protection to third parties. Based on Royal British Bank v. Turquand. Exceptions: (1) Knowledge of irregularity, (2) Suspicion of fraud, (3) Forgery, (4) Acts wholly ultra vires, (5) Negligence. Balance between protecting company and protecting third parties."
+    },
+    {
+      "q": "What is the doctrine of lifting/piercing the corporate veil?",
+      "a": "Ignoring separate legal entity to see real persons behind company. Situations: (1) Fraud or improper conduct, (2) Company as agent/trustee, (3) Enemy character, (4) Avoiding legal obligations, (5) Company groups, (6) Tax evasion, (7) Statutory provisions (e.g., holding-subsidiary). Court looks at economic realities. Directors may be personally liable. Protects against abuse of corporate form."
+    },
+    {
+      "q": "What is the Memorandum of Association?",
+      "a": "Charter of company, defines relationship with outside world. Clauses: (1) Name - with limited, (2) Registered office - state, (3) Objects - main and ancillary, (4) Liability - limited/unlimited, (5) Capital - authorized capital, (6) Subscription - subscribers' details. MOA binds company and members. Ultra vires acts void. Can be altered only as per Section 13 with special resolution and Tribunal/Central Government approval where required."
+    },
+    {
+      "q": "What are the Articles of Association?",
+      "a": "Internal regulations governing company management. Contains rules for: (1) Share capital and rights, (2) Calls on shares, (3) Transfer and transmission of shares, (4) General meetings, (5) Directors - appointment, powers, remuneration, (6) Dividends, (7) Accounts and audit. Subordinate to MOA and Act. Table F provides model articles for companies limited by shares. Can be altered by special resolution (Section 14). Binds company and members."
+    },
+    {
+      "q": "What is the doctrine of constructive notice?",
+      "a": "Public documents (MOA, AOA) filed with Registrar deemed to give constructive notice to outsiders. Everyone presumed to know contents. Limits: (1) Does not apply to indoor management, (2) No duty to understand complex documents, (3) Does not apply to knowing actual irregularities. Related to ultra vires - outsiders deemed to know company's powers. Artificial presumption that everyone has read public documents."
+    },
+    {
+      "q": "What are the rights of shareholders?",
+      "a": "Eight main rights: (1) Right to attend and vote in meetings, (2) Right to transfer shares, (3) Right to dividend when declared, (4) Right to inspect registers, (5) Right to apply for winding up, (6) Right to receive annual reports, (7) Right to participate in surplus on winding up, (8) Right to file derivative suit. Rights depend on class of shares. Can be enforced by legal action."
+    },
+    {
+      "q": "What are the duties and liabilities of directors?",
+      "a": "Duties: (1) Duty of care, skill, diligence, (2) Act in good faith for company benefit, (3) Not to delegate improperly, (4) Not to make secret profits, (5) Avoid conflict of interest, (6) Attend board meetings, (7) Disclose interest. Liabilities: (1) Breach of duty, (2) Ultra vires acts, (3) Negligence, (4) Fraud, (5) Misfeasance, (6) Insider trading. Can be civilly/criminally liable. Indemnity available for acts in good faith."
+    },
+    {
+      "q": "What is the difference between a meeting and a resolution?",
+      "a": "Meeting: Assembly of members at specific time and place. Types: (1) Annual General Meeting - once a year, (2) Extraordinary General Meeting - as needed, (3) Board meeting - directors. Resolution: Decision taken at meeting. Types: (1) Ordinary - simple majority, (2) Special - 3/4th majority with 21 days notice, (3) Written resolution for private companies. Notice, quorum, voting procedures must follow Act and Articles."
+    },
+    {
+      "q": "What is oppression and mismanagement (Sections 241-246)?",
+      "a": "Oppression (Section 241): Affairs conducted in manner oppressive to members. Mismanagement: Affairs conducted in fraudulent/illegal manner prejudicing company/members/public interest. Remedies: NCLT can pass orders for: (1) Regulation of conduct, (2) Purchase of shares, (3) Reduction of capital, (4) Directors' removal, (5) Setting aside transactions. Application by 100+ members or 1/10th members."
+    },
+    {
+      "q": "What is a prospectus and its requirements?",
+      "a": "Document issued to public inviting deposits/subscription for securities. Must contain: (1) Company details, (2) Objects, (3) Directors' names, (4) Qualification shares, (5) Auditor details, (6) Underwriting, (7) Financial position, (8) Material contracts. Must be registered with ROC before issue. False statement makes directors liable. Red herring prospectus before final. Shelf prospectus for frequent issues. Abridged prospectus with application form."
+    },
+    {
+      "q": "What is the concept of dividend?",
+      "a": "Distribution of profits to shareholders. Types: (1) Interim - during financial year by Board, (2) Final - at AGM on recommendation. Declared out of: (1) Current year profits, (2) Accumulated profits, (3) Money provided by government/state. Cannot be paid from capital. No right to dividend unless declared. Unpaid dividend to be deposited in special account. After 7 years, transferred to Investor Education Fund."
+    },
+    {
+      "q": "What are the grounds for winding up of a company?",
+      "a": "Tribunal winding up grounds: (1) Special resolution passed, (2) Failed to commence business within 1 year, (3) Members fall below minimum, (4) Unable to pay debts, (5) Just and equitable, (6) Fraudulent affairs, (7) National interest. Voluntary winding up: (1) Members' voluntary - solvent company, (2) Creditors' voluntary - insolvent company. Process: petition, hearing, winding up order, Official Liquidator appointment, asset realization, debt payment, distribution."
+    },
+    {
+      "q": "What is the National Company Law Tribunal (NCLT)?",
+      "a": "Established under Companies Act, 2013. Jurisdiction: (1) Company law matters - oppression, mismanagement, compromises, mergers, (2) Insolvency and bankruptcy matters under IBC, 2016. Appellate authority: NCLAT (National Company Law Appellate Tribunal), further appeal to Supreme Court. Aims to speed up corporate dispute resolution. Quasi-judicial body. Members: judicial and technical. Benches across India."
+    },
+    {
+      "q": "What is a One Person Company (OPC)?",
+      "a": "Company with only one member (Section 2(62)). Introduced in 2013 Act. Features: (1) Single member holds all shares, (2) Minimum 1 director, (3) Must nominate another person in MOA, (4) Cannot convert into Section 8 company, (5) Cannot carry non-banking financial investment activities, (6) Relaxations in compliance. Liability limited. Natural person, Indian citizen, resident can form. Cannot hold more than one OPC."
+    },
+    {
+      "q": "What is the concept of corporate social responsibility (CSR)?",
+      "a": "Section 135: Companies with net worth ₹500 crore+, turnover ₹1000 crore+, or profit ₹5 crore+ must spend 2% of average net profits of preceding 3 years on CSR. Must constitute CSR Committee. Activities: education, healthcare, environment, poverty eradication, etc. Unspent amount to be disclosed with reasons. Penalties for non-compliance. Encourages companies to contribute to social welfare."
+    }
+  ]
+}

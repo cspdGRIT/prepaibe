@@ -1,0 +1,79 @@
+{
+  "topic_id": 10,
+  "topic_title": "Indian Evidence Act",
+  "topic_subtitle": "Evidence Act, 1872",
+  "flashcards": [
+    {
+      "q": "What is evidence under Section 3?",
+      "a": "Evidence means and includes: (1) All statements which court permits or requires to be made before it by witnesses (oral evidence), (2) All documents including electronic records produced for court's inspection (documentary evidence). Only legally admissible material can be called evidence. Must be relevant under Sections 5-55. Evidence is means to prove/disprove facts in issue or relevant facts."
+    },
+    {
+      "q": "What are facts in issue?",
+      "a": "Facts which parties assert or deny in pleadings and court must decide. Examples: in murder trial - whether accused caused death, whether with intention. Form subject matter of inquiry. Determined from pleadings. Must be proved directly. Distinguished from relevant facts (facts from which facts in issue can be inferred). Evidence directed to prove facts in issue or relevant facts."
+    },
+    {
+      "q": "What is the doctrine of relevancy (Sections 5-55)?",
+      "a": "Evidence of fact relevant if: (1) Forms part of same transaction as fact in issue, (2) Cause or effect of fact in issue, (3) Motive, preparation, or conduct, (4) Part of res gestae, (5) Proves identity, (6) Explains/introduces fact in issue. Relevant facts admissible unless excluded by specific provision. Irrelevant facts inadmissible except for: character in criminal cases, previous conviction, previous judgments."
+    },
+    {
+      "q": "What is the doctrine of res gestae (Section 6)?",
+      "a": "Facts forming part of same transaction as fact in issue are relevant even if occurred at different times/places. 'Things done' - spontaneous statements/acts so connected with fact in issue as to be part of it. Example: dying declaration, excited utterances. Must be contemporaneous, spontaneous, no time for fabrication. Extends to statements by co-conspirators. Exception to hearsay rule."
+    },
+    {
+      "q": "What is the best evidence rule?",
+      "a": "Original document must be produced as best evidence of its contents (Section 91). Secondary evidence admissible only when: (1) Original lost/destroyed, (2) Opponent refuses production after notice, (3) Original cannot be moved, (4) Public document, (5) Document is numerous. Secondary evidence: certified copies, copies by mechanical process, oral account by person who saw it. Primary evidence always preferred."
+    },
+    {
+      "q": "What is hearsay evidence?",
+      "a": "Statement not made by witness in court but told by someone else. Generally inadmissible as witness cannot be cross-examined on statement's truth. Exceptions in Sections 32-33: (1) Dying declaration, (2) Statements in course of business, (3) Against proprietary/pecuniary interest, (4) Public records, (5) Family tradition, (6) Maps/charts. Hearsay of hearsay never admissible. Direct evidence preferred."
+    },
+    {
+      "q": "What is a dying declaration (Section 32(1))?",
+      "a": "Statement by person as to cause of death or circumstances of transaction resulting in death. Admissible exception to hearsay. Rationale: nemo moritur presumitur mentiri (person about to die won't lie). Requirements: (1) Relating to cause of death, (2) Made in expectation of death (not necessary death imminent), (3) Maker must be competent witness. Can be sole basis for conviction if trustworthy, consistent, voluntary."
+    },
+    {
+      "q": "What is the burden of proof (Section 101)?",
+      "a": "Obligation to prove fact lies on person who asserts it, not who denies. 'He who asserts must prove'. Prosecution must prove guilt beyond reasonable doubt. Accused not required to prove innocence. Burden may shift based on presumptions (Sections 111-114). Two types: (1) Burden of proof - on party asserting fact, never shifts, (2) Burden of adducing evidence - tactical burden, may shift during trial."
+    },
+    {
+      "q": "What is the standard of proof in criminal vs civil cases?",
+      "a": "Criminal: Proof beyond reasonable doubt - high standard, prosecution must prove guilt so no reasonable doubt remains. Even slight doubt benefits accused. Civil: Preponderance of probability/balance of probability - lower standard, party must show claim more probable than not. 51% probability sufficient. Different standards reflect: criminal - liberty at stake, punishment severe; civil - property/money dispute, compensation only."
+    },
+    {
+      "q": "What are presumptions under the Evidence Act?",
+      "a": "Inference drawn from known facts. Three types: (1) May presume (Section 86-88) - court's discretion, (2) Shall presume (Section 79-85, 111-113) - mandatory unless disproved, (3) Conclusive proof (Sections 41, 112) - no evidence against allowed. Examples: Section 113A (dowry death), Section 113B (abetment of suicide), Section 114 (general presumptions). Shift burden of proof."
+    },
+    {
+      "q": "What is the doctrine of estoppel (Sections 115-117)?",
+      "a": "When person by declaration, act or omission induced another to believe something and act on it, cannot deny truth in suit/proceeding. Prevents person from going back on representation. Types: (1) Estoppel by record (Section 40-43), (2) Estoppel by deed, (3) Estoppel by conduct (Section 115), (4) Estoppel by negligence, (5) Promissory estoppel. Elements: representation, reliance, alteration of position, detriment."
+    },
+    {
+      "q": "What is privileged communication (Sections 126-129)?",
+      "a": "Communications exempt from disclosure. Four types: (1) Advocate-client privilege (Section 126) - professional communications cannot be disclosed, (2) Marital privilege (Section 122) - spouse cannot disclose communications during marriage, (3) State secrets (Section 123), (4) Official communication (Section 124). Purpose: protect confidential relationships. Exceptions: furtherance of crime, fraud. Privilege belongs to client/party, not advocate/professional."
+    },
+    {
+      "q": "What is examination of witnesses?",
+      "a": "Three stages: (1) Examination-in-chief (Section 137) - by party calling witness, leading questions not allowed except introductory matters, (2) Cross-examination (Section 137) - by adverse party, leading questions allowed, tests credibility, (3) Re-examination (Section 138) - by party calling witness, explains answers in cross-examination, leading questions not allowed. May recall witness with court permission. Hostile witness can be cross-examined by own party."
+    },
+    {
+      "q": "What are leading questions (Section 141)?",
+      "a": "Questions suggesting answer desired or assuming existence of disputed fact. Examples: 'Did you see accused hit victim?' (leading) vs 'What did you see?' (not leading). Not allowed in examination-in-chief and re-examination except: (1) Introductory matters, (2) Undisputed facts, (3) Hostile witness. Allowed in cross-examination to test witness. Court has discretion to allow in interests of justice."
+    },
+    {
+      "q": "What is the rule of confession (Sections 24-30)?",
+      "a": "Admission of guilt. Section 24: Confession caused by inducement, threat or promise is irrelevant. Section 25: Confession to police officer inadmissible. Section 26: Confession in police custody inadmissible unless before magistrate. Section 27: Information leading to discovery of fact admissible. Must be voluntary, free from influence. Retracted confession can be basis for conviction if voluntarily made and corroborated."
+    },
+    {
+      "q": "What is the difference between admission and confession?",
+      "a": "Admission (Section 17): Statement suggesting inference regarding fact in issue or relevant fact. Can be civil or criminal. Made by party or agent. May be express or implied. Need not admit guilt fully. Confession: Admission of guilt in criminal case. Must admit all ingredients of offense. Only by accused. Always express. Confession is species of admission. All confessions are admissions, but not all admissions are confessions."
+    },
+    {
+      "q": "What is the doctrine of judicial notice (Section 56-57)?",
+      "a": "Facts court takes as proved without requiring evidence. Section 56: Facts judicially noticeable need not be proved - laws in force, public acts of legislature/executive/judiciary, geographical divisions, public holidays. Section 57: Facts admitted need not be proved - formally admitted facts. Purpose: save time, avoid proving obvious facts. Court can refer to authoritative sources. No evidence required for facts of common knowledge."
+    },
+    {
+      "q": "What is circumstantial evidence?",
+      "a": "Evidence of circumstances from which facts in issue can be inferred. Indirect evidence. Example: fingerprints at scene, motive, opportunity. Conviction can be based solely on circumstantial evidence if: (1) Circumstances are complete, (2) Point to accused's guilt only, (3) Consistent only with guilt hypothesis, (4) Inconsistent with innocence. Chain must be complete, no missing links. Five-fold test established in Sharad Birdhichand Sarda case."
+    }
+  ]
+}

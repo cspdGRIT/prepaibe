@@ -1,0 +1,79 @@
+{
+  "topic_id": 6,
+  "topic_title": "Family Law",
+  "topic_subtitle": "Hindu Marriage Act, Muslim Law, Special Marriage Act",
+  "flashcards": [
+    {
+      "q": "What are the conditions for a valid Hindu marriage under Section 5?",
+      "a": "Seven conditions: (1) Neither party has spouse living, (2) Neither is incapable of valid consent due to unsoundness of mind, (3) Bridegroom 21+ years, bride 18+ years, (4) Not within prohibited degrees unless custom permits, (5) Not sapindas unless custom permits, (6) Both not idiots/lunatics. Violation makes marriage void (conditions 1,4,5) or voidable (conditions 2,3,6)."
+    },
+    {
+      "q": "What are the grounds for divorce under Hindu Marriage Act?",
+      "a": "Common grounds (both spouses): Adultery, cruelty, desertion (2 years), conversion, unsound mind, leprosy, venereal disease, renunciation, presumption of death (7 years). Additional for wife: Husband guilty of rape/sodomy/bestiality, wife repudiated before 15, cohabitation not resumed after maintenance decree. No-fault divorce: Living separately for 1 year (mutual consent) or 2 years (irretrievable breakdown)."
+    },
+    {
+      "q": "What is the difference between void and voidable marriage?",
+      "a": "Void marriage (Section 11): Marriage never existed, no decree needed, parties not husband-wife, children legitimate. Grounds: bigamy, prohibited degrees, sapinda relationship. Voidable marriage (Section 12): Valid till annulled, decree needed, parties treated as married till decree, children legitimate. Grounds: impotency, consent by force/fraud, pregnancy by another, unsound mind at marriage time."
+    },
+    {
+      "q": "What is restitution of conjugal rights under Section 9?",
+      "a": "If spouse withdraws from society of other without reasonable excuse, aggrieved spouse can petition for restitution. Court may decree restitution if satisfied. If not complied for 1 year, ground for divorce. Purpose: encourages reconciliation. Criticized as violating privacy and dignity. Constitutional validity upheld in Saroj Rani v. Sudarshan (1984) but with limitations on enforcement."
+    },
+    {
+      "q": "What is judicial separation under Section 10?",
+      "a": "Decree suspending cohabitation obligation on any ground available for divorce. Doesn't dissolve marriage but relieves from living together. May be granted as alternative to divorce or stepping stone. If cohabitation not resumed for 1+ year, ground for divorce. Allows cooling-off period. Either party can apply for dissolution of decree if satisfied they can live together."
+    },
+    {
+      "q": "What are the provisions for maintenance under Hindu Marriage Act?",
+      "a": "Section 24: Pendente lite maintenance - during proceedings. Section 25: Permanent alimony - after decree. Court considers: income, conduct, property, reasonable wants. Wife entitled unless she's unchaste/ceased to be Hindu. Husband entitled if wife has independent income/guilty of adultery/cruelty. Amount modifiable on changed circumstances. Gross sum or monthly payment."
+    },
+    {
+      "q": "Explain the concept of marriage under Muslim law.",
+      "a": "Marriage (nikah) is civil contract (aqd), not sacrament. Essentials: (1) Proposal (Ijab) and acceptance (Qubool), (2) Competent parties, (3) Free consent, (4) Witnesses (two male or one male + two female in Sunni law), (5) Consideration (dower/mehr). Can be oral or written. No registration required but advisable. Governed by personal law, not statute in India."
+    },
+    {
+      "q": "What is dower (mehr) in Muslim law?",
+      "a": "Sum of money or property wife entitled to from husband as consideration for marriage. Wife's absolute right. Types: (1) Prompt (muajjal) - payable on demand, (2) Deferred (muwajjal) - payable on dissolution. May be specified or proper (according to status). Non-payment: wife can refuse cohabitation, dower is debt recoverable from estate after husband's death. Cannot be waived before marriage."
+    },
+    {
+      "q": "What are the grounds for divorce in Muslim law?",
+      "a": "Husband's right: (1) Talaq - unilateral repudiation, (2) Ila - vow of continence, (3) Zihar - injurious comparison. Wife's right: (1) Talaq-e-tafweez - delegated divorce, (2) Khula - divorce by mutual consent with consideration, (3) Mubarat - mutual consent without consideration. Both: (4) Dissolution of Muslim Marriages Act, 1939 - cruelty, desertion, non-maintenance, impotency, insanity, leprosy, venereal disease, repudiation of puberty, apostasy."
+    },
+    {
+      "q": "What is the procedure for talaq under Muslim law?",
+      "a": "Three types: (1) Talaq-ul-sunnat - approved form, may be ahsan (one pronouncement in tuhr, no intercourse, iddat period) or hasan (three pronouncements in three tuhrs), (2) Talaq-ul-biddat - disapproved but valid, triple talaq in one sitting (now banned), (3) Talaq-ul-tafweez - delegated power. Must be pronounced by husband with intention. Muslim Women Act, 2019 made triple talaq void and criminal offense."
+    },
+    {
+      "q": "What is the concept of iddat in Muslim law?",
+      "a": "Waiting period after dissolution of marriage during which woman cannot remarry. Purposes: establish paternity, provide reconciliation opportunity, mourning. Period: (1) Divorce - three menstrual cycles or three lunar months, (2) Death of husband - four months ten days, (3) Pregnancy - till delivery. Woman entitled to maintenance during iddat. Violating iddat prohibition makes subsequent marriage irregular (fasid)."
+    },
+    {
+      "q": "What are the provisions of Special Marriage Act, 1954?",
+      "a": "Provides for civil marriage irrespective of religion. Applies to all Indian citizens. No ceremonies required, just declaration and registration. Conditions: neither party has spouse, sound mind, male 21+, female 18+, not within prohibited degrees. Notice to Marriage Officer, objections period (30 days), solemnization. Divorce grounds similar to Hindu Marriage Act. Secular alternative to personal laws."
+    },
+    {
+      "q": "What is the law regarding child custody?",
+      "a": "Hindu: Mother preferred for children below 5 (tender years), father generally preferred after. Court considers child's welfare paramount (Hindu Minority and Guardianship Act). Muslim: Mother's custody (hizanat) till son 7, daughter till puberty, father's custody thereafter. Guardians and Wards Act, 1890 - court appointed guardian considering child's welfare. Best interest of child is supreme consideration in all cases."
+    },
+    {
+      "q": "What is the Hindu Succession Act, 1956 about?",
+      "a": "Governs intestate succession among Hindus. Two types: (1) Intestate succession - Schedule I (heirs Class I, II) and Schedule II (agnates, cognates), (2) Testamentary succession - by will. 2005 Amendment: gave daughters equal coparcenary rights in ancestral property, removed distinction between married/unmarried daughters. Applies to Hindus, Buddhists, Jains, Sikhs. Order of succession modified to include women equally."
+    },
+    {
+      "q": "What is the concept of coparcenary in Hindu law?",
+      "a": "Special type of ownership in ancestral property. Members: sons, sons' sons, sons' sons' sons (traditionally). 2005 Amendment: daughters also coparceners by birth. Rights: birth right in property, no partition needed for claim, can demand partition. Property devolves by survivorship (not succession) till partition. Partition converts joint property to separate property. Mitakshara system concept, not in Dayabhaga."
+    },
+    {
+      "q": "What are the provisions for maintenance under Section 125 CrPC?",
+      "a": "Person of adequate means must maintain: (1) Wife unable to maintain herself, (2) Legitimate/illegitimate minor children, (3) Parents unable to maintain themselves, (4) Legitimate/illegitimate adult children (if disabled). ₹500-10000/month (no upper limit now). Wife disentitled if: living in adultery, refuses to live without sufficient reason, living separately by mutual consent. Summary proceeding. Secular provision, applies to all religions."
+    },
+    {
+      "q": "What is the Domestic Violence Act, 2005?",
+      "a": "Provides protection from domestic violence to women. Covers: physical, sexual, verbal, emotional, economic abuse. Applies to women in domestic relationship (wife, live-in partner, sister, mother, etc.). Reliefs: protection order, residence order, monetary relief, custody order, compensation. Magistrate can pass ex-parte orders. Violation is cognizable offense. Aggrieved person can file or Protection Officer can assist."
+    },
+    {
+      "q": "What is the concept of adoption under Hindu Adoptions and Maintenance Act, 1956?",
+      "a": "Legal process of taking another's child as one's own. Who can adopt: Hindu male (with wife's consent) or female (if unmarried/widowed/divorced). Who can be adopted: Hindu child below 15, unmarried, not already adopted. Effects: child severs ties with natural family, gets all rights in adoptive family. Must be actual giving and taking, intention to transfer, formalities observed. Registration not compulsory but advisable."
+    }
+  ]
+}

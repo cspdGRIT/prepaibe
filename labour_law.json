@@ -1,0 +1,71 @@
+{
+  "topic_id": 11,
+  "topic_title": "Labour & Industrial Law",
+  "topic_subtitle": "Industrial Disputes Act, Factories Act, Trade Unions Act",
+  "flashcards": [
+    {
+      "q": "What is an industrial dispute under Industrial Disputes Act, 1947?",
+      "a": "Dispute between employers and workmen, or between workmen and workmen, concerning: employment, non-employment, terms and conditions of employment. Must be connected with industrial matter. Individual dispute can become industrial if espoused by union or affects industry generally. Essential: must relate to industry, between defined parties, must affect industry. Not every dispute in industry is industrial dispute."
+    },
+    {
+      "q": "What are the machineries for settlement of industrial disputes?",
+      "a": "Five statutory machineries: (1) Works Committee - for establishment with 100+ workers, bipartite, for day-to-day issues, (2) Conciliation - voluntary, by Conciliation Officer or Board, (3) Voluntary Arbitration - consensual, binding award, (4) Court of Inquiry - fact-finding, not binding, (5) Labour Court/Industrial Tribunal/National Tribunal - adjudication, binding award. Conciliation before adjudication attempt mandatory."
+    },
+    {
+      "q": "What constitutes unfair labour practice?",
+      "a": "Practices listed in Schedule V of Industrial Disputes Act. Examples: (1) Interference with right to organize, (2) Discrimination for union membership, (3) Discharge for filing complaint, (4) Refusal to bargain collectively, (5) Lockout during conciliation, (6) Threatening workmen. By workmen: (1) Coercion to join union, (2) Violence, (3) Instigation of illegal strike. Unfair practices subject to penalties and industrial court proceedings."
+    },
+    {
+      "q": "What is the difference between strike and lockout?",
+      "a": "Strike (Section 2(q)): Cessation of work by body of workmen employed in industry acting in combination. Types: economic, political, sympathetic, general, sit-down. Lockout (Section 2(l)): Closing of place of employment, suspension of work, refusal to employ by employer. Strike: weapon of workmen, lockout: weapon of employer. Both regulated - illegal if: (1) Without notice, (2) During conciliation, (3) During award operation, (4) In public utility services without notice."
+    },
+    {
+      "q": "What are the conditions for valid retrenchment?",
+      "a": "Section 25F prescribes three conditions: (1) One month notice or wages in lieu, (2) Retrenchment compensation - 15 days wages for each completed year of service, (3) Notice to government. LIFO principle (last in, first out) must be followed. Retrenchment without compliance is invalid, entitled to reinstatement with back wages. Doesn't apply to: punishment dismissal, voluntary retirement, superannuation, non-renewal of contract, temporary closure."
+    },
+    {
+      "q": "What is closure and its legal requirements?",
+      "a": "Permanent closing of business. Section 25FFA: Industrial establishment with 100+ workers needs government permission for closure. Section 25FFF: Notice 60 days before closure. Compensation to workers same as retrenchment. Permanent, not temporary. Distinguished from lay-off (temporary). If approval not obtained or notice not given, closure illegal. Workmen entitled to compensation. Bona fide business reasons must exist."
+    },
+    {
+      "q": "What is lay-off under Industrial Disputes Act?",
+      "a": "Failure, refusal or inability of employer to give employment to workman due to: shortage of coal/power/raw materials, accumulation of stocks, breakdown of machinery, natural calamity. Temporary. Section 25C: Compensation during lay-off - 50% basic wages + DA for first 45 days in year. Worker must: present for work, not refuse alternative work. Lay-off above 50 days needs permission in establishments with 100+ workers."
+    },
+    {
+      "q": "What are the provisions of the Factories Act, 1948?",
+      "a": "Regulates working conditions in factories (10+ workers with power, 20+ without power). Provisions: (1) Health - cleanliness, ventilation, temperature, dust, lighting, drinking water, (2) Safety - fencing of machinery, work on near machinery, hoists, lifting machines, (3) Welfare - washing facilities, first aid, canteen, crèches, (4) Working hours - 48 hours/week, 9 hours/day, overtime, rest intervals, weekly holiday, annual leave. Chief Inspector enforces."
+    },
+    {
+      "q": "What is the Trade Unions Act, 1926?",
+      "a": "Provides for registration and regulation of trade unions. Registration: 7+ members, 10% of workers or 100 workers (whichever less). Benefits of registration: (1) Immunity from civil/criminal conspiracy, (2) Protection of funds, (3) Can own property, (4) Can enter contracts, (5) Members not liable for unlawful actions. Objects: regulating relations between workmen and employers, representation in disputes. Funds usage regulated. Amalgamation and dissolution provisions."
+    },
+    {
+      "q": "What constitutes workman under Industrial Disputes Act?",
+      "a": "Person employed in industry for manual, unskilled, skilled, technical, operational, clerical or supervisory work. Salary up to ₹10,000/month (now ₹18,000 under Code on Wages). Excludes: managerial/administrative employment, supervisory with wages above limit, employed in police, armed forces. Definition crucial as Act's protection limited to workmen. Includes apprentices. Question of fact determined by nature of work."
+    },
+    {
+      "q": "What is the principle of natural justice in industrial adjudication?",
+      "a": "Two principles: (1) Audi alteram partem - hear other side, no one condemned unheard, opportunity to defend, (2) Nemo judex in causa sua - no one judge in own cause, unbiased adjudication. In domestic inquiry: charge sheet, opportunity to explain, inquiry if denied, finding based on evidence. Violation renders dismissal invalid. Not necessary to cross-examine. Reasonable opportunity sufficient. Substantial compliance acceptable."
+    },
+    {
+      "q": "What is the Payment of Wages Act, 1936?",
+      "a": "Regulates payment of wages to employed persons. Applies to persons drawing wages up to ₹24,000/month. Provisions: (1) Wage payment timeframe - before 7th of next month, (2) Deductions - only as prescribed (fines, absence, damage, loans, cooperative societies, etc.), (3) Fines regulation - for acts/omissions specified in rules, (4) Mode of payment - cash or bank. Penalties for contravention. Claims for delayed/unauthorized deductions."
+    },
+    {
+      "q": "What is the Minimum Wages Act, 1948?",
+      "a": "Fixes minimum wages for scheduled employments. State/Central Government can fix: (1) Time rate, (2) Piece rate, (3) Guaranteed time rate, (4) Overtime rate. Revision every 5 years, review every 2 years. Covers minimum wage, overtime (double wage rate), payment obligations. Cannot contract below minimum wage. Purpose: prevent exploitation, ensure living wage. Advisory Board consultation mandatory. Violation punishable with imprisonment/fine."
+    },
+    {
+      "q": "What is the concept of collective bargaining?",
+      "a": "Negotiations between employer and organized workmen for: terms of employment, working conditions, settlement of disputes. Not statutory right but recognized practice. Good faith bargaining required. Reaches collective agreement. Benefits: (1) Industrial peace, (2) Worker participation, (3) Avoids litigation, (4) Flexible solutions. Recognition of union essential. In India, prevalent in organized sector. Voluntary process but encouraged by law."
+    },
+    {
+      "q": "What is the doctrine of 'last come, first go' (LIFO)?",
+      "a": "Principle for retrenchment - workers recruited last should be retrenched first. Ensures seniority protection. Exceptions: (1) Deadwood removal (habitual absentees, poor performers), (2) Skilled workers retention if essential. Not absolute rule but general principle. Applied unless employer shows valid reason for deviation. Balance between management discretion and worker protection. Prevents arbitrary retrenchment. Victoria Mills case established importance."
+    },
+    {
+      "q": "What are the provisions regarding women and child labour?",
+      "a": "Factories Act: (1) Women cannot work between 7 PM to 6 AM, (2) Crèche for 30+ women workers. Child Labour Act: Children below 14 cannot work in hazardous industries, 14-18 restricted working hours. Equal Remuneration Act: Equal pay for equal work regardless of gender. Maternity Benefit Act: 26 weeks paid leave (12 weeks for below 2 children). Employment of women in mines prohibited. Special provisions ensure protection and safety."
+    }
+  ]
+}

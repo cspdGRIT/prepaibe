@@ -1,0 +1,79 @@
+{
+  "topic_id": 5,
+  "topic_title": "Property Law",
+  "topic_subtitle": "Transfer of Property Act, 1882",
+  "flashcards": [
+    {
+      "q": "What is the Transfer of Property Act, 1882 about?",
+      "a": "Regulates transfer of property between living persons by act of parties. Covers immovable property transfers including sale, mortgage, lease, exchange, and gift. Does not apply to testamentary transfers (wills) or transfers by operation of law. Extends to whole of India except Jammu & Kashmir. Sections 1-4 extend to whole India, rest only where adopted."
+    },
+    {
+      "q": "What are the essentials of a valid transfer under TPA?",
+      "a": "Five essentials under Section 5: (1) Competent transferor - must be entitled to transfer, (2) Competent transferee - capable of holding property, (3) Transfer consideration - lawful consideration, (4) Transfer property - transferable property, (5) Transfer in permitted mode. Both parties must be competent to contract. Transfer must be of transferable interest."
+    },
+    {
+      "q": "What is the doctrine of lis pendens (Section 52)?",
+      "a": "Pending litigation - during pendency of suit relating to property rights, property cannot be transferred to affect rights of parties. Transfer not void but subject to final decree. Applies only to immovable property. Suit must be pending in court of competent jurisdiction. Transferee takes property subject to decree. Based on maxim: pendente lite nihil innovetur."
+    },
+    {
+      "q": "What is the doctrine of election (Section 35)?",
+      "a": "When person receives benefit under instrument, must elect to confirm or dissent from every other provision. Cannot approbate and reprobate. Example: A transfers A's property to B and B's property to C - B must elect to take under instrument and give up own property, or reject benefit. Must elect within reasonable time. Once elected, binding."
+    },
+    {
+      "q": "Explain sale of immovable property (Section 54).",
+      "a": "Transfer of ownership for price paid or promised. Essentials: (1) Transfer of ownership, (2) For consideration (price), (3) In money. Immovable property above ₹100 must be by registered document. Below ₹100 may be oral or by registered document. Possession transferred on registration unless otherwise agreed. Differs from agreement to sell (no transfer of ownership)."
+    },
+    {
+      "q": "What is a mortgage and its types?",
+      "a": "Transfer of interest in specific immovable property as security for loan (Section 58). Six types: (1) Simple mortgage - personal liability, no possession transfer, (2) Mortgage by conditional sale - sale on condition, (3) Usufructuary - possession to mortgagee, receives rents/profits, (4) English mortgage - absolute transfer with proviso to retransfer, (5) Mortgage by deposit of title deeds (equitable), (6) Anomalous - combination."
+    },
+    {
+      "q": "What are the rights of a mortgagor?",
+      "a": "Section 60: (1) Right to redeem - pay debt and get property back, (2) Right to inspection - inspect documents in mortgagee's possession, (3) Right to accession - improvements/accessions, (4) Right to lease - till redemption notice, (5) Suit for accounts - if property in mortgagee's possession. Redemption right continues till foreclosure decree. Cannot be clogged."
+    },
+    {
+      "q": "What are the rights of a mortgagee?",
+      "a": "Section 69: (1) Right to sue for debt, (2) Right to foreclosure - terminate redemption right, (3) Right to sale - decree for sale of property, (4) Right to possession - in some mortgages, (5) Right to appoint receiver, (6) Right to sue for insurance money, (7) Right to accession, (8) Right to waste - prevent waste. Can enforce by suit."
+    },
+    {
+      "q": "What is a lease under Section 105?",
+      "a": "Transfer of right to enjoy immovable property for certain time, express or implied, in consideration of price (premium/rent). Lessor retains ownership, lessee gets possession. Essentials: (1) Two parties, (2) Immovable property, (3) Transfer of right to enjoy, (4) For certain/ascertainable period, (5) In consideration of price. Lease above one year must be registered."
+    },
+    {
+      "q": "What is the rule against perpetuity (Section 14)?",
+      "a": "No transfer can limit property vesting beyond life/lives in being plus 18 years after. Prevents tying up property indefinitely. Applies to conditional transfers, future interests. Example: 'To A for life, then to A's unborn grandchildren' - void if grandchildren not born within period. Ensures property remains in commerce. Doesn't apply to public charities."
+    },
+    {
+      "q": "What is the doctrine of part performance (Section 53A)?",
+      "a": "If transferee has taken possession and performed obligations under contract for immovable property transfer, transferor cannot enforce non-compliance with registration requirement. Equity protects part-performer. Essentials: (1) Contract in writing, (2) Signed by party to be charged, (3) Transferee taken possession, (4) Performed obligations. Prevents fraud, not creates title."
+    },
+    {
+      "q": "Explain the doctrine of feeding the grant by estoppel (Section 43).",
+      "a": "When person transfers property he doesn't own but later acquires title, transferee automatically gets title. Transfer operates on property subsequently acquired. Estops transferor from denying title. Applies only if transfer for consideration and transferee acts believing transferor had title. Based on principle that one cannot take advantage of own wrong."
+    },
+    {
+      "q": "What is the difference between sale and agreement to sell?",
+      "a": "Sale (Section 54): Transfer of ownership, registered document, breach gives right to specific performance or damages, transferee can sue third party. Agreement to sell: Promise to transfer in future, need not be registered, creates contractual right only, breach gives damages not specific performance unless equity permits, transferee has no right against third party. Sale is executed, agreement is executory."
+    },
+    {
+      "q": "What is a gift under Section 122?",
+      "a": "Transfer of existing movable/immovable property without consideration. Essentials: (1) Voluntary transfer, (2) Without consideration, (3) By donor to donee, (4) Accepted during donor's life. Immovable gift must be by registered document. Movable gift by delivery. Donor must be competent. Can be revoked only in specific circumstances (fraud, undue influence, non-fulfillment of condition)."
+    },
+    {
+      "q": "What is the doctrine of marshalling and contribution?",
+      "a": "Marshalling (Section 81): If creditor has two funds for debt recovery, and another creditor has only one, first creditor should seek satisfaction from fund not available to second creditor. Contribution (Section 82): Co-mortgagees or co-sureties must contribute equally to debt payment. One paying more than share can recover proportionate amount from others. Ensures equity among creditors/debtors."
+    },
+    {
+      "q": "What is the doctrine of tacking (Section 93)?",
+      "a": "Mortgagee with two or more mortgages can combine them to get priority over intermediate mortgagee. Conditions: (1) Mortgages by same mortgagor, (2) Same mortgagee, (3) No notice of intermediate mortgage when second mortgage created. Allows postponement of intermediate incumbrance. Example: A mortgages to B, then to C, then to B again - B can tack and get priority over C if no notice."
+    },
+    {
+      "q": "Explain the concept of lease distinguished from license.",
+      "a": "Lease: Transfer of interest in property, creates estate, assignable, gives exclusive possession, consideration is rent, breach gives action for recovery of rent. License: Permission to do something on property, no interest created, personal right, not assignable, no exclusive possession, consideration not essential, revocable. License doesn't create property right, just prevents trespass action."
+    },
+    {
+      "q": "What is the law regarding transfer to unborn person (Section 13)?",
+      "a": "Direct transfer to unborn person void. But can transfer to living person with direction to transfer to unborn person on their birth if: (1) Interest created for unborn person's benefit, (2) Intermediate interest created for living person. Example: 'To A for life, then to B's unborn child' - valid if A living. Multiple generations allowed if vesting period not violated. Ultimate beneficiary must be in existence when interest vests."
+    }
+  ]
+}

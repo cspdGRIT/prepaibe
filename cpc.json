@@ -1,0 +1,79 @@
+{
+  "topic_id": 9,
+  "topic_title": "Civil Procedure Code",
+  "topic_subtitle": "CPC, 1908",
+  "flashcards": [
+    {
+      "q": "What is a suit under CPC?",
+      "a": "Civil proceeding instituted by presentation of plaint. Essentials: (1) Civil nature, (2) Instituted in civil court, (3) In prescribed manner. Doesn't include criminal proceedings, appeals, applications, executions. Suit commences when plaint is presented to proper officer. Section 26 prohibits courts from proceeding with suit except as provided by CPC or other law."
+    },
+    {
+      "q": "What is the doctrine of res judicata (Section 11)?",
+      "a": "Matter adjudged - once matter directly and substantially in issue has been decided between parties by competent court, cannot be re-agitated. Six conditions: (1) Issue directly and substantially in issue, (2) Final decision on merits, (3) Between same parties or privies, (4) Same title, (5) Heard and decided by competent court, (6) Matter ought to have been made ground of attack. Prevents multiplicity of litigation."
+    },
+    {
+      "q": "What is res sub judice (Section 10)?",
+      "a": "Stay of suit when matter directly and substantially in issue is already pending in previously instituted suit between same parties. Court must stay subsequent suit. Purpose: avoid conflicting judgments, prevent abuse of process. Conditions: (1) Same parties, (2) Same matter, (3) Same court or court of competent jurisdiction, (4) Previous suit pending. Different from res judicata (applies to pending suits, not decided suits)."
+    },
+    {
+      "q": "What is jurisdiction and its types?",
+      "a": "Authority of court to decide cases. Three types: (1) Territorial/Local - area within which court can exercise powers (Sections 15-20), (2) Pecuniary - money value of subject matter, (3) Subject matter - nature of case court can try. Jurisdiction determined at suit filing, not amendment. Lack of jurisdiction makes proceedings void. Cannot be waived except territorial jurisdiction (if defendant appears without objection)."
+    },
+    {
+      "q": "What is a plaint and its contents?",
+      "a": "Document by which suit is instituted (Order VII Rule 1). Must contain: (1) Court name, (2) Plaintiff and defendant names/addresses, (3) Facts constituting cause of action and when arose, (4) Facts showing court has jurisdiction, (5) Relief claimed, (6) Value for court fees and jurisdiction, (7) Verification. Plaintiff must sign and verify. Rejected if: no cause of action, barred by limitation, undervalued, res judicata."
+    },
+    {
+      "q": "What are the grounds for rejection of plaint (Order VII Rule 11)?",
+      "a": "Seven grounds: (1) No cause of action, (2) Relief undervalued, (3) Insufficiently stamped, (4) Barred by limitation, (5) Not filed in duplicate, (6) Barred by res judicata, (7) Does not disclose cause of action. Rejection without trial. Plaintiff can file fresh suit if limitation not expired. Discretionary but reviewable. Different from return of plaint (want of jurisdiction)."
+    },
+    {
+      "q": "What is a written statement (Order VIII)?",
+      "a": "Defendant's pleading in response to plaint. Must file within 30 days (extendable to 90 days max). Must contain: (1) Admission/denial of plaintiff's allegations, (2) New facts by way of defense, (3) Set-off or counter-claim if any. Non-filing: court may pass judgment or allow defendant to contest without written statement. Failure to specifically deny means admission. Must verify like plaint."
+    },
+    {
+      "q": "What is the concept of amendment of pleadings (Order VI Rule 17)?",
+      "a": "Court may allow amendment at any stage for determining real questions in controversy. Conditions: (1) For purpose of determining real questions, (2) Not change nature of case, (3) No new cause of action after limitation. Liberal approach adopted. Can amend even after decree to correct clerical errors. Amendment may necessitate consequential orders regarding costs, witnesses. Court has wide discretion."
+    },
+    {
+      "q": "What are temporary injunctions (Order XXXIX)?",
+      "a": "Preventive relief granted during suit pendency. Two types: (1) Status quo - maintain existing situation, (2) Prohibitory - restrain defendant from action. Granted when: (1) Prima facie case, (2) Balance of convenience favors plaintiff, (3) Irreparable loss if not granted. Requirements: notice to defendant (except urgent cases), security if required. Disobedience is contempt. Continues till suit disposal or court orders otherwise."
+    },
+    {
+      "q": "What is discovery and inspection (Order XI)?",
+      "a": "Discovery: Disclosure of documents in party's possession relevant to suit. Inspection: Physical examination of documents after discovery. Purpose: ascertain truth, narrow issues, avoid surprise. Party can apply for discovery by affidavit listing documents. Court may order production. Privilege applies to confidential communications, self-incriminating documents. Non-compliance may result in adverse inference or striking out pleadings."
+    },
+    {
+      "q": "What is a decree and its types (Section 2(2))?",
+      "a": "Formal expression of adjudication conclusively determining rights of parties regarding matters in controversy. Three types: (1) Preliminary - decides preliminary issue (e.g., jurisdiction), (2) Final - completely disposes suit, (3) Partly preliminary, partly final. Must contain: (1) Number and title of suit, (2) Particulars of claim, (3) Findings and reasons, (4) Relief granted/refused. Executable unless otherwise provided. Appealable if specifically allowed."
+    },
+    {
+      "q": "What is a judgment (Section 2(9))?",
+      "a": "Statement of grounds of decree or order. Contains: (1) Points for determination, (2) Decision on each point, (3) Reasons for decision. Must be pronounced in open court. Given either at hearing conclusion or later date. Must be dated and signed by judge. Judgment + decree = complete decision. Judgment alone not executable, decree makes it enforceable. Can correct clerical errors via Section 152."
+    },
+    {
+      "q": "What are the modes of execution of decree (Order XXI)?",
+      "a": "Six modes: (1) Delivery of possession - of movable/immovable property, (2) Attachment and sale - of property, (3) Arrest and detention - of judgment debtor (abolished for women), (4) Appointment of receiver, (5) Attachment of salary/allowances, (6) Other modes prescribed by court. Application must be filed within 12 years. Execution by court which passed decree or transferred to another court. Can be resisted by filing objections."
+    },
+    {
+      "q": "What is the difference between appeal and revision?",
+      "a": "Appeal (Sections 96-112): Challenge to decree or order, creature of statute, right exists only if provided by law, decided by higher court, can be on facts and law, limited grounds for interference. Revision (Section 115): Challenge to jurisdiction or legal error, inherent power, available against subordinate court proceedings, only on questions of jurisdiction or legal error, cannot reappreciate evidence. Both have limitation periods."
+    },
+    {
+      "q": "What is the doctrine of constructive res judicata?",
+      "a": "Matters which ought to have been made ground of attack in previous suit cannot be raised in subsequent suit. Extends res judicata to matters not actually decided but should have been. Based on principle that party must bring forward whole case at once. Conditions: (1) Could have been raised, (2) Should have been raised as prudent person, (3) Issue directly and substantially relates to subject matter. Prevents piecemeal litigation."
+    },
+    {
+      "q": "What is the concept of set-off and counter-claim?",
+      "a": "Set-off (Rule 6): Defendant's claim which is ascertained sum or capable of calculation, against plaintiff's claim in same suit. Mutual debts. Counter-claim (Rule 6A): Independent claim defendant could have sued plaintiff for. Creates cross-suit. Set-off: limited to ascertained sums, adjusts plaintiff's claim. Counter-claim: can exceed plaintiff's claim, any nature. Both tried with main suit. Failure to claim set-off bars independent suit."
+    },
+    {
+      "q": "What is summary suit procedure (Order XXXVII)?",
+      "a": "Expeditious procedure for recovery of liquidated demands. Applies to: (1) Recovery on bill of exchange, promissory note, hundis, (2) Recovery from guarantor. Procedure: plaint, defendant given leave to defend if prima facie defense shown, otherwise decree. No written statement if leave not granted. Speedier than regular suit. Court may convert to regular suit. Purpose: quick recovery of admitted debts."
+    },
+    {
+      "q": "What is the concept of inherent powers (Section 151)?",
+      "a": "Court has inherent powers to make orders necessary for: (1) Ends of justice, (2) Prevent abuse of process. Not limited by other provisions. Examples: recall witness, order inspection, correction of errors. Cannot override express provisions. Used when no specific provision exists. Discretionary but reviewable. Must be exercised judicially. Common instances: quashing frivolous suits, preventing multiplicity, recalling orders to prevent injustice."
+    }
+  ]
+}

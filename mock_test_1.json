@@ -1,0 +1,1310 @@
+{
+  "test_id": 1,
+  "test_name": "AIBE Mock Test 1",
+  "total_questions": 100,
+  "duration_minutes": 210,
+  "passing_marks": 40,
+  "instructions": "Each question carries 1 mark. There is no negative marking. Choose the best answer.",
+  "questions": [
+    {
+      "id": 1,
+      "subject": "Contract Law",
+      "question": "What is the essential element for a valid contract under Section 10?",
+      "options": [
+        "Free consent of parties competent to contract",
+        "Lawful consideration and object",
+        "Agreement not expressly declared void",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "Section 10 requires all mentioned elements for a valid contract."
+    },
+    {
+      "id": 2,
+      "subject": "Contract Law",
+      "question": "Under which section is consideration defined in the Indian Contract Act?",
+      "options": [
+        "Section 2(a)",
+        "Section 2(d)",
+        "Section 10",
+        "Section 25"
+      ],
+      "correct": 1,
+      "explanation": "Section 2(d) defines consideration as something in return for the promise."
+    },
+    {
+      "id": 3,
+      "subject": "Constitutional Law",
+      "question": "Which Article of the Constitution guarantees Right to Equality?",
+      "options": [
+        "Article 12",
+        "Article 14",
+        "Article 19",
+        "Article 21"
+      ],
+      "correct": 1,
+      "explanation": "Article 14 guarantees equality before law and equal protection of laws."
+    },
+    {
+      "id": 4,
+      "subject": "Constitutional Law",
+      "question": "The doctrine of Basic Structure was established in which case?",
+      "options": [
+        "Golaknath v. State of Punjab",
+        "Kesavananda Bharati v. State of Kerala",
+        "Maneka Gandhi v. Union of India",
+        "Minerva Mills v. Union of India"
+      ],
+      "correct": 1,
+      "explanation": "Kesavananda Bharati case (1973) established the Basic Structure doctrine."
+    },
+    {
+      "id": 5,
+      "subject": "Criminal Law",
+      "question": "Murder is defined under which section of IPC?",
+      "options": [
+        "Section 299",
+        "Section 300",
+        "Section 302",
+        "Section 304"
+      ],
+      "correct": 1,
+      "explanation": "Section 300 IPC defines murder; Section 302 prescribes punishment."
+    },
+    {
+      "id": 6,
+      "subject": "Criminal Law",
+      "question": "What is the maximum period for which police can detain a person without producing before Magistrate?",
+      "options": [
+        "12 hours",
+        "24 hours",
+        "48 hours",
+        "72 hours"
+      ],
+      "correct": 1,
+      "explanation": "Section 57 CrPC requires production within 24 hours excluding journey time."
+    },
+    {
+      "id": 7,
+      "subject": "Contract Law",
+      "question": "Agreement in restraint of trade is:",
+      "options": [
+        "Valid",
+        "Void",
+        "Voidable",
+        "Illegal"
+      ],
+      "correct": 1,
+      "explanation": "Section 27 declares agreements in restraint of trade as void."
+    },
+    {
+      "id": 8,
+      "subject": "Torts",
+      "question": "The maxim 'Res ipsa loquitur' means:",
+      "options": [
+        "The thing done",
+        "The thing speaks for itself",
+        "The matter is closed",
+        "Let the buyer beware"
+      ],
+      "correct": 1,
+      "explanation": "Res ipsa loquitur means the thing speaks for itself, used in negligence cases."
+    },
+    {
+      "id": 9,
+      "subject": "Property Law",
+      "question": "Transfer of Property Act was enacted in:",
+      "options": [
+        "1872",
+        "1882",
+        "1908",
+        "1923"
+      ],
+      "correct": 1,
+      "explanation": "The Transfer of Property Act was enacted in 1882."
+    },
+    {
+      "id": 10,
+      "subject": "Property Law",
+      "question": "Doctrine of lis pendens is contained in which section of TPA?",
+      "options": [
+        "Section 43",
+        "Section 52",
+        "Section 54",
+        "Section 58"
+      ],
+      "correct": 1,
+      "explanation": "Section 52 deals with doctrine of lis pendens (pending litigation)."
+    },
+    {
+      "id": 11,
+      "subject": "Family Law",
+      "question": "Minimum age for marriage of bride under Hindu Marriage Act is:",
+      "options": [
+        "16 years",
+        "18 years",
+        "21 years",
+        "No minimum age"
+      ],
+      "correct": 1,
+      "explanation": "Section 5(iii) mandates bride must be 18+ years (recently amended from proposed 21)."
+    },
+    {
+      "id": 12,
+      "subject": "Company Law",
+      "question": "Companies Act 2013 came into force on:",
+      "options": [
+        "1st April 2013",
+        "12th September 2013",
+        "1st April 2014",
+        "31st March 2014"
+      ],
+      "correct": 2,
+      "explanation": "Companies Act 2013 came into force on 1st April 2014 (notified provisions)."
+    },
+    {
+      "id": 13,
+      "subject": "Professional Ethics",
+      "question": "Advocates Act was enacted in:",
+      "options": [
+        "1947",
+        "1956",
+        "1961",
+        "1969"
+      ],
+      "correct": 2,
+      "explanation": "The Advocates Act, 1961 regulates legal profession in India."
+    },
+    {
+      "id": 14,
+      "subject": "CPC",
+      "question": "Doctrine of res judicata is contained in:",
+      "options": [
+        "Section 10 CPC",
+        "Section 11 CPC",
+        "Order 7 Rule 11",
+        "Section 100 CPC"
+      ],
+      "correct": 1,
+      "explanation": "Section 11 CPC deals with res judicata (matter already adjudicated)."
+    },
+    {
+      "id": 15,
+      "subject": "Evidence Act",
+      "question": "Indian Evidence Act was enacted in:",
+      "options": [
+        "1860",
+        "1872",
+        "1882",
+        "1908"
+      ],
+      "correct": 1,
+      "explanation": "The Indian Evidence Act, 1872 governs law of evidence."
+    },
+    {
+      "id": 16,
+      "subject": "Contract Law",
+      "question": "Quantum meruit means:",
+      "options": [
+        "As much as earned",
+        "Something for something",
+        "Let the buyer beware",
+        "Buyer must examine"
+      ],
+      "correct": 0,
+      "explanation": "Quantum meruit means 'as much as earned' - claim for work done."
+    },
+    {
+      "id": 17,
+      "subject": "Constitutional Law",
+      "question": "Fundamental Duties are contained in:",
+      "options": [
+        "Part III",
+        "Part IVA",
+        "Part V",
+        "Schedule VII"
+      ],
+      "correct": 1,
+      "explanation": "Part IVA (Article 51A) contains Fundamental Duties, added by 42nd Amendment."
+    },
+    {
+      "id": 18,
+      "subject": "Criminal Law",
+      "question": "Cognizable offense means:",
+      "options": [
+        "Police can arrest without warrant",
+        "Police needs warrant to arrest",
+        "Non-bailable offense",
+        "Compoundable offense"
+      ],
+      "correct": 0,
+      "explanation": "Cognizable offense allows police to arrest without warrant."
+    },
+    {
+      "id": 19,
+      "subject": "Torts",
+      "question": "In which case was absolute liability principle established?",
+      "options": [
+        "Rylands v. Fletcher",
+        "Donoghue v. Stevenson",
+        "M.C. Mehta v. Union of India",
+        "Ashby v. White"
+      ],
+      "correct": 2,
+      "explanation": "M.C. Mehta case (Oleum gas leak, 1987) established absolute liability in India."
+    },
+    {
+      "id": 20,
+      "subject": "Property Law",
+      "question": "How many types of mortgages are recognized under TPA?",
+      "options": [
+        "Three",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correct": 2,
+      "explanation": "Section 58 recognizes six types of mortgages."
+    },
+    {
+      "id": 21,
+      "subject": "Family Law",
+      "question": "Triple talaq was made void and criminal offense in:",
+      "options": [
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "correct": 2,
+      "explanation": "Muslim Women (Protection of Rights on Marriage) Act, 2019 banned triple talaq."
+    },
+    {
+      "id": 22,
+      "subject": "Company Law",
+      "question": "Doctrine of ultra vires was established in:",
+      "options": [
+        "Salomon v. Salomon",
+        "Ashbury Railway v. Riche",
+        "Foss v. Harbottle",
+        "Lee v. Lee's Air Farming"
+      ],
+      "correct": 1,
+      "explanation": "Ashbury Railway case established doctrine of ultra vires."
+    },
+    {
+      "id": 23,
+      "subject": "Professional Ethics",
+      "question": "Bar Council of India was established under:",
+      "options": [
+        "Constitution of India",
+        "Advocates Act, 1961",
+        "BCI Rules",
+        "Legal Practitioners Act"
+      ],
+      "correct": 1,
+      "explanation": "BCI was established under Advocates Act, 1961."
+    },
+    {
+      "id": 24,
+      "subject": "CPC",
+      "question": "A suit must be filed where:",
+      "options": [
+        "Plaintiff resides",
+        "Defendant resides or cause of action arose",
+        "Property is situated",
+        "Court of highest jurisdiction"
+      ],
+      "correct": 1,
+      "explanation": "Section 20 CPC - suit filed where defendant resides or cause of action arose."
+    },
+    {
+      "id": 25,
+      "subject": "Evidence Act",
+      "question": "Dying declaration is covered under:",
+      "options": [
+        "Section 6",
+        "Section 32",
+        "Section 45",
+        "Section 115"
+      ],
+      "correct": 1,
+      "explanation": "Section 32(1) deals with dying declarations."
+    },
+    {
+      "id": 26,
+      "subject": "Contract Law",
+      "question": "Agreement without consideration is:",
+      "options": [
+        "Valid",
+        "Void",
+        "Voidable",
+        "Valid with exceptions"
+      ],
+      "correct": 3,
+      "explanation": "Section 25 - void but has three exceptions (love and affection, past voluntary service, time-barred debt)."
+    },
+    {
+      "id": 27,
+      "subject": "Constitutional Law",
+      "question": "Right to Constitutional Remedies is under:",
+      "options": [
+        "Article 19",
+        "Article 21",
+        "Article 32",
+        "Article 226"
+      ],
+      "correct": 2,
+      "explanation": "Article 32 provides right to move Supreme Court for enforcement of fundamental rights."
+    },
+    {
+      "id": 28,
+      "subject": "Criminal Law",
+      "question": "FIR is recorded under which section?",
+      "options": [
+        "Section 154 CrPC",
+        "Section 156 CrPC",
+        "Section 161 CrPC",
+        "Section 173 CrPC"
+      ],
+      "correct": 0,
+      "explanation": "Section 154 CrPC deals with First Information Report."
+    },
+    {
+      "id": 29,
+      "subject": "Torts",
+      "question": "Defamation in permanent form is called:",
+      "options": [
+        "Slander",
+        "Libel",
+        "Both",
+        "Neither"
+      ],
+      "correct": 1,
+      "explanation": "Libel is defamation in permanent form; slander is transient."
+    },
+    {
+      "id": 30,
+      "subject": "Property Law",
+      "question": "Sale of immovable property above Rs. 100 must be:",
+      "options": [
+        "Oral",
+        "Written",
+        "Registered",
+        "Witnessed"
+      ],
+      "correct": 2,
+      "explanation": "Section 54 TPA - sale above Rs. 100 must be by registered document."
+    },
+    {
+      "id": 31,
+      "subject": "Family Law",
+      "question": "Hindu Succession Act was enacted in:",
+      "options": [
+        "1950",
+        "1955",
+        "1956",
+        "1961"
+      ],
+      "correct": 2,
+      "explanation": "Hindu Succession Act, 1956 governs intestate succession among Hindus."
+    },
+    {
+      "id": 32,
+      "subject": "Company Law",
+      "question": "Minimum number of members in private company:",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Seven"
+      ],
+      "correct": 1,
+      "explanation": "Private company requires minimum 2 members (OPC is exception with 1)."
+    },
+    {
+      "id": 33,
+      "subject": "Professional Ethics",
+      "question": "Advocate-client privilege is protected under:",
+      "options": [
+        "Advocates Act",
+        "Evidence Act Section 126",
+        "BCI Rules",
+        "Constitution"
+      ],
+      "correct": 1,
+      "explanation": "Section 126 Evidence Act protects attorney-client privilege."
+    },
+    {
+      "id": 34,
+      "subject": "CPC",
+      "question": "Rejection of plaint is governed by:",
+      "options": [
+        "Order 6",
+        "Order 7 Rule 11",
+        "Order 8",
+        "Section 96"
+      ],
+      "correct": 1,
+      "explanation": "Order VII Rule 11 CPC provides grounds for rejection of plaint."
+    },
+    {
+      "id": 35,
+      "subject": "Evidence Act",
+      "question": "Burden of proof lies on:",
+      "options": [
+        "Person who denies",
+        "Person who asserts",
+        "Court",
+        "Both parties equally"
+      ],
+      "correct": 1,
+      "explanation": "Section 101 - burden of proof on person who asserts, not who denies."
+    },
+    {
+      "id": 36,
+      "subject": "Contract Law",
+      "question": "Contract by minor is:",
+      "options": [
+        "Valid",
+        "Void ab initio",
+        "Voidable at minor's option",
+        "Valid if ratified on attaining majority"
+      ],
+      "correct": 1,
+      "explanation": "Contract by minor is void ab initio (Mohori Bibee case)."
+    },
+    {
+      "id": 37,
+      "subject": "Constitutional Law",
+      "question": "Maximum strength of Lok Sabha:",
+      "options": [
+        "545",
+        "550",
+        "552",
+        "555"
+      ],
+      "correct": 2,
+      "explanation": "Article 81 - Lok Sabha can have maximum 552 members (530 states + 20 UTs + 2 Anglo-Indian)."
+    },
+    {
+      "id": 38,
+      "subject": "Criminal Law",
+      "question": "Anticipatory bail is provided under:",
+      "options": [
+        "Section 436 CrPC",
+        "Section 437 CrPC",
+        "Section 438 CrPC",
+        "Section 439 CrPC"
+      ],
+      "correct": 2,
+      "explanation": "Section 438 CrPC provides for anticipatory bail."
+    },
+    {
+      "id": 39,
+      "subject": "Torts",
+      "question": "Vicarious liability means:",
+      "options": [
+        "Liability for own acts",
+        "Liability for acts of others",
+        "Strict liability",
+        "No liability"
+      ],
+      "correct": 1,
+      "explanation": "Vicarious liability is liability for wrongful acts of another (e.g., master for servant)."
+    },
+    {
+      "id": 40,
+      "subject": "Property Law",
+      "question": "Doctrine of feeding the grant by estoppel is in:",
+      "options": [
+        "Section 35 TPA",
+        "Section 43 TPA",
+        "Section 53A TPA",
+        "Section 54 TPA"
+      ],
+      "correct": 1,
+      "explanation": "Section 43 TPA deals with doctrine of feeding the grant by estoppel."
+    },
+    {
+      "id": 41,
+      "subject": "Family Law",
+      "question": "Restitution of conjugal rights is under:",
+      "options": [
+        "Section 9 HMA",
+        "Section 10 HMA",
+        "Section 13 HMA",
+        "Section 25 HMA"
+      ],
+      "correct": 0,
+      "explanation": "Section 9 Hindu Marriage Act deals with restitution of conjugal rights."
+    },
+    {
+      "id": 42,
+      "subject": "Company Law",
+      "question": "One Person Company was introduced in:",
+      "options": [
+        "Companies Act 1956",
+        "Companies Act 2013",
+        "Companies Amendment Act 2015",
+        "Companies Amendment Act 2019"
+      ],
+      "correct": 1,
+      "explanation": "OPC concept was introduced in Companies Act, 2013."
+    },
+    {
+      "id": 43,
+      "subject": "Professional Ethics",
+      "question": "CLE stands for:",
+      "options": [
+        "Council of Legal Education",
+        "Continuing Legal Education",
+        "Certificate in Legal Ethics",
+        "Compulsory Legal Examination"
+      ],
+      "correct": 1,
+      "explanation": "CLE means Continuing Legal Education, mandatory for advocates."
+    },
+    {
+      "id": 44,
+      "subject": "CPC",
+      "question": "Appeal is a:",
+      "options": [
+        "Right",
+        "Privilege",
+        "Matter of grace",
+        "Statutory right where provided"
+      ],
+      "correct": 3,
+      "explanation": "Appeal is statutory right, available only where specifically provided by law."
+    },
+    {
+      "id": 45,
+      "subject": "Evidence Act",
+      "question": "Leading questions are allowed in:",
+      "options": [
+        "Examination-in-chief",
+        "Cross-examination",
+        "Re-examination",
+        "None of the above"
+      ],
+      "correct": 1,
+      "explanation": "Section 142 - leading questions allowed in cross-examination."
+    },
+    {
+      "id": 46,
+      "subject": "Contract Law",
+      "question": "Doctrine of privity of contract means:",
+      "options": [
+        "Contract must be in writing",
+        "Only parties to contract can sue",
+        "Contract must have consideration",
+        "Contract can be assigned"
+      ],
+      "correct": 1,
+      "explanation": "Only parties to contract can sue or be sued on it; third parties cannot enforce."
+    },
+    {
+      "id": 47,
+      "subject": "Constitutional Law",
+      "question": "Preamble declares India as:",
+      "options": [
+        "Sovereign, Democratic Republic",
+        "Sovereign, Socialist, Secular, Democratic Republic",
+        "Federal, Democratic Republic",
+        "Sovereign, Secular Republic"
+      ],
+      "correct": 1,
+      "explanation": "Preamble declares India as Sovereign, Socialist, Secular, Democratic Republic."
+    },
+    {
+      "id": 48,
+      "subject": "Criminal Law",
+      "question": "Test Identification Parade is conducted during:",
+      "options": [
+        "Trial",
+        "Investigation",
+        "After conviction",
+        "During judgment"
+      ],
+      "correct": 1,
+      "explanation": "TIP is conducted during investigation for witness to identify accused."
+    },
+    {
+      "id": 49,
+      "subject": "Torts",
+      "question": "Injuria sine damno means:",
+      "options": [
+        "Damage without injury",
+        "Injury without damage",
+        "Both damage and injury",
+        "Neither damage nor injury"
+      ],
+      "correct": 1,
+      "explanation": "Injuria sine damno - legal injury without actual damage is actionable."
+    },
+    {
+      "id": 50,
+      "subject": "Property Law",
+      "question": "Gift of immovable property must be:",
+      "options": [
+        "Oral",
+        "Written",
+        "Registered",
+        "Witnessed"
+      ],
+      "correct": 2,
+      "explanation": "Section 123 TPA - gift of immovable property must be by registered document."
+    },
+    {
+      "id": 51,
+      "subject": "Labour Law",
+      "question": "Industrial Disputes Act was enacted in:",
+      "options": [
+        "1926",
+        "1947",
+        "1948",
+        "1956"
+      ],
+      "correct": 1,
+      "explanation": "Industrial Disputes Act, 1947 regulates industrial disputes."
+    },
+    {
+      "id": 52,
+      "subject": "Labour Law",
+      "question": "Retrenchment compensation is:",
+      "options": [
+        "15 days wages per year",
+        "30 days wages per year",
+        "One month salary per year",
+        "Two months salary per year"
+      ],
+      "correct": 0,
+      "explanation": "Section 25F - retrenchment compensation is 15 days wages per completed year."
+    },
+    {
+      "id": 53,
+      "subject": "Arbitration",
+      "question": "Arbitration and Conciliation Act was enacted in:",
+      "options": [
+        "1940",
+        "1961",
+        "1996",
+        "2013"
+      ],
+      "correct": 2,
+      "explanation": "Arbitration and Conciliation Act, 1996 based on UNCITRAL Model Law."
+    },
+    {
+      "id": 54,
+      "subject": "Arbitration",
+      "question": "Arbitral award can be set aside under:",
+      "options": [
+        "Section 9",
+        "Section 11",
+        "Section 34",
+        "Section 36"
+      ],
+      "correct": 2,
+      "explanation": "Section 34 provides grounds for setting aside arbitral award."
+    },
+    {
+      "id": 55,
+      "subject": "Contract Law",
+      "question": "Anticipatory breach means:",
+      "options": [
+        "Breach before performance due",
+        "Breach after performance",
+        "Breach during performance",
+        "No breach"
+      ],
+      "correct": 0,
+      "explanation": "Anticipatory breach is when party repudiates contract before performance is due."
+    },
+    {
+      "id": 56,
+      "subject": "Constitutional Law",
+      "question": "President's rule is under:",
+      "options": [
+        "Article 352",
+        "Article 356",
+        "Article 360",
+        "Article 370"
+      ],
+      "correct": 1,
+      "explanation": "Article 356 provides for President's rule in states."
+    },
+    {
+      "id": 57,
+      "subject": "Criminal Law",
+      "question": "Common intention is under:",
+      "options": [
+        "Section 34 IPC",
+        "Section 107 IPC",
+        "Section 120B IPC",
+        "Section 149 IPC"
+      ],
+      "correct": 0,
+      "explanation": "Section 34 IPC deals with common intention."
+    },
+    {
+      "id": 58,
+      "subject": "Torts",
+      "question": "Rylands v. Fletcher rule relates to:",
+      "options": [
+        "Negligence",
+        "Strict liability",
+        "Vicarious liability",
+        "Defamation"
+      ],
+      "correct": 1,
+      "explanation": "Rylands v. Fletcher established rule of strict liability for non-natural use of land."
+    },
+    {
+      "id": 59,
+      "subject": "Property Law",
+      "question": "Usufructuary mortgage is one where:",
+      "options": [
+        "Title deeds deposited",
+        "Possession given to mortgagee",
+        "Property conditionally sold",
+        "Personal liability only"
+      ],
+      "correct": 1,
+      "explanation": "In usufructuary mortgage, mortgagee gets possession and receives rents/profits."
+    },
+    {
+      "id": 60,
+      "subject": "Family Law",
+      "question": "Iddat period after divorce is:",
+      "options": [
+        "One month",
+        "Three months",
+        "Four months ten days",
+        "Six months"
+      ],
+      "correct": 1,
+      "explanation": "Iddat period after divorce is generally three menstrual cycles or three lunar months."
+    },
+    {
+      "id": 61,
+      "subject": "Company Law",
+      "question": "MOA is charter of company, AOA is:",
+      "options": [
+        "Constitution",
+        "Regulations",
+        "By-laws",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "AOA contains internal regulations/by-laws/constitution of company."
+    },
+    {
+      "id": 62,
+      "subject": "Professional Ethics",
+      "question": "Advocate cannot appear for both:",
+      "options": [
+        "In same case always",
+        "In related cases",
+        "If conflict of interest",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "Advocate cannot appear for conflicting interests in same or related matters."
+    },
+    {
+      "id": 63,
+      "subject": "CPC",
+      "question": "Written statement must be filed within:",
+      "options": [
+        "15 days",
+        "30 days",
+        "30 days extendable to 90",
+        "60 days"
+      ],
+      "correct": 2,
+      "explanation": "Order VIII Rule 1 - written statement within 30 days, extendable to 90 days max."
+    },
+    {
+      "id": 64,
+      "subject": "Evidence Act",
+      "question": "Confession to police officer is:",
+      "options": [
+        "Admissible",
+        "Inadmissible",
+        "Admissible with corroboration",
+        "Discretionary"
+      ],
+      "correct": 1,
+      "explanation": "Section 25 - confession to police officer is inadmissible."
+    },
+    {
+      "id": 65,
+      "subject": "Contract Law",
+      "question": "Doctrine of frustration is under:",
+      "options": [
+        "Section 32",
+        "Section 56",
+        "Section 65",
+        "Section 73"
+      ],
+      "correct": 1,
+      "explanation": "Section 56 deals with impossibility and frustration of contract."
+    },
+    {
+      "id": 66,
+      "subject": "Constitutional Law",
+      "question": "Directive Principles are contained in:",
+      "options": [
+        "Part III",
+        "Part IV",
+        "Part IVA",
+        "Part V"
+      ],
+      "correct": 1,
+      "explanation": "Part IV (Articles 36-51) contains Directive Principles of State Policy."
+    },
+    {
+      "id": 67,
+      "subject": "Criminal Law",
+      "question": "Plea bargaining is under:",
+      "options": [
+        "Chapter XXA CrPC",
+        "Chapter XXI-A CrPC",
+        "Chapter XXII CrPC",
+        "Section 438 CrPC"
+      ],
+      "correct": 1,
+      "explanation": "Chapter XXI-A CrPC (Sections 265A-265L) deals with plea bargaining."
+    },
+    {
+      "id": 68,
+      "subject": "Torts",
+      "question": "Damnum sine injuria means:",
+      "options": [
+        "Damage with injury",
+        "Damage without legal injury",
+        "Injury without damage",
+        "Neither damage nor injury"
+      ],
+      "correct": 1,
+      "explanation": "Damnum sine injuria - actual damage without violation of legal right, not actionable."
+    },
+    {
+      "id": 69,
+      "subject": "Property Law",
+      "question": "Doctrine of part performance is under:",
+      "options": [
+        "Section 35",
+        "Section 43",
+        "Section 53A",
+        "Section 54"
+      ],
+      "correct": 2,
+      "explanation": "Section 53A TPA deals with doctrine of part performance."
+    },
+    {
+      "id": 70,
+      "subject": "Family Law",
+      "question": "Dower in Muslim law is:",
+      "options": [
+        "Gift from wife",
+        "Consideration for marriage",
+        "Maintenance amount",
+        "Inheritance"
+      ],
+      "correct": 1,
+      "explanation": "Dower (mehr) is consideration wife receives from husband for marriage."
+    },
+    {
+      "id": 71,
+      "subject": "Company Law",
+      "question": "Doctrine of indoor management is also called:",
+      "options": [
+        "Constructive notice",
+        "Turquand's rule",
+        "Ultra vires",
+        "Lifting veil"
+      ],
+      "correct": 1,
+      "explanation": "Doctrine of indoor management is also known as Turquand's rule."
+    },
+    {
+      "id": 72,
+      "subject": "Professional Ethics",
+      "question": "Advocate must wear:",
+      "options": [
+        "Black coat, white shirt",
+        "Prescribed dress by BCI",
+        "Any formal attire",
+        "No prescription"
+      ],
+      "correct": 1,
+      "explanation": "BCI prescribes dress code for advocates appearing in court."
+    },
+    {
+      "id": 73,
+      "subject": "CPC",
+      "question": "Summary suit procedure is under:",
+      "options": [
+        "Order 37",
+        "Order 39",
+        "Order 41",
+        "Order 43"
+      ],
+      "correct": 0,
+      "explanation": "Order XXXVII provides for summary suit procedure for liquidated demands."
+    },
+    {
+      "id": 74,
+      "subject": "Evidence Act",
+      "question": "Standard of proof in criminal cases is:",
+      "options": [
+        "Preponderance of probability",
+        "Balance of probability",
+        "Beyond reasonable doubt",
+        "Prima facie case"
+      ],
+      "correct": 2,
+      "explanation": "Criminal cases require proof beyond reasonable doubt."
+    },
+    {
+      "id": 75,
+      "subject": "Contract Law",
+      "question": "Bailment is defined under:",
+      "options": [
+        "Section 124",
+        "Section 148",
+        "Section 172",
+        "Section 182"
+      ],
+      "correct": 1,
+      "explanation": "Section 148 defines bailment as delivery of goods for specific purpose."
+    },
+    {
+      "id": 76,
+      "subject": "Constitutional Law",
+      "question": "Constitutional amendment requires:",
+      "options": [
+        "Simple majority",
+        "Special majority",
+        "2/3rd majority",
+        "Varies by provision"
+      ],
+      "correct": 3,
+      "explanation": "Article 368 - amendment procedure varies: simple, special, or special + state ratification."
+    },
+    {
+      "id": 77,
+      "subject": "Criminal Law",
+      "question": "Private defense extends to causing death for:",
+      "options": [
+        "Simple assault",
+        "Theft",
+        "Rape",
+        "Cheating"
+      ],
+      "correct": 2,
+      "explanation": "Section 100 IPC - private defense extends to death for offenses like rape, acid attack, robbery."
+    },
+    {
+      "id": 78,
+      "subject": "Torts",
+      "question": "Absolute liability was established in:",
+      "options": [
+        "1984",
+        "1985",
+        "1986",
+        "1987"
+      ],
+      "correct": 3,
+      "explanation": "M.C. Mehta case (1987) established absolute liability doctrine."
+    },
+    {
+      "id": 79,
+      "subject": "Property Law",
+      "question": "Simple mortgage means:",
+      "options": [
+        "Deposit of title deeds",
+        "Personal liability without possession transfer",
+        "Conditional sale",
+        "Possession to mortgagee"
+      ],
+      "correct": 1,
+      "explanation": "Simple mortgage involves personal liability without transferring possession."
+    },
+    {
+      "id": 80,
+      "subject": "Family Law",
+      "question": "Coparcenary under Hindu law means:",
+      "options": [
+        "Joint ownership",
+        "Birth right in ancestral property",
+        "Inheritance right",
+        "Partnership"
+      ],
+      "correct": 1,
+      "explanation": "Coparcenary gives birth right in ancestral property; daughters now equal coparceners."
+    },
+    {
+      "id": 81,
+      "subject": "Company Law",
+      "question": "CSR provision applies to companies with networth:",
+      "options": [
+        "Rs. 100 crore",
+        "Rs. 250 crore",
+        "Rs. 500 crore",
+        "Rs. 1000 crore"
+      ],
+      "correct": 2,
+      "explanation": "Section 135 - CSR applies to companies with networth Rs. 500 crore+ or turnover Rs. 1000 crore+ or profit Rs. 5 crore+."
+    },
+    {
+      "id": 82,
+      "subject": "Professional Ethics",
+      "question": "Advocate can refuse brief when:",
+      "options": [
+        "Client is criminal",
+        "Conflict of interest exists",
+        "Case is difficult",
+        "Never"
+      ],
+      "correct": 1,
+      "explanation": "Advocate can refuse brief when there's conflict of interest or insufficient remuneration."
+    },
+    {
+      "id": 83,
+      "subject": "CPC",
+      "question": "Inherent powers of court are under:",
+      "options": [
+        "Section 9",
+        "Section 151",
+        "Order 39",
+        "Order 41"
+      ],
+      "correct": 1,
+      "explanation": "Section 151 CPC provides inherent powers to courts for ends of justice."
+    },
+    {
+      "id": 84,
+      "subject": "Evidence Act",
+      "question": "Judicial notice means:",
+      "options": [
+        "Court notice",
+        "Facts court takes as proved without evidence",
+        "Notice to parties",
+        "Public notice"
+      ],
+      "correct": 1,
+      "explanation": "Section 56-57 - judicial notice means facts court accepts without proof."
+    },
+    {
+      "id": 85,
+      "subject": "Labour Law",
+      "question": "Factories Act was enacted in:",
+      "options": [
+        "1926",
+        "1936",
+        "1948",
+        "1956"
+      ],
+      "correct": 2,
+      "explanation": "Factories Act, 1948 regulates working conditions in factories."
+    },
+    {
+      "id": 86,
+      "subject": "Labour Law",
+      "question": "Trade Unions Act was enacted in:",
+      "options": [
+        "1926",
+        "1936",
+        "1947",
+        "1956"
+      ],
+      "correct": 0,
+      "explanation": "Trade Unions Act, 1926 provides for registration of trade unions."
+    },
+    {
+      "id": 87,
+      "subject": "Arbitration",
+      "question": "Kompetenz-kompetenz means:",
+      "options": [
+        "Court has jurisdiction",
+        "Tribunal can rule on own jurisdiction",
+        "Parties have authority",
+        "Expert opinion"
+      ],
+      "correct": 1,
+      "explanation": "Section 16 - kompetenz-kompetenz means tribunal can decide its own jurisdiction."
+    },
+    {
+      "id": 88,
+      "subject": "Arbitration",
+      "question": "Time limit for filing application to set aside award is:",
+      "options": [
+        "30 days",
+        "60 days",
+        "90 days",
+        "3 months extendable by 30 days"
+      ],
+      "correct": 3,
+      "explanation": "Section 34(3) - 3 months from award date, extendable by 30 days."
+    },
+    {
+      "id": 89,
+      "subject": "Contract Law",
+      "question": "Wagering agreement is:",
+      "options": [
+        "Valid",
+        "Void",
+        "Voidable",
+        "Illegal"
+      ],
+      "correct": 1,
+      "explanation": "Section 30 declares wagering agreements as void."
+    },
+    {
+      "id": 90,
+      "subject": "Constitutional Law",
+      "question": "Money Bill can be introduced only in:",
+      "options": [
+        "Either House",
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Joint sitting"
+      ],
+      "correct": 1,
+      "explanation": "Article 110 - Money Bill can be introduced only in Lok Sabha."
+    },
+    {
+      "id": 91,
+      "subject": "Criminal Law",
+      "question": "Juvenile Justice Act defines child as person below:",
+      "options": [
+        "14 years",
+        "16 years",
+        "18 years",
+        "21 years"
+      ],
+      "correct": 2,
+      "explanation": "JJ Act, 2015 defines child as person below 18 years."
+    },
+    {
+      "id": 92,
+      "subject": "Torts",
+      "question": "Nuisance is interference with:",
+      "options": [
+        "Person",
+        "Property",
+        "Use and enjoyment of land",
+        "Reputation"
+      ],
+      "correct": 2,
+      "explanation": "Nuisance is unlawful interference with use or enjoyment of land."
+    },
+    {
+      "id": 93,
+      "subject": "Property Law",
+      "question": "Lease for more than one year must be:",
+      "options": [
+        "Oral",
+        "Written",
+        "Registered",
+        "Notarized"
+      ],
+      "correct": 2,
+      "explanation": "Section 107 TPA - lease for more than one year must be registered."
+    },
+    {
+      "id": 94,
+      "subject": "Family Law",
+      "question": "Maintenance under Section 125 CrPC can be claimed by:",
+      "options": [
+        "Wife only",
+        "Wife and children",
+        "Wife, children, and parents",
+        "All relatives"
+      ],
+      "correct": 2,
+      "explanation": "Section 125 CrPC - wife, children, and parents unable to maintain themselves can claim."
+    },
+    {
+      "id": 95,
+      "subject": "Company Law",
+      "question": "Winding up is governed by:",
+      "options": [
+        "Sections 270-365",
+        "NCLT",
+        "IBC 2016",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "Winding up governed by Companies Act provisions, NCLT jurisdiction, and IBC for insolvency."
+    },
+    {
+      "id": 96,
+      "subject": "Professional Ethics",
+      "question": "Soliciting work by advocate is:",
+      "options": [
+        "Allowed",
+        "Professional misconduct",
+        "Ethical",
+        "Encouraged"
+      ],
+      "correct": 1,
+      "explanation": "Rule 36 BCI Rules prohibits soliciting work - it's professional misconduct."
+    },
+    {
+      "id": 97,
+      "subject": "CPC",
+      "question": "Execution of decree must be within:",
+      "options": [
+        "3 years",
+        "6 years",
+        "12 years",
+        "No limit"
+      ],
+      "correct": 2,
+      "explanation": "Article 136 Limitation Act - execution application within 12 years."
+    },
+    {
+      "id": 98,
+      "subject": "Evidence Act",
+      "question": "Hearsay evidence is generally:",
+      "options": [
+        "Admissible",
+        "Inadmissible",
+        "Admissible with exceptions",
+        "Always reliable"
+      ],
+      "correct": 2,
+      "explanation": "Hearsay generally inadmissible but has exceptions (Sections 32-33)."
+    },
+    {
+      "id": 99,
+      "subject": "Labour Law",
+      "question": "LIFO principle means:",
+      "options": [
+        "First in, first out",
+        "Last in, first out",
+        "Seniority based",
+        "Merit based"
+      ],
+      "correct": 1,
+      "explanation": "LIFO - Last In First Out principle for retrenchment."
+    },
+    {
+      "id": 100,
+      "subject": "Arbitration",
+      "question": "Arbitration agreement must be:",
+      "options": [
+        "Oral",
+        "In writing",
+        "Registered",
+        "Notarized"
+      ],
+      "correct": 1,
+      "explanation": "Section 7 - arbitration agreement must be in writing."
+    }
+  ]
+}

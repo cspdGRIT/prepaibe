@@ -1,0 +1,1303 @@
+{
+  "collection_name": "AIBE Previous Years Questions Bank (XVII, XVIII, XIX)",
+  "total_questions": 75,
+  "source": "Compiled from AIBE 17, 18, 19 official papers",
+  "description": "Authentic previous year AIBE questions with detailed explanations and section references",
+  "years_covered": ["AIBE XVII (2023)", "AIBE XVIII (2023)", "AIBE XIX (2024)"],
+  "questions": [
+    {
+      "id": 1,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "The concept of freedom of trade and commerce mentioned in the Indian Constitution is motivated from the experience of which country?",
+      "options": [
+        "United States of America",
+        "Australia",
+        "Canada",
+        "United Kingdom"
+      ],
+      "correct": 1,
+      "explanation": "Articles 301-307 of the Indian Constitution deal with freedom of trade and commerce. This concept was borrowed from the Australian Constitution, which had provisions for free interstate trade and commerce to create a common market.",
+      "section": "Articles 301-307",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 2,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "Which of the following writ is issued to enforce the performance of public duties by the authority?",
+      "options": [
+        "Habeas Corpus",
+        "Mandamus",
+        "Prohibition",
+        "Certiorari"
+      ],
+      "correct": 1,
+      "explanation": "Mandamus (meaning 'we command') is issued by a higher court to a lower court or public authority to compel performance of a public duty which has been refused or neglected. Article 32 and 226 empower courts to issue writs including Mandamus.",
+      "section": "Articles 32, 226",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 3,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "Which Constitutional Amendment Act had made the provision for publishing Hindi Translation of the Constitution?",
+      "options": [
+        "52nd Amendment",
+        "56th Amendment",
+        "58th Amendment",
+        "61st Amendment"
+      ],
+      "correct": 2,
+      "explanation": "The 58th Constitutional Amendment Act, 1987 authorized the publication of the Constitution in Hindi. Article 394A provides for authoritative text in Hindi.",
+      "section": "58th Amendment, Article 394A",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 4,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "Which provision of the Constitution of India is relevant for solving questions of repugnancy between a Central law and a State law?",
+      "options": [
+        "Article 245",
+        "Article 246",
+        "Article 254",
+        "Article 368"
+      ],
+      "correct": 2,
+      "explanation": "Article 254 deals with inconsistency between laws made by Parliament and laws made by State Legislatures. If there's repugnancy, the Central law prevails unless the State law has received Presidential assent.",
+      "section": "Article 254",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 5,
+      "year": "AIBE XVIII",
+      "subject": "Criminal Law - IPC",
+      "question": "What punishment is prescribed under the Indian Penal Code, 1860 for a person who maims any minor in order that such minor may be used for the purposes of begging?",
+      "options": [
+        "Imprisonment up to 5 years and fine",
+        "Imprisonment up to 7 years and fine",
+        "Imprisonment up to 10 years and fine",
+        "Life imprisonment and fine"
+      ],
+      "correct": 2,
+      "explanation": "Section 363A IPC prescribes punishment for kidnapping or maiming a minor for purposes of begging. The punishment is imprisonment which may extend to 10 years and also liable to fine.",
+      "section": "Section 363A IPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 6,
+      "year": "AIBE XVIII",
+      "subject": "Criminal Law - IPC",
+      "question": "X threatens to publish a defamatory libel concerning Y unless Y gives him money. Which punishment may be given to X for the act committed by him as per the Indian Penal Code, 1860?",
+      "options": [
+        "Imprisonment up to 2 years, or with fine or with both",
+        "Imprisonment up to 3 years, or with fine or with both",
+        "Imprisonment up to 5 years, or with fine or with both",
+        "Imprisonment up to 7 years, or with fine or with both"
+      ],
+      "correct": 0,
+      "explanation": "This constitutes criminal intimidation under Section 503 IPC. When the threat is to cause injury to reputation, Section 506 prescribes imprisonment up to 2 years or fine or both.",
+      "section": "Sections 503, 506 IPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 7,
+      "year": "AIBE XVIII",
+      "subject": "Criminal Procedure Code",
+      "question": "Which of the following sentence is an Assistant Sessions Judge authorised to pass as per the Code of Criminal Procedure, 1973?",
+      "options": [
+        "Death sentence",
+        "Life imprisonment",
+        "Imprisonment up to 10 years",
+        "Any sentence"
+      ],
+      "correct": 2,
+      "explanation": "Section 28 of CrPC limits the sentencing powers of Assistant Sessions Judge. They can pass any sentence except a sentence of death or of imprisonment for life or of imprisonment for a term exceeding 10 years.",
+      "section": "Section 28 CrPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 8,
+      "year": "AIBE XVII",
+      "subject": "Intellectual Property Law",
+      "question": "What is the term of copyright protection for an original literary work under Indian Copyright Act?",
+      "options": [
+        "Life of author plus 50 years",
+        "Life of author plus 60 years",
+        "Life of author plus 70 years",
+        "Life of author plus 100 years"
+      ],
+      "correct": 1,
+      "explanation": "Section 22 of the Copyright Act, 1957 provides that copyright in literary, dramatic, musical and artistic works subsists for 60 years from the year following the death of the author (life of author plus 60 years).",
+      "section": "Section 22, Copyright Act 1957",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "year": "AIBE XVII",
+      "subject": "Alternative Dispute Resolution",
+      "question": "Which of the following is a key advantage of arbitration over litigation?",
+      "options": [
+        "It is generally faster than litigation",
+        "It always results in a binding decision",
+        "It is mandatory for all disputes",
+        "It requires court approval"
+      ],
+      "correct": 0,
+      "explanation": "Arbitration under the Arbitration and Conciliation Act, 1996 is generally faster, more confidential, and flexible compared to traditional court litigation. Parties can choose arbitrators with relevant expertise.",
+      "section": "Arbitration and Conciliation Act, 1996",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "year": "AIBE XVII",
+      "subject": "Information Technology Law",
+      "question": "Phishing is punishable under which provision?",
+      "options": [
+        "Section 66 of IT Act, 2000",
+        "Section 66A of IT Act, 2000",
+        "Section 66C of IT Act, 2000",
+        "Section 66D of IT Act, 2000"
+      ],
+      "correct": 3,
+      "explanation": "Section 66D of the Information Technology Act, 2000 specifically deals with punishment for cheating by personation using computer resources (phishing). Punishment is imprisonment up to 3 years and fine up to 1 lakh.",
+      "section": "Section 66D, IT Act 2000",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 11,
+      "year": "AIBE XIX",
+      "subject": "Contract Law",
+      "question": "According to the Indian Contract Act, 1872, a contract with a minor is:",
+      "options": [
+        "Void ab initio",
+        "Voidable at minor's option",
+        "Valid",
+        "Voidable at both parties' option"
+      ],
+      "correct": 0,
+      "explanation": "As per Mohori Bibee v. Dharmodas Ghose case and Section 11 of Indian Contract Act, a minor is not competent to contract. Hence, any agreement with a minor is void ab initio (void from the beginning).",
+      "section": "Section 11, Indian Contract Act 1872",
+      "case_law": "Mohori Bibee v. Dharmodas Ghose",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 12,
+      "year": "AIBE XIX",
+      "subject": "Contract Law",
+      "question": "Under which section is 'consideration' defined in the Indian Contract Act, 1872?",
+      "options": [
+        "Section 2(a)",
+        "Section 2(d)",
+        "Section 2(e)",
+        "Section 10"
+      ],
+      "correct": 1,
+      "explanation": "Section 2(d) of the Indian Contract Act, 1872 defines 'consideration' as: 'When at the desire of the promisor, the promisee or any other person has done or abstained from doing, or does or abstains from doing, or promises to do or to abstain from doing, something, such act or abstinence or promise is called a consideration for the promise.'",
+      "section": "Section 2(d), Indian Contract Act 1872",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 13,
+      "year": "AIBE XVIII",
+      "subject": "Family Law",
+      "question": "Under the Hindu Marriage Act, 1955, which ground is NOT available for divorce by mutual consent?",
+      "options": [
+        "Living separately for one year",
+        "Unable to resume cohabitation",
+        "Cruelty by spouse",
+        "Agreement between parties"
+      ],
+      "correct": 2,
+      "explanation": "Section 13B of Hindu Marriage Act provides for divorce by mutual consent when parties have been living separately for one year and unable to live together. Cruelty is a ground for contested divorce under Section 13(1) but not for mutual consent divorce.",
+      "section": "Section 13B, Hindu Marriage Act 1955",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 14,
+      "year": "AIBE XVIII",
+      "subject": "Family Law",
+      "question": "What is the minimum period of separation required before filing for divorce by mutual consent under Hindu Marriage Act?",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "3 years"
+      ],
+      "correct": 1,
+      "explanation": "Section 13B of the Hindu Marriage Act, 1955 requires that the parties must have been living separately for a period of one year or more before presenting a petition for divorce by mutual consent.",
+      "section": "Section 13B, Hindu Marriage Act 1955",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 15,
+      "year": "AIBE XVII",
+      "subject": "Property Law",
+      "question": "Under the Transfer of Property Act, a sale of immovable property of value exceeding Rs. 100 must be:",
+      "options": [
+        "Made orally",
+        "Made in writing",
+        "Registered",
+        "Notarized only"
+      ],
+      "correct": 2,
+      "explanation": "Section 54 of the Transfer of Property Act, 1882 mandates that sale of immovable property of the value of one hundred rupees and upwards can only be made by a registered instrument.",
+      "section": "Section 54, TPA 1882",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 16,
+      "year": "AIBE XVII",
+      "subject": "Property Law",
+      "question": "The doctrine of 'lis pendens' is embodied in which section of TPA?",
+      "options": [
+        "Section 43",
+        "Section 52",
+        "Section 53A",
+        "Section 54"
+      ],
+      "correct": 1,
+      "explanation": "Section 52 of TPA deals with doctrine of lis pendens (pending litigation). It provides that during the pendency of any suit relating to property, neither party can transfer or deal with the property so as to affect the rights of the other party.",
+      "section": "Section 52, TPA 1882",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 17,
+      "year": "AIBE XVIII",
+      "subject": "Labour Law",
+      "question": "Under Industrial Disputes Act, what is the notice period for retrenchment?",
+      "options": [
+        "15 days",
+        "30 days",
+        "1 month",
+        "3 months"
+      ],
+      "correct": 2,
+      "explanation": "Section 25F of the Industrial Disputes Act, 1947 requires that one month's notice in writing indicating the reasons for retrenchment must be given to the workman or payment in lieu of notice must be made.",
+      "section": "Section 25F, Industrial Disputes Act 1947",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 18,
+      "year": "AIBE XVIII",
+      "subject": "Labour Law",
+      "question": "Retrenchment compensation under Industrial Disputes Act is calculated at:",
+      "options": [
+        "15 days average pay for every completed year of service",
+        "30 days average pay for every completed year of service",
+        "One month salary for every completed year",
+        "As per employment contract"
+      ],
+      "correct": 0,
+      "explanation": "Section 25F(b) of Industrial Disputes Act provides that compensation equivalent to fifteen days' average pay for every completed year of continuous service or any part thereof in excess of six months must be paid at the time of retrenchment.",
+      "section": "Section 25F, Industrial Disputes Act 1947",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 19,
+      "year": "AIBE XVII",
+      "subject": "Company Law",
+      "question": "Minimum number of directors required in a private limited company under Companies Act, 2013:",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Seven"
+      ],
+      "correct": 1,
+      "explanation": "Section 149 of the Companies Act, 2013 mandates that every company shall have a minimum of 2 directors in case of a private company and 3 directors in case of a public company. One Person Company (OPC) can have just one director.",
+      "section": "Section 149, Companies Act 2013",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 20,
+      "year": "AIBE XVII",
+      "subject": "Company Law",
+      "question": "The doctrine of 'ultra vires' means:",
+      "options": [
+        "Beyond the powers",
+        "Within the powers",
+        "Implied powers",
+        "Inherent powers"
+      ],
+      "correct": 0,
+      "explanation": "The doctrine of ultra vires (beyond the powers) means that if a company does any act or enters into any contract beyond the powers conferred by the Memorandum of Association or the Companies Act, such act or contract is void and not binding on the company. Established in Ashbury Railway v. Riche.",
+      "section": "Companies Act provisions",
+      "case_law": "Ashbury Railway Carriage Co. v. Riche",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 21,
+      "year": "AIBE XVIII",
+      "subject": "Professional Ethics",
+      "question": "An advocate can be suspended from practice by:",
+      "options": [
+        "High Court only",
+        "Supreme Court only",
+        "State Bar Council",
+        "Bar Council of India"
+      ],
+      "correct": 2,
+      "explanation": "Section 35 of the Advocates Act, 1961 empowers the State Bar Council to punish an advocate for professional or other misconduct, including suspension of right to practice. Appeals lie to the Bar Council of India.",
+      "section": "Section 35, Advocates Act 1961",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 22,
+      "year": "AIBE XVIII",
+      "subject": "Professional Ethics",
+      "question": "According to BCI Rules, can an advocate directly solicit work?",
+      "options": [
+        "Yes, always",
+        "No, it's professional misconduct",
+        "Yes, with client consent",
+        "Only through advertisements"
+      ],
+      "correct": 1,
+      "explanation": "Rule 36 of the Bar Council of India Rules prohibits soliciting work or advertising. An advocate shall not solicit work or advertise, either directly or indirectly. This is considered professional misconduct.",
+      "section": "Rule 36, BCI Rules",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 23,
+      "year": "AIBE XIX",
+      "subject": "Civil Procedure Code",
+      "question": "Under Order VII Rule 11 of CPC, plaint can be rejected on which ground?",
+      "options": [
+        "Lack of proper court fee",
+        "Cause of action not disclosed",
+        "Claim is barred by limitation",
+        "All of the above"
+      ],
+      "correct": 3,
+      "explanation": "Order VII Rule 11 CPC provides multiple grounds for rejection of plaint including: (a) non-disclosure of cause of action, (b) undervaluation for court fee, (c) claim barred by law, (d) suit appears barred by limitation, (e) not properly valued.",
+      "section": "Order VII Rule 11, CPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 24,
+      "year": "AIBE XIX",
+      "subject": "Civil Procedure Code",
+      "question": "Written statement must be filed within how many days as per CPC?",
+      "options": [
+        "15 days",
+        "30 days",
+        "30 days, extendable to 90 days",
+        "60 days"
+      ],
+      "correct": 2,
+      "explanation": "Order VIII Rule 1 CPC (amended in 2002) mandates that defendant must file written statement within 30 days from date of service of summons. Court may extend this period up to maximum 90 days for sufficient cause, but not beyond.",
+      "section": "Order VIII Rule 1, CPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 25,
+      "year": "AIBE XVIII",
+      "subject": "Evidence Act",
+      "question": "Confession made to a police officer is:",
+      "options": [
+        "Admissible",
+        "Inadmissible",
+        "Admissible with corroboration",
+        "At court's discretion"
+      ],
+      "correct": 1,
+      "explanation": "Section 25 of the Indian Evidence Act, 1872 clearly states that no confession made to a police officer shall be proved as against a person accused of any offence. This is to prevent torture and coercion.",
+      "section": "Section 25, Evidence Act 1872",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 26,
+      "year": "AIBE XVIII",
+      "subject": "Evidence Act",
+      "question": "Dying declaration is covered under which section of Evidence Act?",
+      "options": [
+        "Section 6",
+        "Section 32",
+        "Section 45",
+        "Section 115"
+      ],
+      "correct": 1,
+      "explanation": "Section 32(1) of the Indian Evidence Act deals with statements made by a person as to the cause of his death or as to any circumstances of the transaction which resulted in his death (dying declaration). It's an exception to hearsay rule.",
+      "section": "Section 32(1), Evidence Act 1872",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 27,
+      "year": "AIBE XIX",
+      "subject": "Evidence Act",
+      "question": "Burden of proof lies on:",
+      "options": [
+        "Person who denies",
+        "Person who asserts",
+        "Always on prosecution",
+        "Always on defendant"
+      ],
+      "correct": 1,
+      "explanation": "Section 101 of Evidence Act provides that whoever desires any court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts must prove that those facts exist. The burden of proof lies on the person who asserts, not who denies.",
+      "section": "Section 101, Evidence Act 1872",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 28,
+      "year": "AIBE XVII",
+      "subject": "Torts",
+      "question": "The principle 'Res ipsa loquitur' means:",
+      "options": [
+        "The thing is done",
+        "The thing speaks for itself",
+        "Let the buyer beware",
+        "The matter is closed"
+      ],
+      "correct": 1,
+      "explanation": "Res ipsa loquitur (the thing speaks for itself) is a doctrine in tort law that applies when the circumstances of an accident imply negligence. Used when the nature of the accident is such that it would not have occurred without negligence.",
+      "section": "Law of Torts",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 29,
+      "year": "AIBE XVII",
+      "subject": "Torts",
+      "question": "Absolute liability was established in which landmark case?",
+      "options": [
+        "Rylands v. Fletcher",
+        "Donoghue v. Stevenson",
+        "M.C. Mehta v. Union of India",
+        "Ashby v. White"
+      ],
+      "correct": 2,
+      "explanation": "The doctrine of Absolute Liability was established by the Supreme Court of India in M.C. Mehta v. Union of India (Oleum Gas Leak Case, 1987). It's stricter than the rule in Rylands v. Fletcher and has no exceptions.",
+      "section": "Law of Torts",
+      "case_law": "M.C. Mehta v. Union of India (1987)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 30,
+      "year": "AIBE XVIII",
+      "subject": "Administrative Law",
+      "question": "Natural justice requires:",
+      "options": [
+        "Right to be heard (audi alteram partem)",
+        "No bias rule (nemo judex in causa sua)",
+        "Reasoned decision",
+        "Both A and B"
+      ],
+      "correct": 3,
+      "explanation": "The two fundamental principles of natural justice are: (1) Audi alteram partem - right to be heard, no one should be condemned unheard, and (2) Nemo judex in causa sua - no one should be a judge in his own cause, rule against bias.",
+      "section": "Administrative Law Principles",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 31,
+      "year": "AIBE XIX",
+      "subject": "Jurisprudence",
+      "question": "Who is known as the father of International Law?",
+      "options": [
+        "Hugo Grotius",
+        "Jeremy Bentham",
+        "John Austin",
+        "Hans Kelsen"
+      ],
+      "correct": 0,
+      "explanation": "Hugo Grotius (1583-1645) is regarded as the father of International Law. His work 'De Jure Belli ac Pacis' (On the Law of War and Peace) laid the foundation for international law based on natural law.",
+      "section": "Jurisprudence",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 32,
+      "year": "AIBE XIX",
+      "subject": "Jurisprudence",
+      "question": "According to Salmond, law is:",
+      "options": [
+        "Command of the sovereign",
+        "Body of principles recognized and applied by the state",
+        "What the judges say",
+        "Natural rights"
+      ],
+      "correct": 1,
+      "explanation": "John Salmond defined law as 'the body of principles recognized and applied by the state in the administration of justice.' He emphasized that law consists of rules recognized and acted upon by courts of justice.",
+      "section": "Jurisprudence - Legal Theory",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 33,
+      "year": "AIBE XVIII",
+      "subject": "Criminal Law - IPC",
+      "question": "Section 34 IPC deals with:",
+      "options": [
+        "Common intention",
+        "Common object",
+        "Abetment",
+        "Criminal conspiracy"
+      ],
+      "correct": 0,
+      "explanation": "Section 34 IPC deals with 'Acts done by several persons in furtherance of common intention.' When a criminal act is done by several persons in furtherance of the common intention of all, each is liable as if done by him alone.",
+      "section": "Section 34 IPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 34,
+      "year": "AIBE XVIII",
+      "subject": "Criminal Law - IPC",
+      "question": "Murder is defined under which section of IPC?",
+      "options": [
+        "Section 299",
+        "Section 300",
+        "Section 302",
+        "Section 304"
+      ],
+      "correct": 1,
+      "explanation": "Section 300 IPC defines 'Murder' as culpable homicide with specific intent or circumstances. Section 299 defines culpable homicide, Section 302 prescribes punishment for murder, and Section 304 deals with culpable homicide not amounting to murder.",
+      "section": "Section 300 IPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 35,
+      "year": "AIBE XVII",
+      "subject": "Criminal Procedure Code",
+      "question": "FIR is registered under which section of CrPC?",
+      "options": [
+        "Section 154",
+        "Section 156",
+        "Section 161",
+        "Section 173"
+      ],
+      "correct": 0,
+      "explanation": "Section 154 CrPC deals with 'Information in cognizable cases.' Every information relating to commission of a cognizable offence must be reduced to writing by the police officer in charge of the police station, which becomes the First Information Report (FIR).",
+      "section": "Section 154 CrPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 36,
+      "year": "AIBE XVII",
+      "subject": "Criminal Procedure Code",
+      "question": "Anticipatory bail is provided under:",
+      "options": [
+        "Section 436 CrPC",
+        "Section 437 CrPC",
+        "Section 438 CrPC",
+        "Section 439 CrPC"
+      ],
+      "correct": 2,
+      "explanation": "Section 438 CrPC provides for 'Direction for grant of bail to person apprehending arrest' commonly known as anticipatory bail. High Court or Court of Session can grant this when a person has reason to believe he may be arrested for a non-bailable offence.",
+      "section": "Section 438 CrPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 37,
+      "year": "AIBE XIX",
+      "subject": "Criminal Procedure Code",
+      "question": "Police can detain a person without producing before Magistrate for maximum:",
+      "options": [
+        "12 hours",
+        "24 hours (excluding journey time)",
+        "48 hours",
+        "72 hours"
+      ],
+      "correct": 1,
+      "explanation": "Section 57 CrPC mandates that a police officer making an arrest without warrant must produce the arrested person before a Magistrate within 24 hours of arrest, excluding the time necessary for journey from the place of arrest to the Magistrate's court.",
+      "section": "Section 57 CrPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 38,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "Article 21 of the Constitution guarantees:",
+      "options": [
+        "Right to equality",
+        "Right to freedom of speech",
+        "Right to life and personal liberty",
+        "Right to education"
+      ],
+      "correct": 2,
+      "explanation": "Article 21 provides that 'No person shall be deprived of his life or personal liberty except according to procedure established by law.' This has been given expansive interpretation including right to live with dignity, right to livelihood, right to health, etc.",
+      "section": "Article 21, Constitution of India",
+      "case_law": "Maneka Gandhi v. Union of India",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 39,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "Basic Structure doctrine was established in:",
+      "options": [
+        "Golaknath v. State of Punjab",
+        "Kesavananda Bharati v. State of Kerala",
+        "Minerva Mills v. Union of India",
+        "Indira Nehru Gandhi v. Raj Narain"
+      ],
+      "correct": 1,
+      "explanation": "The Basic Structure doctrine was laid down by the Supreme Court in Kesavananda Bharati v. State of Kerala (1973). It held that Parliament cannot amend the Constitution to destroy its basic structure. Features like federalism, secularism, democracy are part of basic structure.",
+      "section": "Constitutional Law",
+      "case_law": "Kesavananda Bharati v. State of Kerala (1973)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 40,
+      "year": "AIBE XIX",
+      "subject": "Constitutional Law",
+      "question": "Fundamental Duties are contained in:",
+      "options": [
+        "Part III",
+        "Part IV",
+        "Part IVA",
+        "Part V"
+      ],
+      "correct": 2,
+      "explanation": "Fundamental Duties are contained in Part IVA of the Constitution (Article 51A). They were added by the 42nd Constitutional Amendment Act, 1976 on the recommendation of Swaran Singh Committee. Originally 10 duties, now 11 (11th added by 86th Amendment).",
+      "section": "Part IVA, Article 51A",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 41,
+      "year": "AIBE XVII",
+      "subject": "Contract Law",
+      "question": "According to Section 10, a valid contract requires:",
+      "options": [
+        "Free consent only",
+        "Lawful consideration only",
+        "Competent parties only",
+        "All essential elements"
+      ],
+      "correct": 3,
+      "explanation": "Section 10 of Indian Contract Act states: 'All agreements are contracts if they are made by free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void.'",
+      "section": "Section 10, Indian Contract Act 1872",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 42,
+      "year": "AIBE XVII",
+      "subject": "Contract Law",
+      "question": "Doctrine of frustration is covered under:",
+      "options": [
+        "Section 32",
+        "Section 56",
+        "Section 65",
+        "Section 73"
+      ],
+      "correct": 1,
+      "explanation": "Section 56 of Indian Contract Act deals with 'Agreement to do impossible act' and doctrine of frustration. When contract becomes impossible to perform or unlawful after formation due to supervening impossibility, it becomes void.",
+      "section": "Section 56, Indian Contract Act 1872",
+      "case_law": "Satyabrata Ghose v. Mugneeram Bangur",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 43,
+      "year": "AIBE XVIII",
+      "subject": "Contract Law",
+      "question": "Quantum meruit means:",
+      "options": [
+        "As much as earned",
+        "Something for something",
+        "Let the buyer beware",
+        "In good faith"
+      ],
+      "correct": 0,
+      "explanation": "Quantum meruit literally means 'as much as earned' or 'in proportion to work done.' It's a quasi-contractual remedy where one party can claim reasonable remuneration for work done or services rendered when the contract is discharged.",
+      "section": "Quasi-contracts, Indian Contract Act",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 44,
+      "year": "AIBE XIX",
+      "subject": "Property Law",
+      "question": "How many types of mortgages are recognized under TPA?",
+      "options": [
+        "Three",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "correct": 2,
+      "explanation": "Section 58 of TPA recognizes six types of mortgages: (1) Simple mortgage, (2) Mortgage by conditional sale, (3) Usufructuary mortgage, (4) English mortgage, (5) Mortgage by deposit of title deeds (Equitable mortgage), (6) Anomalous mortgage.",
+      "section": "Section 58, TPA 1882",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 45,
+      "year": "AIBE XIX",
+      "subject": "Property Law",
+      "question": "Doctrine of part performance is under:",
+      "options": [
+        "Section 35",
+        "Section 43",
+        "Section 53A",
+        "Section 54"
+      ],
+      "correct": 2,
+      "explanation": "Section 53A of TPA deals with part performance of contract. It provides that when a person contracts to transfer immovable property for consideration, and the transferee has taken possession and performed part of his obligation, the transferor cannot enforce right of transfer adverse to the contract.",
+      "section": "Section 53A, TPA 1882",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 46,
+      "year": "AIBE XVIII",
+      "subject": "Family Law - Hindu",
+      "question": "Coparcenary under Hindu law means:",
+      "options": [
+        "Joint ownership",
+        "Birth right in ancestral property",
+        "Inheritance right",
+        "Partnership"
+      ],
+      "correct": 1,
+      "explanation": "Coparcenary is a narrower body within joint family consisting of persons who acquire by birth an interest in joint family/ancestral property. Hindu Succession (Amendment) Act, 2005 made daughters coparceners by birth with equal rights as sons.",
+      "section": "Hindu Succession Act 1956 (Amended 2005)",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 47,
+      "year": "AIBE XVIII",
+      "subject": "Family Law - Muslim",
+      "question": "Dower (Mehr) in Muslim law is:",
+      "options": [
+        "Gift from wife",
+        "Consideration for marriage",
+        "Maintenance amount",
+        "Inheritance share"
+      ],
+      "correct": 1,
+      "explanation": "Dower (Mehr/Mahr) is the sum of money or other property which the wife is entitled to receive from the husband in consideration of the marriage. It's an obligation imposed upon husband as mark of respect for wife.",
+      "section": "Muslim Personal Law",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 48,
+      "year": "AIBE XVII",
+      "subject": "Family Law - Muslim",
+      "question": "Iddat period after divorce is generally:",
+      "options": [
+        "One month",
+        "Three months or three menstrual cycles",
+        "Four months ten days",
+        "Six months"
+      ],
+      "correct": 1,
+      "explanation": "Iddat is the waiting period a woman must observe after dissolution of marriage. For divorce, it's generally three menstrual courses (quroos) or three lunar months if not menstruating. For death of husband, it's 4 months 10 days.",
+      "section": "Muslim Personal Law",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 49,
+      "year": "AIBE XIX",
+      "subject": "Labour Law",
+      "question": "Trade Unions Act was enacted in:",
+      "options": [
+        "1926",
+        "1936",
+        "1947",
+        "1956"
+      ],
+      "correct": 0,
+      "explanation": "The Trade Unions Act, 1926 provides for registration of trade unions and immunities for registered trade unions from civil and criminal liabilities in certain cases. It aims to regulate employer-employee relations.",
+      "section": "Trade Unions Act 1926",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 50,
+      "year": "AIBE XIX",
+      "subject": "Labour Law",
+      "question": "Factories Act regulates working conditions in factories and was enacted in:",
+      "options": [
+        "1926",
+        "1936",
+        "1948",
+        "1956"
+      ],
+      "correct": 2,
+      "explanation": "The Factories Act, 1948 regulates working conditions in factories regarding health, safety, welfare, working hours, employment of young persons, and annual leave of workers. It defines 'factory' under Section 2(m).",
+      "section": "Factories Act 1948",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 51,
+      "year": "AIBE XVII",
+      "subject": "Arbitration",
+      "question": "Arbitration and Conciliation Act was enacted in:",
+      "options": [
+        "1940",
+        "1961",
+        "1996",
+        "2013"
+      ],
+      "correct": 2,
+      "explanation": "The Arbitration and Conciliation Act, 1996 (effective from 1996, based on UNCITRAL Model Law) consolidated laws relating to domestic and international arbitration, enforcement of foreign awards, and conciliation.",
+      "section": "Arbitration and Conciliation Act 1996",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 52,
+      "year": "AIBE XVII",
+      "subject": "Arbitration",
+      "question": "Time limit to set aside arbitral award under Section 34 is:",
+      "options": [
+        "30 days",
+        "60 days",
+        "90 days",
+        "3 months extendable by 30 days"
+      ],
+      "correct": 3,
+      "explanation": "Section 34(3) of Arbitration Act provides that application for setting aside arbitral award must be made within 3 months from the date of receipt of award. Court may extend this period by another 30 days (but not beyond) if satisfied sufficient cause.",
+      "section": "Section 34(3), Arbitration Act 1996",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 53,
+      "year": "AIBE XVIII",
+      "subject": "Arbitration",
+      "question": "Kompetenz-kompetenz principle means:",
+      "options": [
+        "Court has jurisdiction",
+        "Tribunal can rule on own jurisdiction",
+        "Parties have authority",
+        "Expert opinion required"
+      ],
+      "correct": 1,
+      "explanation": "Section 16 of Arbitration Act embodies kompetenz-kompetenz principle - arbitral tribunal may rule on its own jurisdiction including ruling on any objections with respect to the existence or validity of the arbitration agreement.",
+      "section": "Section 16, Arbitration Act 1996",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 54,
+      "year": "AIBE XIX",
+      "subject": "Company Law",
+      "question": "MOA and AOA stand for:",
+      "options": [
+        "Memorandum of Association and Articles of Association",
+        "Minutes of Association and Articles of Association",
+        "Memorandum of Agreement and Articles of Agreement",
+        "Minutes of Agreement and Articles of Agreement"
+      ],
+      "correct": 0,
+      "explanation": "MOA (Memorandum of Association) is the charter/constitution defining scope of company's activities and its relationship with outside world. AOA (Articles of Association) contains internal regulations and management rules of the company.",
+      "section": "Sections 4, 5, Companies Act 2013",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 55,
+      "year": "AIBE XIX",
+      "subject": "Company Law",
+      "question": "One Person Company (OPC) was introduced by:",
+      "options": [
+        "Companies Act 1956",
+        "Companies Act 2013",
+        "Companies Amendment 2015",
+        "Companies Amendment 2019"
+      ],
+      "correct": 1,
+      "explanation": "The concept of One Person Company (OPC) was introduced for the first time in India by the Companies Act, 2013. OPC can be formed by a single person and requires only one director and one nominee.",
+      "section": "Section 2(62), Companies Act 2013",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 56,
+      "year": "AIBE XVIII",
+      "subject": "Company Law",
+      "question": "CSR provisions apply to companies with networth of:",
+      "options": [
+        "Rs. 100 crore or more",
+        "Rs. 250 crore or more",
+        "Rs. 500 crore or more",
+        "Rs. 1000 crore or more"
+      ],
+      "correct": 2,
+      "explanation": "Section 135 of Companies Act mandates CSR (Corporate Social Responsibility) for companies having: (a) networth of Rs. 500 crore or more, OR (b) turnover of Rs. 1000 crore or more, OR (c) net profit of Rs. 5 crore or more. Must spend 2% of average net profits.",
+      "section": "Section 135, Companies Act 2013",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 57,
+      "year": "AIBE XVII",
+      "subject": "Professional Ethics",
+      "question": "Advocates Act was enacted in:",
+      "options": [
+        "1947",
+        "1956",
+        "1961",
+        "1969"
+      ],
+      "correct": 2,
+      "explanation": "The Advocates Act, 1961 regulates the legal profession in India. It provides for constitution of Bar Council of India and State Bar Councils, enrollment of advocates, their rights, privileges and obligations, and disciplinary proceedings.",
+      "section": "Advocates Act 1961",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 58,
+      "year": "AIBE XVII",
+      "subject": "Professional Ethics",
+      "question": "Attorney-client privilege is protected under:",
+      "options": [
+        "Advocates Act only",
+        "Evidence Act Section 126",
+        "BCI Rules only",
+        "Constitution"
+      ],
+      "correct": 1,
+      "explanation": "Section 126 of the Indian Evidence Act, 1872 provides privilege to communications between advocate and client. No advocate shall be permitted/compelled to disclose any communication made to him by his client, unless client himself waives the privilege.",
+      "section": "Section 126, Evidence Act 1872",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 59,
+      "year": "AIBE XVIII",
+      "subject": "Professional Ethics",
+      "question": "Bar Council of India was established under:",
+      "options": [
+        "Constitution of India",
+        "Advocates Act 1961",
+        "Bar Council Rules",
+        "Legal Practitioners Act"
+      ],
+      "correct": 1,
+      "explanation": "Section 4 of the Advocates Act, 1961 provides for constitution of Bar Council of India. BCI is the apex regulatory body for legal profession, performing functions like laying down standards of professional conduct, promoting legal education, etc.",
+      "section": "Section 4, Advocates Act 1961",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 60,
+      "year": "AIBE XIX",
+      "subject": "Civil Procedure Code",
+      "question": "Res judicata is embodied in:",
+      "options": [
+        "Section 10 CPC",
+        "Section 11 CPC",
+        "Order 7 Rule 11",
+        "Section 100 CPC"
+      ],
+      "correct": 1,
+      "explanation": "Section 11 CPC deals with res judicata (matter already adjudicated). Once a matter is finally decided by a competent court, no party can re-agitate the same matter in a subsequent litigation. Promotes finality and prevents multiplicity of suits.",
+      "section": "Section 11 CPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 61,
+      "year": "AIBE XIX",
+      "subject": "Civil Procedure Code",
+      "question": "Inherent powers of court are under:",
+      "options": [
+        "Section 9",
+        "Section 151",
+        "Order 39",
+        "Order 41"
+      ],
+      "correct": 1,
+      "explanation": "Section 151 CPC provides inherent powers to courts to make such orders as necessary for the ends of justice or to prevent abuse of process of court. These powers are in addition to powers specifically conferred by CPC.",
+      "section": "Section 151 CPC",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 62,
+      "year": "AIBE XVII",
+      "subject": "Civil Procedure Code",
+      "question": "Summary suit procedure is provided under:",
+      "options": [
+        "Order 37",
+        "Order 39",
+        "Order 41",
+        "Order 43"
+      ],
+      "correct": 0,
+      "explanation": "Order XXXVII CPC provides for summary procedure for recovery of liquidated demands based on written contract, guarantee, or on enactment or government promissory notes. It enables speedy disposal of commercial disputes.",
+      "section": "Order 37 CPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 63,
+      "year": "AIBE XVIII",
+      "subject": "Evidence Act",
+      "question": "Leading questions are allowed in:",
+      "options": [
+        "Examination-in-chief",
+        "Cross-examination",
+        "Re-examination",
+        "Never allowed"
+      ],
+      "correct": 1,
+      "explanation": "Section 142 of Evidence Act defines leading questions (questions suggesting the answer). Section 143 allows leading questions in cross-examination. Generally not allowed in examination-in-chief except in introductory matters or undisputed facts.",
+      "section": "Sections 142-143, Evidence Act 1872",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 64,
+      "year": "AIBE XVIII",
+      "subject": "Evidence Act",
+      "question": "Judicial notice means:",
+      "options": [
+        "Notice by court",
+        "Facts court takes as proved without evidence",
+        "Notice to parties",
+        "Public notice"
+      ],
+      "correct": 1,
+      "explanation": "Sections 56-57 of Evidence Act deal with judicial notice. Court takes judicial notice of certain facts without requiring formal proof - like laws in force in India, public holidays, historical facts, etc. Saves time and expense.",
+      "section": "Sections 56-57, Evidence Act 1872",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 65,
+      "year": "AIBE XVII",
+      "subject": "Evidence Act",
+      "question": "Standard of proof in criminal cases is:",
+      "options": [
+        "Preponderance of probability",
+        "Balance of probability",
+        "Beyond reasonable doubt",
+        "Prima facie case"
+      ],
+      "correct": 2,
+      "explanation": "In criminal cases, prosecution must prove guilt 'beyond reasonable doubt' - a very high standard. In civil cases, standard is 'preponderance of probability' or 'balance of probability' - a lower standard than criminal cases.",
+      "section": "Evidence Act principles",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 66,
+      "year": "AIBE XIX",
+      "subject": "Criminal Law - IPC",
+      "question": "Private defense extends to causing death for:",
+      "options": [
+        "Simple assault",
+        "Theft",
+        "Rape/acid attack",
+        "Cheating"
+      ],
+      "correct": 2,
+      "explanation": "Section 100 IPC enumerates situations when right of private defense extends to causing death: assault causing reasonable apprehension of death/grievous hurt, rape, acid attack, kidnapping/abduction, wrongful confinement with apprehension of being unable to seek protection.",
+      "section": "Section 100 IPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 67,
+      "year": "AIBE XIX",
+      "subject": "Criminal Law - IPC",
+      "question": "Common object is dealt with under:",
+      "options": [
+        "Section 34 IPC",
+        "Section 107 IPC",
+        "Section 120B IPC",
+        "Section 149 IPC"
+      ],
+      "correct": 3,
+      "explanation": "Section 149 IPC deals with unlawful assembly with common object. Every member of unlawful assembly guilty of offence committed in prosecution of common object. Different from Section 34 (common intention) - common object need not be pre-planned.",
+      "section": "Section 149 IPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 68,
+      "year": "AIBE XVII",
+      "subject": "Criminal Procedure Code",
+      "question": "Plea bargaining is provided under:",
+      "options": [
+        "Chapter XXA CrPC",
+        "Chapter XXI-A CrPC",
+        "Chapter XXII CrPC",
+        "Section 438 CrPC"
+      ],
+      "correct": 1,
+      "explanation": "Chapter XXI-A (Sections 265A to 265L) of CrPC, inserted by Criminal Law Amendment Act 2005, provides for plea bargaining. It's a pre-trial negotiation where accused pleads guilty in exchange for lesser sentence. Not available for serious offenses.",
+      "section": "Chapter XXI-A (Ss 265A-265L) CrPC",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 69,
+      "year": "AIBE XVIII",
+      "subject": "Juvenile Justice",
+      "question": "Juvenile Justice Act defines child as person below:",
+      "options": [
+        "14 years",
+        "16 years",
+        "18 years",
+        "21 years"
+      ],
+      "correct": 2,
+      "explanation": "The Juvenile Justice (Care and Protection of Children) Act, 2015 defines 'child' as a person who has not completed 18 years of age. It differentiates between 'child in conflict with law' and 'child in need of care and protection'.",
+      "section": "JJ Act 2015, Section 2(12)",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 70,
+      "year": "AIBE XIX",
+      "subject": "Constitutional Law",
+      "question": "Money Bill can be introduced only in:",
+      "options": [
+        "Either House",
+        "Lok Sabha only",
+        "Rajya Sabha only",
+        "Joint sitting"
+      ],
+      "correct": 1,
+      "explanation": "Article 110 defines Money Bill. Article 109 provides that Money Bill can be introduced only in Lok Sabha. Rajya Sabha can only recommend amendments within 14 days which Lok Sabha may accept or reject. Lok Sabha has final say.",
+      "section": "Articles 109-110, Constitution",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 71,
+      "year": "AIBE XIX",
+      "subject": "Constitutional Law",
+      "question": "President's rule is imposed under:",
+      "options": [
+        "Article 352 - National Emergency",
+        "Article 356 - State Emergency",
+        "Article 360 - Financial Emergency",
+        "Article 370 - Special status"
+      ],
+      "correct": 1,
+      "explanation": "Article 356 provides for President's rule (State Emergency) if President is satisfied that government of State cannot be carried on in accordance with Constitution. State government is suspended and State comes under direct rule of Centre through Governor.",
+      "section": "Article 356, Constitution",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 72,
+      "year": "AIBE XVII",
+      "subject": "Constitutional Law",
+      "question": "Directive Principles of State Policy are contained in:",
+      "options": [
+        "Part III",
+        "Part IV",
+        "Part IVA",
+        "Part V"
+      ],
+      "correct": 1,
+      "explanation": "Part IV (Articles 36-51) contains Directive Principles of State Policy (DPSP). These are guidelines/principles given to State for governance. Not justiciable but fundamental in governance. Complement Fundamental Rights.",
+      "section": "Part IV (Arts 36-51), Constitution",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 73,
+      "year": "AIBE XVIII",
+      "subject": "Constitutional Law",
+      "question": "Constitutional amendment requires (generally):",
+      "options": [
+        "Simple majority",
+        "Special majority",
+        "2/3rd of total members",
+        "Varies by provision"
+      ],
+      "correct": 3,
+      "explanation": "Article 368 provides for constitutional amendment. Procedure varies: (1) Simple majority for some provisions, (2) Special majority (majority of total membership + 2/3rd of present and voting) for most, (3) Special majority + ratification by half the states for certain provisions.",
+      "section": "Article 368, Constitution",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 74,
+      "year": "AIBE XIX",
+      "subject": "Torts",
+      "question": "Vicarious liability means:",
+      "options": [
+        "Liability for own acts",
+        "Liability for acts of others",
+        "Strict liability",
+        "No fault liability"
+      ],
+      "correct": 1,
+      "explanation": "Vicarious liability is liability of one person for wrongful acts of another, though he has not committed the act himself. Common example: employer liable for torts of employee committed in course of employment. Based on principle of respondeat superior (let the master answer).",
+      "section": "Law of Torts",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 75,
+      "year": "AIBE XIX",
+      "subject": "Torts",
+      "question": "Injuria sine damno means:",
+      "options": [
+        "Damage without injury",
+        "Injury without damage",
+        "Both damage and injury",
+        "No liability"
+      ],
+      "correct": 1,
+      "explanation": "Injuria sine damno - violation of legal right without any substantial damage. Such infringement is actionable and plaintiff can sue for nominal damages. Example: Ashby v. White - right to vote was infringed though no pecuniary loss. Contrast: damnum sine injuria.",
+      "section": "Law of Torts - Maxims",
+      "case_law": "Ashby v. White (1703)",
+      "difficulty": "Medium"
+    }
+  ],
+  "important_resources": [
+    {
+      "name": "Official BCI AIBE Website",
+      "url": "https://www.allindiabarexamination.com",
+      "description": "Official question papers and answer keys from Bar Council of India"
+    },
+    {
+      "name": "Careers360 AIBE Papers",
+      "url": "https://law.careers360.com/articles/aibe-previous-year-question-papers",
+      "description": "Comprehensive collection of AIBE papers with analysis"
+    },
+    {
+      "name": "Shiksha AIBE Resources",
+      "url": "https://www.shiksha.com/law/articles/last-15-years-aibe-question-papers-with-answers-free-pdf-download-blogId-177959",
+      "description": "Last 15 years AIBE question papers with answers"
+    },
+    {
+      "name": "PYQ Online",
+      "url": "https://www.pyqonline.com/exam/aibe/",
+      "description": "Question papers in English, Hindi, and Gujarati"
+    },
+    {
+      "name": "Testbook AIBE",
+      "url": "https://testbook.com/aibe/previous-year-papers",
+      "description": "Previous year papers with detailed solutions"
+    },
+    {
+      "name": "CollegeDunia AIBE",
+      "url": "https://collegedunia.com/exams/aibe/practice-papers",
+      "description": "Practice papers and mock tests"
+    },
+    {
+      "name": "Adda247 AIBE",
+      "url": "https://www.adda247.com/upsc-exam/aibe-previous-year-question-paper/",
+      "description": "Question papers with exam pattern details"
+    }
+  ],
+  "exam_pattern": {
+    "total_questions": 100,
+    "duration_minutes": 210,
+    "marks_per_question": 1,
+    "total_marks": 100,
+    "negative_marking": "None",
+    "passing_marks": {
+      "general": 40,
+      "sc_st": 40,
+      "pwd": 40
+    },
+    "exam_mode": "Offline (Pen and Paper)",
+    "language_options": 11,
+    "open_book": "No (Only Bare Acts allowed)",
+    "sets": "Multiple sets (A, B, C, D)"
+  },
+  "preparation_tips": [
+    "Focus on Constitution (10 Qs), IPC (8 Qs), CrPC (10 Qs) - these are high-weightage topics",
+    "Memorize section numbers - questions directly ask 'Under which section...'",
+    "Learn landmark case laws with proper citation",
+    "Practice with bare acts as they are allowed in exam",
+    "Solve previous 5 years papers minimum",
+    "Focus on Professional Ethics - often overlooked but easy marks",
+    "Time management: 2 minutes per question average",
+    "Don't leave questions unanswered (no negative marking)",
+    "Mark difficult questions and return to them later",
+    "Read questions carefully - many are tricky with similar options"
+  ],
+  "topic_wise_distribution": {
+    "Constitutional_Law": 10,
+    "Administrative_Law": 4,
+    "IPC": 8,
+    "CrPC": 10,
+    "Evidence_Act": 5,
+    "Contract_Law": 5,
+    "Property_Law": 5,
+    "Family_Law": 5,
+    "Torts": 5,
+    "Company_Law": 5,
+    "Labour_Law": 5,
+    "Professional_Ethics": 5,
+    "Arbitration": 5,
+    "Jurisprudence": 5,
+    "IPR": 4,
+    "IT_Act": 4,
+    "Cyber_Law": 3,
+    "Environment_Law": 2,
+    "Taxation": 2,
+    "Others": 3
+  }
+}

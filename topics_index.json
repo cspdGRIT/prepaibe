@@ -1,0 +1,92 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "Contract Law",
+      "subtitle": "Indian Contract Act, 1872",
+      "file": "contract_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 2,
+      "title": "Constitutional Law",
+      "subtitle": "Indian Constitution",
+      "file": "constitutional_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 3,
+      "title": "Criminal Law",
+      "subtitle": "IPC, CrPC, Evidence Act",
+      "file": "criminal_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 4,
+      "title": "Law of Torts",
+      "subtitle": "Civil Wrongs & Remedies",
+      "file": "torts.json",
+      "card_count": 18
+    },
+    {
+      "id": 5,
+      "title": "Property Law",
+      "subtitle": "Transfer of Property Act, 1882",
+      "file": "property_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 6,
+      "title": "Family Law",
+      "subtitle": "Hindu Marriage Act, Muslim Law, Special Marriage Act",
+      "file": "family_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 7,
+      "title": "Company Law",
+      "subtitle": "Companies Act, 2013",
+      "file": "company_law.json",
+      "card_count": 18
+    },
+    {
+      "id": 8,
+      "title": "Professional Ethics",
+      "subtitle": "Advocates Act, 1961 & BCI Rules",
+      "file": "professional_ethics.json",
+      "card_count": 16
+    },
+    {
+      "id": 9,
+      "title": "Civil Procedure Code",
+      "subtitle": "CPC, 1908",
+      "file": "cpc.json",
+      "card_count": 18
+    },
+    {
+      "id": 10,
+      "title": "Indian Evidence Act",
+      "subtitle": "Evidence Act, 1872",
+      "file": "evidence_act.json",
+      "card_count": 18
+    },
+    {
+      "id": 11,
+      "title": "Labour & Industrial Law",
+      "subtitle": "Industrial Disputes Act, Factories Act, Trade Unions Act",
+      "file": "labour_law.json",
+      "card_count": 16
+    },
+    {
+      "id": 12,
+      "title": "Arbitration & Conciliation",
+      "subtitle": "Arbitration & Conciliation Act, 1996",
+      "file": "arbitration.json",
+      "card_count": 16
+    }
+  ],
+  "version": "2.0",
+  "total_topics": 12,
+  "total_cards": 214,
+  "last_updated": "2025-11-02"
+}

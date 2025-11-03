@@ -1,0 +1,170 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "Contract Law",
+      "subtitle": "Indian Contract Act, 1872"
+    },
+    {
+      "id": 2,
+      "title": "Constitutional Law",
+      "subtitle": "Indian Constitution"
+    },
+    {
+      "id": 3,
+      "title": "Criminal Law",
+      "subtitle": "IPC, CrPC, Evidence Act"
+    },
+    {
+      "id": 4,
+      "title": "Torts",
+      "subtitle": "Law of Torts"
+    },
+    {
+      "id": 5,
+      "title": "Property Law",
+      "subtitle": "Transfer of Property Act"
+    },
+    {
+      "id": 6,
+      "title": "Family Law",
+      "subtitle": "Hindu Marriage Act, etc."
+    },
+    {
+      "id": 7,
+      "title": "Company Law",
+      "subtitle": "Companies Act, 2013"
+    },
+    {
+      "id": 8,
+      "title": "Professional Ethics",
+      "subtitle": "Advocates Act, BCI Rules"
+    }
+  ],
+  "flashcards": {
+    "1": [
+      {
+        "q": "What is a contract under Section 2(h) of the Indian Contract Act?",
+        "a": "An agreement enforceable by law. Section 2(h) defines contract as an agreement that creates legal obligations between parties."
+      },
+      {
+        "q": "What are the essential elements of a valid contract?",
+        "a": "1) Offer and Acceptance 2) Consideration 3) Capacity to contract 4) Free consent 5) Lawful object 6) Not expressly declared void"
+      },
+      {
+        "q": "Explain the doctrine of privity of contract.",
+        "a": "Only parties to a contract can sue or be sued on it. Third parties cannot enforce the contract even if made for their benefit (Dunlop v. Selfridge)."
+      },
+      {
+        "q": "What is consideration under Contract Act?",
+        "a": "Something in return (Section 2(d)). It is the price for the promise. Can be past, present, or future, but must be real and lawful."
+      },
+      {
+        "q": "What makes an agreement void?",
+        "a": "Void agreements include: agreements without consideration, restraint of marriage, restraint of trade, restraint of legal proceedings, uncertain agreements, and wagering agreements."
+      }
+    ],
+    "2": [
+      {
+        "q": "What is the Preamble to Indian Constitution?",
+        "a": "It declares India as Sovereign, Socialist, Secular, Democratic Republic. It ensures Justice, Liberty, Equality, and Fraternity to all citizens."
+      },
+      {
+        "q": "What is Article 14?",
+        "a": "Right to Equality - The State shall not deny any person equality before law or equal protection of laws within India."
+      },
+      {
+        "q": "Explain separation of powers.",
+        "a": "Division of governmental powers among Legislature (makes laws), Executive (implements laws), and Judiciary (interprets laws) to prevent concentration of power."
+      },
+      {
+        "q": "What is Judicial Review?",
+        "a": "Power of courts to examine the constitutionality of legislative enactments and executive orders. Can declare them void if violating Constitution."
+      },
+      {
+        "q": "What are Fundamental Rights?",
+        "a": "Basic human rights guaranteed by the Constitution (Articles 12-35). Include Right to Equality, Freedom, Against Exploitation, Freedom of Religion, Cultural and Educational Rights, and Constitutional Remedies."
+      }
+    ],
+    "3": [
+      {
+        "q": "What is mens rea?",
+        "a": "Guilty mind - the mental element of a crime. It refers to the intention or knowledge of wrongdoing that constitutes part of a crime."
+      },
+      {
+        "q": "Define murder under IPC Section 300.",
+        "a": "Culpable homicide is murder if: act done with intention of causing death, causing bodily injury likely to cause death, or sufficient to cause death in ordinary course."
+      },
+      {
+        "q": "What is the difference between cognizable and non-cognizable offenses?",
+        "a": "Cognizable: Police can arrest without warrant (serious crimes). Non-cognizable: Police need warrant to arrest (less serious offenses)."
+      },
+      {
+        "q": "Explain burden of proof in criminal cases.",
+        "a": "Prosecution must prove guilt beyond reasonable doubt. Accused is presumed innocent until proven guilty. Burden is on prosecution, not accused."
+      }
+    ],
+    "4": [
+      {
+        "q": "What is a tort?",
+        "a": "A civil wrong that causes harm or injury to another person, for which the law provides a remedy in the form of damages."
+      },
+      {
+        "q": "Explain vicarious liability.",
+        "a": "Liability imposed on one person for the wrongful acts of another, typically employer for employee's torts committed in course of employment."
+      },
+      {
+        "q": "What is negligence in tort law?",
+        "a": "Failure to exercise reasonable care, resulting in damage. Requires: duty of care, breach of duty, causation, and actual damage."
+      },
+      {
+        "q": "What is the principle of res ipsa loquitur?",
+        "a": "The thing speaks for itself - negligence is presumed from the nature of the accident. Burden shifts to defendant to prove absence of negligence."
+      }
+    ],
+    "5": [
+      {
+        "q": "What is Transfer of Property Act, 1882 about?",
+        "a": "Regulates transfer of property between living persons by act of parties. Covers sale, mortgage, lease, exchange, and gift of immovable property."
+      },
+      {
+        "q": "What is the doctrine of lis pendens?",
+        "a": "Pending litigation - Property under litigation cannot be transferred to affect the rights of parties in the suit (Section 52 TPA)."
+      },
+      {
+        "q": "Explain the concept of easement.",
+        "a": "Right of one property owner to use another's land for a specific purpose. Created by grant, prescription, or necessity. Governed by Easements Act, 1882."
+      }
+    ],
+    "6": [
+      {
+        "q": "What are the conditions for a valid Hindu marriage?",
+        "a": "Neither party has spouse living, both of sound mind, bridegroom 21+ and bride 18+, not within prohibited degrees, and not sapindas (unless custom permits)."
+      },
+      {
+        "q": "What are grounds for divorce under Hindu Marriage Act?",
+        "a": "Adultery, cruelty, desertion (2 years), conversion to another religion, unsound mind, leprosy, venereal disease, renunciation of world, presumed death (7 years)."
+      }
+    ],
+    "7": [
+      {
+        "q": "What is a company under Companies Act 2013?",
+        "a": "A company formed and registered under this Act or existing company. It has separate legal entity, perpetual succession, and common seal."
+      },
+      {
+        "q": "Explain doctrine of ultra vires.",
+        "a": "Acts beyond the powers of the company are void and cannot be ratified. Company cannot do anything not authorized by its memorandum."
+      }
+    ],
+    "8": [
+      {
+        "q": "What are the duties of an advocate?",
+        "a": "Uphold Constitution, act with dignity, not refuse briefs, maintain client confidence, not represent conflicting interests, and uphold integrity of profession."
+      },
+      {
+        "q": "What is professional misconduct?",
+        "a": "Violation of professional ethics by advocate. Includes soliciting work, misleading courts, taking cases beyond competence, and misconduct in personal life affecting profession."
+      }
+    ]
+  }
+}

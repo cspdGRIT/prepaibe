@@ -1,0 +1,71 @@
+{
+  "topic_id": 12,
+  "topic_title": "Arbitration & Conciliation",
+  "topic_subtitle": "Arbitration & Conciliation Act, 1996",
+  "flashcards": [
+    {
+      "q": "What is arbitration under the Arbitration and Conciliation Act, 1996?",
+      "a": "Private dispute resolution mechanism where parties refer disputes to one or more arbitrators for binding decision. Features: (1) Consensual - based on agreement, (2) Private - not public trial, (3) Final - limited grounds for challenge, (4) Binding - enforceable like decree. Based on UNCITRAL Model Law. Covers domestic and international arbitration. Alternative to litigation. Faster, flexible, cost-effective. Party autonomy central principle."
+    },
+    {
+      "q": "What is an arbitration agreement?",
+      "a": "Agreement to submit present or future disputes to arbitration (Section 7). Two forms: (1) Arbitration clause in contract, (2) Separate arbitration agreement. Must be in writing. Covers: (1) Submission agreement - existing disputes, (2) Arbitration clause - future disputes. Parties bound to submit disputes to arbitration. Court refers matters to arbitration if valid agreement exists. Separability doctrine - arbitration clause survives main contract."
+    },
+    {
+      "q": "What are the qualifications and appointment of arbitrators?",
+      "a": "Qualifications: Any person, must be impartial and independent. Cannot be: minor, insolvent, unsound mind. Disclosure of conflicts mandatory. Appointment methods: (1) Parties' agreement, (2) Supreme Court/High Court (Section 11) if parties fail, (3) Arbitral institution if designated. Odd number of arbitrators. Single arbitrator or 3 arbitrators common. Chief Justice or designate appoints if parties fail. Challenge provisions (Section 12-13)."
+    },
+    {
+      "q": "What is the doctrine of kompetenz-kompetenz?",
+      "a": "Arbitral tribunal can rule on its own jurisdiction (Section 16). Tribunal determines: (1) Existence of arbitration agreement, (2) Validity of agreement, (3) Scope of submission. Prima facie jurisdiction test. Party can challenge jurisdiction by filing application in court. Doesn't oust court's jurisdiction completely. Objection must be raised not later than submission of statement of defense. Positive and negative kompetenz-kompetenz recognized."
+    },
+    {
+      "q": "What is the principle of minimal judicial intervention?",
+      "a": "Core philosophy of 1996 Act. Court intervention limited to: (1) Appointment of arbitrator (Section 11), (2) Interim measures (Section 9), (3) Setting aside award (Section 34), (4) Enforcement (Section 36). Purpose: ensure arbitration remains party-driven, quick resolution. Judicial interference restricted. Courts cannot review arbitral award on merits. Upheld in various Supreme Court judgments. Balances party autonomy with judicial oversight."
+    },
+    {
+      "q": "What are interim measures in arbitration (Section 9)?",
+      "a": "Party may apply to court before or during arbitral proceedings for interim measures: (1) Appointment of guardian, (2) Interim injunction, (3) Appointment of receiver, (4) Detention/preservation of property, (5) Securing amount in dispute, (6) Other interim protection. Court retains power even after tribunal constitution. Not inconsistent with arbitration agreement. Essential for protecting rights during arbitration. Similar powers with tribunal under Section 17."
+    },
+    {
+      "q": "What is an arbitral award and its types?",
+      "a": "Final decision of arbitral tribunal (Sections 31-33). Types: (1) Final award - decides all issues, (2) Interim award - decides certain issues, (3) Additional award - issues omitted, (4) Corrected award - clerical errors. Must be: in writing, signed, dated, reasoned (unless parties waive), stating seat. Majority decision sufficient. Deemed decree once time for setting aside expires. Binding on parties unless set aside or modified."
+    },
+    {
+      "q": "What are the grounds for setting aside an arbitral award (Section 34)?",
+      "a": "Limited grounds: (1) Party under incapacity, (2) Arbitration agreement not valid, (3) No proper notice or unable to present case, (4) Award beyond scope of submission, (5) Composition of tribunal not as per agreement, (6) Subject matter not arbitrable, (7) Award against public policy (includes fraud, corruption, violation of fundamental policy, patent illegality). Application within 3 months (extendable by 30 days). Not appeal, only challenge on limited grounds."
+    },
+    {
+      "q": "What is the concept of seat vs venue in arbitration?",
+      "a": "Seat (juridical seat): Legal place of arbitration, determines: (1) Applicable law, (2) Court having supervisory jurisdiction, (3) Nationality of award. Venue: Physical place where hearings held, can be different from seat. Seat is crucial - determines which courts can set aside award. Parties can choose seat. If not chosen, tribunal decides considering parties' convenience. Seat determines domestic or international arbitration. BALCO case established importance of seat."
+    },
+    {
+      "q": "What is the doctrine of patent illegality?",
+      "a": "Ground for setting aside domestic arbitral award if illegality goes to root of matter. Must be: (1) Patent - apparent on face of award, (2) Not requiring detailed reasoning. Doesn't mean reappreciation of evidence. Examples: award contrary to substantive law, violation of Arbitration Act provisions, perversity in findings. Not applicable to international commercial arbitration. Added by 2015 Amendment as part of public policy. Narrow interpretation to maintain minimal interference."
+    },
+    {
+      "q": "What is fast-track arbitration (Section 29B)?",
+      "a": "Expeditious procedure for arbitration. Agreement for fast-track with: (1) Time limit for award - 6 months from tribunal constitution, (2) Simplified procedure, (3) Single arbitrator, (4) Minimal documentation, (5) No oral hearing unless necessary. Award in 6 months or additional 6 months with consent. Suitable for: small claims, urgent matters, simple disputes. Failure to meet timeline doesn't invalidate award. Reduces time and cost significantly."
+    },
+    {
+      "q": "What is the difference between domestic and international arbitration?",
+      "a": "Domestic arbitration: Parties have place of business in India, seat in India, governed by Part I. International commercial arbitration: At least one party has place of business outside India, arises from international commercial relationship, governed by Part I but different enforcement regime. International awards: easier enforcement via New York Convention. Patent illegality ground not available for international awards. Foreign awards more liberally enforced."
+    },
+    {
+      "q": "What is conciliation under the Act (Part III)?",
+      "a": "Non-binding dispute resolution where neutral conciliator assists parties to reach settlement. Process: (1) Request for conciliation, (2) Conciliator appointment, (3) Submission of statements, (4) Conciliation proceedings, (5) Settlement agreement. Confidential process. No compulsion to settle. Settlement binding like arbitral award. Faster and cheaper than arbitration. Conciliator makes proposals, cannot impose. Suitable for preserving relationships. Voluntary participation essential."
+    },
+    {
+      "q": "What is the doctrine of separability/severability?",
+      "a": "Arbitration clause independent of main contract (Section 16). Invalidity of main contract doesn't automatically invalidate arbitration clause. Ensures disputes about contract validity can be arbitrated. Purpose: prevent party from avoiding arbitration by challenging main contract. Separate existence and validity. Even if contract void, arbitration clause may survive. Exceptions: fraud, coercion affecting arbitration clause itself. Well-established principle internationally."
+    },
+    {
+      "q": "What are the provisions for enforcement of arbitral awards?",
+      "a": "Domestic awards (Section 36): Deemed decree, enforceable after expiry of time for setting aside (3 months). Stay possible only if court satisfied of prima facie case. Foreign awards (Sections 44-52): New York Convention awards and Geneva Convention awards. Recognition and enforcement easier. Limited grounds for refusal. Court cannot review merits. Award holder can directly execute. Enforcement like decree of Indian court."
+    },
+    {
+      "q": "What is the Arbitration Council of India?",
+      "a": "Established by 2019 Amendment (Section 43A onwards). Functions: (1) Grade arbitral institutions, (2) Maintain panel of accredited arbitrators, (3) Frame policies, (4) Promote alternative dispute resolution, (5) Maintain depository of arbitral awards. Composition: Chairperson (Judge or eminent person), members representing various stakeholders. Aims to: improve standards, professionalize arbitration, create institutional framework. Independent body. Promotes arbitration-friendly regime."
+    }
+  ]
+}
